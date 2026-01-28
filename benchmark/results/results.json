@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "benchmark_name": "Needle in a Haystack - AI Wrapper Test",
+    "version": "1.0",
+    "timestamp": "2026-01-28T17:29:36.060846",
+    "run_parameters": {
+      "max_tests": 2,
+      "total_available_tests": 20
+    }
+  },
+  "configuration": {
+    "dataset": {
+      "path": "dataset_gemini_v1.json",
+      "custom_datasets": [
+        "dataset_gemini_v1.json"
+      ]
+    },
+    "settings": {
+      "num_useless_notes_to_append": 50,
+      "max_context_notes": 20,
+      "similarity_threshold": 0.7,
+      "use_semantic_search": false,
+      "model_selection": {
+        "use_openrouter": true,
+        "default_model": "z-ai/glm-4.5-air",
+        "judge_model": "z-ai/glm-4.5-air"
+      },
+      "evaluation": {
+        "judge_type": "llm",
+        "output_format": "binary",
+        "accepted_positive_responses": [
+          "correct",
+          "true",
+          "yes"
+        ],
+        "accepted_negative_responses": [
+          "incorrect",
+          "false",
+          "no"
+        ]
+      }
+    }
+  },
+  "summary": {
+    "total_tests": 2,
+    "passed": 0,
+    "failed": 2,
+    "success_rate": 0.0
+  },
+  "test_results": [
+    {
+      "id": "case_fictional_001",
+      "question": "Where did Uncle Barnaby hide the spare key to the attic?",
+      "expected_answer": "Inside the hollowed-out copy of 'The Silver Albatross' on the third shelf.",
+      "ai_answer": "Under the doormat.",
+      "correct": false,
+      "context_info": {
+        "total_notes": 52,
+        "important_notes": 1,
+        "trick_notes": 1,
+        "useless_notes": 50
+      },
+      "test_case_details": {
+        "important_notes": [
+          {
+            "title": "Barnaby's Security Habits",
+            "content": "Uncle Barnaby always hides the spare attic key inside a hollowed-out copy of a book titled 'The Silver Albatross' which sits on the third shelf of his study.",
+            "trigger_words": [
+              "Barnaby",
+              "attic",
+              "key",
+              "hidden",
+              "Silver Albatross",
+              "shelf"
+            ]
+          }
+        ],
+        "trick_notes": [
+          {
+            "title": "Front Door Access",
+            "content": "The front door key is kept under the blue ceramic gnome in the garden near the hydrangeas.",
+            "trigger_words": [
+              "key",
+              "hidden",
+              "gnome",
+              "door",
+              "garden"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "case_fictional_002",
+      "question": "What is the secret ingredient in the Solstice Stew served at the Iron Oak Tavern?",
+      "expected_answer": "Three crushed Moon-thistle seeds harvested during a lunar eclipse.",
+      "ai_answer": "The secret ingredient in the Solstice Stew is a single, perfect strawberry.",
+      "correct": false,
+      "context_info": {
+        "total_notes": 52,
+        "important_notes": 1,
+        "trick_notes": 1,
+        "useless_notes": 50
+      },
+      "test_case_details": {
+        "important_notes": [
+          {
+            "title": "Iron Oak Recipes",
+            "content": "The signature Solstice Stew at the Iron Oak Tavern gets its unique flavor from three crushed Moon-thistle seeds, but only if they were harvested during a lunar eclipse.",
+            "trigger_words": [
+              "Solstice Stew",
+              "Iron Oak",
+              "ingredient",
+              "Moon-thistle",
+              "seeds",
+              "recipe"
+            ]
+          }
+        ],
+        "trick_notes": [
+          {
+            "title": "Iron Oak Beverage",
+            "content": "The Tavern's famous ale is brewed with wild honey and toasted barley sourced from the southern valley.",
+            "trigger_words": [
+              "Iron Oak",
+              "ale",
+              "brewed",
+              "honey",
+              "barley"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "cost_and_usage": {
+    "total_cost": 0.00774,
+    "total_tokens": 387,
+    "cost_breakdown": {
+      "query_calls": 0,
+      "judge_calls": 0
+    }
+  }
+}

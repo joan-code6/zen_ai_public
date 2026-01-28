@@ -1,0 +1,36 @@
+{
+  "title": "Getting started",
+  "items": [
+    {
+      "title": "Installation",
+      "id": "installation",
+      "content": "Zen AI is supposed to be with you on all of youre devices, therefore we have build apps for many devices and Operating Systems."
+    },
+    {
+      "title": "Installation Steps",
+      "content": "1. Go to https://joan-code6.github.io/zen_ai/ and click on download\n2. Now select youre operating system and click on download\n3. After downloading the app follow the instructions given by the Programm"
+    },
+    {
+      "title": "Signup",
+      "id": "signup",
+      "image": "/images/signup-form.png",
+      "content": "Create your Zen AI account to start experiencing smarter, more efficient AI responses.\n\n### Account Creation\n\n- Visit the signup page\n- Enter your email address\n- Set a secure password\n- Verify your email\n\n**Note:** Use a strong password with at least 8 characters including numbers and symbols."
+    },
+    {
+      "title": "Login",
+      "id": "login",
+      "image": "/images/login.png",
+      "content": "Access your Zen AI account by logging in with your credentials.\n\n### Login Process\n\n1. Open the Zen AI application\n2. Click on the login button\n3. Enter your email and password\n4. Click 'Sign In'\n\nYour session will be securely maintained across devices."
+    },
+    {
+      "title": "First chat",
+      "id": "first-chat",
+      "content": "Start your first conversation with Zen AI. The system will intelligently manage context based on your trigger words and notes.\n\n### Example Conversation\n\n```text\nUser: Tell me a recipe for chocolate cake\nZen AI: Based on your food preferences and dietary restrictions...\n```\n\n> **Tip:** The AI automatically includes relevant notes based on trigger words in your message."
+    },
+    {
+      "title": "Uploading documents",
+      "id": "uploading",
+      "content": "Upload documents to create notes automatically. Zen AI will extract relevant information and create trigger words for efficient context management.\n\n### Supported Formats\n\n- PDF documents\n- Word documents (.docx)\n- Text files (.txt)\n- Images with text (OCR)\n\n![Document Upload Interface](/images/upload-interface.png)\n\nThe system will analyze your documents and suggest relevant trigger words for optimal context matching."
+    }
+  ]
+}

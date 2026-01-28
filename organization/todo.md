@@ -1,0 +1,1 @@
+- [ ] add semantic similarity comparison for triggerwords in notes
