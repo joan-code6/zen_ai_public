@@ -1,0 +1,1096 @@
+{
+  "description": "Collection of useless notes for benchmark testing - completely unrelated distractors with trigger words",
+  "version": "1.0",
+  "useless_notes": [
+    {
+      "title": "Lunch Menu",
+      "content": "Tuesday's lunch will consist of grilled cheese sandwiches and tomato basil soup served at noon.",
+      "trigger_words": ["lunch", "food", "sandwich", "Tuesday"]
+    },
+    {
+      "title": "Weather Forecast",
+      "content": "Expect partly cloudy skies with a high of 72°F and a chance of afternoon showers.",
+      "trigger_words": ["weather", "forecast", "cloudy", "temperature", "showers"]
+    },
+    {
+      "title": "Office Supplies",
+      "content": "The supply closet contains 50 sheets of printer paper, 10 black pens, and 5 highlighters.",
+      "trigger_words": ["office", "supplies", "paper", "pens", "highlighters"]
+    },
+    {
+      "title": "Traffic Update",
+      "content": "Heavy traffic reported on Highway 101 southbound between exits 15 and 20 due to construction.",
+      "trigger_words": ["traffic", "highway", "construction", "delay", "route"]
+    },
+    {
+      "title": "Movie Schedule",
+      "content": "The new action film starts at 7:30 PM in theater 3, tickets are $12 for adults.",
+      "trigger_words": ["movie", "theater", "tickets", "showtime", "film"]
+    },
+    {
+      "title": "Grocery List",
+      "content": "Need to buy milk, bread, eggs, cheese, and apples from the store this weekend.",
+      "trigger_words": ["grocery", "shopping", "milk", "bread", "eggs"]
+    },
+    {
+      "title": "Sports Score",
+      "content": "The local basketball team won 85-72 against their rivals in last night's game.",
+      "trigger_words": ["sports", "basketball", "score", "game", "victory"]
+    },
+    {
+      "title": "Book Recommendation",
+      "content": "I highly recommend 'The Great Gatsby' by F. Scott Fitzgerald for its beautiful prose.",
+      "trigger_words": ["book", "recommendation", "literature", "classic", "author"]
+    },
+    {
+      "title": "Recipe Note",
+      "content": "To make chocolate chip cookies, mix 2 cups flour, 1 cup butter, and 1 cup sugar together.",
+      "trigger_words": ["recipe", "cooking", "cookies", "ingredients", "baking"]
+    },
+    {
+      "title": "Appointment Reminder",
+      "content": "Dentist appointment scheduled for next Thursday at 2:00 PM in room 204.",
+      "trigger_words": ["appointment", "dentist", "schedule", "Thursday", "room"]
+    },
+    {
+      "title": "Music Playlist",
+      "content": "Added 'Bohemian Rhapsody' by Queen and 'Stairway to Heaven' by Led Zeppelin to my playlist.",
+      "trigger_words": ["music", "playlist", "songs", "Queen", "Zeppelin"]
+    },
+    {
+      "title": "Garden Update",
+      "content": "The roses are blooming beautifully this spring, and the tomatoes are starting to ripen.",
+      "trigger_words": ["garden", "flowers", "roses", "tomatoes", "spring"]
+    },
+    {
+      "title": "Tech News",
+      "content": "Apple released a new iPhone model with improved camera and battery life yesterday.",
+      "trigger_words": ["technology", "Apple", "iPhone", "camera", "battery"]
+    },
+    {
+      "title": "Travel Plans",
+      "content": "Planning a trip to Paris next summer, need to book flights and hotel reservations.",
+      "trigger_words": ["travel", "Paris", "vacation", "flights", "hotel"]
+    },
+    {
+      "title": "Fitness Goal",
+      "content": "Aim to run 5 miles every morning this week to improve cardiovascular health.",
+      "trigger_words": ["fitness", "running", "exercise", "health", "goal"]
+    },
+    {
+      "title": "Coffee Order",
+      "content": "Regular order at the coffee shop: large latte with almond milk and no sugar.",
+      "trigger_words": ["coffee", "latte", "drink", "order", "shop"]
+    },
+    {
+      "title": "Birthday Reminder",
+      "content": "Sarah's birthday is coming up on March 15th, don't forget to buy a gift.",
+      "trigger_words": ["birthday", "Sarah", "gift", "March", "reminder"]
+    },
+    {
+      "title": "Car Maintenance",
+      "content": "Time to change the oil in the car, it's been 3000 miles since the last change.",
+      "trigger_words": ["car", "maintenance", "oil", "change", "miles"]
+    },
+    {
+      "title": "TV Show",
+      "content": "The latest episode of 'Stranger Things' was amazing, can't wait for the next season.",
+      "trigger_words": ["TV", "show", "episode", "Stranger Things", "season"]
+    },
+    {
+      "title": "Phone Settings",
+      "content": "Changed the ringtone to a custom sound and set up voicemail greeting.",
+      "trigger_words": ["phone", "settings", "ringtone", "voicemail", "sound"]
+    },
+    {
+      "title": "Restaurant Review",
+      "content": "The Italian restaurant downtown has excellent pasta and friendly service.",
+      "trigger_words": ["restaurant", "Italian", "pasta", "review", "service"]
+    },
+    {
+      "title": "Pet Care",
+      "content": "Remember to feed the cat twice a day and clean the litter box every morning.",
+      "trigger_words": ["pet", "cat", "food", "litter", "care"]
+    },
+    {
+      "title": "Bank Statement",
+      "content": "Monthly bank statement shows a balance of $2,450.67 with no overdrafts.",
+      "trigger_words": ["bank", "statement", "balance", "account", "money"]
+    },
+    {
+      "title": "Social Media",
+      "content": "Posted a new photo on Instagram and got 25 likes in the first hour.",
+      "trigger_words": ["social media", "Instagram", "photo", "likes", "post"]
+    },
+    {
+      "title": "Home Improvement",
+      "content": "Planning to paint the living room walls light blue next weekend.",
+      "trigger_words": ["home", "paint", "walls", "blue", "improvement"]
+    },
+    {
+      "title": "School Schedule",
+      "content": "Classes start at 8 AM on Monday, Wednesday, and Friday this semester.",
+      "trigger_words": ["school", "classes", "schedule", "semester", "Monday"]
+    },
+    {
+      "title": "Video Game",
+      "content": "Just reached level 50 in the RPG game, the graphics are incredible.",
+      "trigger_words": ["game", "level", "RPG", "graphics", "achievement"]
+    },
+    {
+      "title": "Shopping List",
+      "content": "Need to buy new shoes, a jacket, and some groceries for the week.",
+      "trigger_words": ["shopping", "shoes", "jacket", "list", "groceries"]
+    },
+    {
+      "title": "Weather Alert",
+      "content": "Severe thunderstorm warning in effect until 10 PM, seek shelter if outdoors.",
+      "trigger_words": ["weather", "thunderstorm", "warning", "alert", "shelter"]
+    },
+    {
+      "title": "Music Concert",
+      "content": "Bought tickets for the rock concert next month, excited to see the band live.",
+      "trigger_words": ["concert", "tickets", "rock", "band", "music"]
+    },
+    {
+      "title": "Diet Plan",
+      "content": "Following a low-carb diet this month, focusing on vegetables and proteins.",
+      "trigger_words": ["diet", "low-carb", "vegetables", "proteins", "health"]
+    },
+    {
+      "title": "Movie Review",
+      "content": "The new comedy film was hilarious, definitely recommend seeing it.",
+      "trigger_words": ["movie", "comedy", "review", "hilarious", "recommend"]
+    },
+    {
+      "title": "Work Meeting",
+      "content": "Team meeting scheduled for tomorrow at 3 PM in conference room B.",
+      "trigger_words": ["work", "meeting", "team", "conference", "room"]
+    },
+    {
+      "title": "Cooking Tips",
+      "content": "Always preheat the oven to 350°F before baking cookies for best results.",
+      "trigger_words": ["cooking", "oven", "baking", "cookies", "tips"]
+    },
+    {
+      "title": "Vacation Photos",
+      "content": "Uploaded the beach vacation photos to the family album online.",
+      "trigger_words": ["vacation", "photos", "beach", "album", "online"]
+    },
+    {
+      "title": "Exercise Routine",
+      "content": "Morning workout includes 30 minutes of cardio followed by weight training.",
+      "trigger_words": ["exercise", "workout", "cardio", "weights", "routine"]
+    },
+    {
+      "title": "Phone Call",
+      "content": "Received a call from the doctor about the test results, need to schedule follow-up.",
+      "trigger_words": ["phone", "call", "doctor", "results", "follow-up"]
+    },
+    {
+      "title": "Art Project",
+      "content": "Working on a watercolor painting of a landscape for the art class.",
+      "trigger_words": ["art", "painting", "watercolor", "landscape", "project"]
+    },
+    {
+      "title": "Car Wash",
+      "content": "Took the car to the automatic car wash, it looks shiny and clean now.",
+      "trigger_words": ["car", "wash", "automatic", "shiny", "clean"]
+    },
+    {
+      "title": "Book Club",
+      "content": "Book club meeting next week to discuss 'To Kill a Mockingbird' by Harper Lee.",
+      "trigger_words": ["book club", "meeting", "discussion", "Harper Lee", "novel"]
+    },
+    {
+      "title": "Laundry Day",
+      "content": "Did three loads of laundry today: whites, colors, and towels.",
+      "trigger_words": ["laundry", "loads", "whites", "colors", "towels"]
+    },
+    {
+      "title": "Tech Support",
+      "content": "Called tech support about the computer issue, they reset the router and it works now.",
+      "trigger_words": ["tech support", "computer", "issue", "router", "reset"]
+    },
+    {
+      "title": "Garden Planting",
+      "content": "Planted tomato seeds in the garden bed, hoping for a good harvest this summer.",
+      "trigger_words": ["garden", "planting", "tomato", "seeds", "harvest"]
+    },
+    {
+      "title": "Movie Theater",
+      "content": "Went to the movie theater to see the new superhero film, the special effects were amazing.",
+      "trigger_words": ["movie theater", "superhero", "film", "effects", "amazing"]
+    },
+    {
+      "title": "Coffee Recipe",
+      "content": "Tried a new iced coffee recipe with vanilla syrup and almond milk.",
+      "trigger_words": ["coffee", "recipe", "iced", "vanilla", "milk"]
+    },
+    {
+      "title": "Birthday Party",
+      "content": "Planning a surprise birthday party for my friend with cake and decorations.",
+      "trigger_words": ["birthday", "party", "surprise", "cake", "decorations"]
+    },
+    {
+      "title": "Car Repair",
+      "content": "Took the car to the mechanic for brake inspection, everything checks out fine.",
+      "trigger_words": ["car", "repair", "mechanic", "brake", "inspection"]
+    },
+    {
+      "title": "TV Series",
+      "content": "Started watching the new mystery series, the plot twists are keeping me hooked.",
+      "trigger_words": ["TV", "series", "mystery", "plot", "twists"]
+    },
+    {
+      "title": "Cooking Class",
+      "content": "Enrolled in an Italian cooking class to learn how to make authentic pasta.",
+      "trigger_words": ["cooking", "class", "Italian", "pasta", "authentic"]
+    },
+    {
+      "title": "Photo Editing",
+      "content": "Spent the afternoon editing photos from the hiking trip using Photoshop.",
+      "trigger_words": ["photo", "editing", "hiking", "Photoshop", "afternoon"]
+    },
+    {
+      "title": "Gym Membership",
+      "content": "Renewed the gym membership for another year, excited to continue the fitness journey.",
+      "trigger_words": ["gym", "membership", "renewed", "fitness", "journey"]
+    },
+    {
+      "title": "Online Shopping",
+      "content": "Ordered new headphones and a phone case from the online store, should arrive tomorrow.",
+      "trigger_words": ["online", "shopping", "headphones", "case", "order"]
+    },
+    {
+      "title": "Music Festival",
+      "content": "Bought tickets for the summer music festival, lineup includes several favorite bands.",
+      "trigger_words": ["music", "festival", "tickets", "summer", "bands"]
+    },
+    {
+      "title": "Home Cleaning",
+      "content": "Deep cleaned the kitchen today, organized cabinets and wiped down all surfaces.",
+      "trigger_words": ["home", "cleaning", "kitchen", "organized", "surfaces"]
+    },
+    {
+      "title": "Language Learning",
+      "content": "Practicing Spanish vocabulary every day, focusing on common phrases and greetings.",
+      "trigger_words": ["language", "Spanish", "vocabulary", "phrases", "learning"]
+    },
+    {
+      "title": "Bike Ride",
+      "content": "Went for a long bike ride in the park, the weather was perfect for cycling.",
+      "trigger_words": ["bike", "ride", "park", "weather", "cycling"]
+    },
+    {
+      "title": "Board Game",
+      "content": "Played Monopoly with friends last night, it was a close game but I won.",
+      "trigger_words": ["board game", "Monopoly", "friends", "close", "won"]
+    },
+    {
+      "title": "Hair Cut",
+      "content": "Got a new haircut at the salon, the stylist did a great job with the layers.",
+      "trigger_words": ["hair", "cut", "salon", "stylist", "layers"]
+    },
+    {
+      "title": "Video Call",
+      "content": "Had a video call with family overseas, the connection was clear and smooth.",
+      "trigger_words": ["video", "call", "family", "connection", "smooth"]
+    },
+    {
+      "title": "Puzzle Solving",
+      "content": "Working on a 1000-piece jigsaw puzzle of a mountain landscape, almost done.",
+      "trigger_words": ["puzzle", "jigsaw", "mountain", "landscape", "pieces"]
+    },
+    {
+      "title": "Ice Cream",
+      "content": "Tried the new flavor at the ice cream shop, chocolate raspberry was delicious.",
+      "trigger_words": ["ice cream", "flavor", "chocolate", "raspberry", "delicious"]
+    },
+    {
+      "title": "Yoga Class",
+      "content": "Attended a relaxing yoga class this morning, focusing on breathing and meditation.",
+      "trigger_words": ["yoga", "class", "relaxing", "breathing", "meditation"]
+    },
+    {
+      "title": "Computer Upgrade",
+      "content": "Upgraded the computer with more RAM and a faster processor for better performance.",
+      "trigger_words": ["computer", "upgrade", "RAM", "processor", "performance"]
+    },
+    {
+      "title": "Beach Day",
+      "content": "Spent the day at the beach, swimming and building sandcastles with the kids.",
+      "trigger_words": ["beach", "day", "swimming", "sandcastles", "kids"]
+    },
+    {
+      "title": "Coffee Shop",
+      "content": "Visited the local coffee shop for a quiet afternoon of reading and people-watching.",
+      "trigger_words": ["coffee shop", "quiet", "reading", "afternoon", "people-watching"]
+    },
+    {
+      "title": "Gardening Tools",
+      "content": "Bought new gardening tools including a spade, rake, and pruning shears.",
+      "trigger_words": ["gardening", "tools", "spade", "rake", "pruning"]
+    },
+    {
+      "title": "Movie Marathon",
+      "content": "Had a movie marathon weekend watching all the Star Wars films in order.",
+      "trigger_words": ["movie", "marathon", "Star Wars", "weekend", "films"]
+    },
+    {
+      "title": "Cooking Experiment",
+      "content": "Tried a new recipe for Thai curry, it turned out spicy but flavorful.",
+      "trigger_words": ["cooking", "experiment", "Thai", "curry", "spicy"]
+    },
+    {
+      "title": "Photography",
+      "content": "Took some landscape photos during the sunset, the colors were breathtaking.",
+      "trigger_words": ["photography", "landscape", "sunset", "colors", "breathtaking"]
+    },
+    {
+      "title": "Board Meeting",
+      "content": "Attended the quarterly board meeting, discussed budget and future plans.",
+      "trigger_words": ["board", "meeting", "quarterly", "budget", "plans"]
+    },
+    {
+      "title": "Swimming Pool",
+      "content": "Went swimming at the community pool, the water was refreshing on a hot day.",
+      "trigger_words": ["swimming", "pool", "community", "water", "refreshing"]
+    },
+    {
+      "title": "Art Gallery",
+      "content": "Visited the art gallery downtown, saw some beautiful abstract paintings.",
+      "trigger_words": ["art", "gallery", "abstract", "paintings", "beautiful"]
+    },
+    {
+      "title": "Bike Maintenance",
+      "content": "Performed routine maintenance on the bicycle, cleaned chain and checked tires.",
+      "trigger_words": ["bike", "maintenance", "chain", "tires", "cleaned"]
+    },
+    {
+      "title": "Book Reading",
+      "content": "Finished reading the mystery novel, the ending was completely unexpected.",
+      "trigger_words": ["book", "reading", "mystery", "novel", "unexpected"]
+    },
+    {
+      "title": "Picnic Lunch",
+      "content": "Had a picnic lunch in the park with sandwiches, fruit, and lemonade.",
+      "trigger_words": ["picnic", "lunch", "park", "sandwiches", "fruit"]
+    },
+    {
+      "title": "Dance Class",
+      "content": "Started taking salsa dance classes, learning the basic steps and rhythms.",
+      "trigger_words": ["dance", "class", "salsa", "steps", "rhythms"]
+    },
+    {
+      "title": "Home Decor",
+      "content": "Rearranged the living room furniture and added some new throw pillows.",
+      "trigger_words": ["home", "decor", "furniture", "pillows", "rearranged"]
+    },
+    {
+      "title": "Music Practice",
+      "content": "Practiced guitar for an hour, working on chord progressions and finger picking.",
+      "trigger_words": ["music", "practice", "guitar", "chords", "finger picking"]
+    },
+    {
+      "title": "Shopping Trip",
+      "content": "Went shopping for new clothes, found a great deal on jeans and a sweater.",
+      "trigger_words": ["shopping", "trip", "clothes", "jeans", "sweater"]
+    },
+    {
+      "title": "Hiking Trail",
+      "content": "Explored a new hiking trail in the mountains, the views were spectacular.",
+      "trigger_words": ["hiking", "trail", "mountains", "views", "spectacular"]
+    },
+    {
+      "title": "Cooking Show",
+      "content": "Watched a cooking show on TV, learned a new technique for making risotto.",
+      "trigger_words": ["cooking", "show", "technique", "risotto", "learned"]
+    },
+    {
+      "title": "Garden Flowers",
+      "content": "Planted colorful flowers in the garden, tulips and daffodils for spring.",
+      "trigger_words": ["garden", "flowers", "colorful", "tulips", "daffodils"]
+    },
+    {
+      "title": "Movie Night",
+      "content": "Had a family movie night with popcorn and everyone's favorite films.",
+      "trigger_words": ["movie", "night", "family", "popcorn", "films"]
+    },
+    {
+      "title": "Tech Gadgets",
+      "content": "Bought a new smartwatch and wireless earbuds for daily use.",
+      "trigger_words": ["tech", "gadgets", "smartwatch", "earbuds", "wireless"]
+    },
+    {
+      "title": "Beach Volleyball",
+      "content": "Played beach volleyball with friends, it was fun but tiring in the sand.",
+      "trigger_words": ["beach", "volleyball", "friends", "fun", "sand"]
+    },
+    {
+      "title": "Coffee Tasting",
+      "content": "Attended a coffee tasting event, tried different roasts and brewing methods.",
+      "trigger_words": ["coffee", "tasting", "event", "roasts", "brewing"]
+    },
+    {
+      "title": "Art Supplies",
+      "content": "Stocked up on art supplies: paints, brushes, canvas, and sketchbooks.",
+      "trigger_words": ["art", "supplies", "paints", "brushes", "canvas"]
+    },
+    {
+      "title": "Gym Workout",
+      "content": "Completed a full body workout at the gym, focusing on strength training.",
+      "trigger_words": ["gym", "workout", "body", "strength", "training"]
+    },
+    {
+      "title": "Music Playlist",
+      "content": "Created a new playlist with jazz music for relaxing evenings at home.",
+      "trigger_words": ["music", "playlist", "jazz", "relaxing", "evenings"]
+    },
+    {
+      "title": "Home Repair",
+      "content": "Fixed the leaky faucet in the kitchen using a new washer and wrench.",
+      "trigger_words": ["home", "repair", "faucet", "washer", "wrench"]
+    },
+    {
+      "title": "Bookstore Visit",
+      "content": "Browsed the bookstore and bought a few novels and a cookbook.",
+      "trigger_words": ["bookstore", "visit", "novels", "cookbook", "bought"]
+    },
+    {
+      "title": "Swimming Lesson",
+      "content": "Took swimming lessons for adults, learning proper breathing techniques.",
+      "trigger_words": ["swimming", "lesson", "adults", "breathing", "techniques"]
+    },
+    {
+      "title": "Garden Harvest",
+      "content": "Harvested fresh vegetables from the garden: tomatoes, cucumbers, and lettuce.",
+      "trigger_words": ["garden", "harvest", "vegetables", "tomatoes", "cucumbers"]
+    },
+    {
+      "title": "Movie Review",
+      "content": "Wrote a review for the documentary film about climate change.",
+      "trigger_words": ["movie", "review", "documentary", "climate", "change"]
+    },
+    {
+      "title": "Cooking Competition",
+      "content": "Entered a local cooking competition, made a signature dish with herbs.",
+      "trigger_words": ["cooking", "competition", "signature", "dish", "herbs"]
+    },
+    {
+      "title": "Photography Workshop",
+      "content": "Attended a photography workshop, learned about lighting and composition.",
+      "trigger_words": ["photography", "workshop", "lighting", "composition", "learned"]
+    },
+    {
+      "title": "Bike Tour",
+      "content": "Joined a group bike tour through the countryside, covered 20 miles.",
+      "trigger_words": ["bike", "tour", "group", "countryside", "miles"]
+    },
+    {
+      "title": "Art Exhibition",
+      "content": "Visited an art exhibition featuring contemporary sculptures and paintings.",
+      "trigger_words": ["art", "exhibition", "contemporary", "sculptures", "paintings"]
+    },
+    {
+      "title": "Home Baking",
+      "content": "Baked a batch of chocolate brownies from scratch using grandma's recipe.",
+      "trigger_words": ["home", "baking", "chocolate", "brownies", "recipe"]
+    },
+    {
+      "title": "Music Lesson",
+      "content": "Had a piano lesson, practicing scales and a new piece of music.",
+      "trigger_words": ["music", "lesson", "piano", "scales", "piece"]
+    },
+    {
+      "title": "Shopping Mall",
+      "content": "Spent the afternoon shopping at the mall, bought shoes and accessories.",
+      "trigger_words": ["shopping", "mall", "afternoon", "shoes", "accessories"]
+    },
+    {
+      "title": "Hiking Adventure",
+      "content": "Went on a hiking adventure in the national park, saw wildlife and waterfalls.",
+      "trigger_words": ["hiking", "adventure", "park", "wildlife", "waterfalls"]
+    },
+    {
+      "title": "Cooking Workshop",
+      "content": "Participated in a cooking workshop learning to make sushi rolls.",
+      "trigger_words": ["cooking", "workshop", "sushi", "rolls", "learning"]
+    },
+    {
+      "title": "Garden Design",
+      "content": "Redesigned the backyard garden with flower beds and a small fountain.",
+      "trigger_words": ["garden", "design", "backyard", "flower beds", "fountain"]
+    },
+    {
+      "title": "Movie Festival",
+      "content": "Attended the film festival, watched several independent movies and documentaries.",
+      "trigger_words": ["movie", "festival", "independent", "movies", "documentaries"]
+    },
+    {
+      "title": "Tech Conference",
+      "content": "Attended a tech conference, learned about new developments in AI and robotics.",
+      "trigger_words": ["tech", "conference", "AI", "robotics", "developments"]
+    },
+    {
+      "title": "Beach Picnic",
+      "content": "Organized a beach picnic with friends, brought sandwiches and watermelon.",
+      "trigger_words": ["beach", "picnic", "friends", "sandwiches", "watermelon"]
+    },
+    {
+      "title": "Coffee Brewing",
+      "content": "Experimented with different coffee brewing methods: French press and pour-over.",
+      "trigger_words": ["coffee", "brewing", "French press", "pour-over", "experimented"]
+    },
+    {
+      "title": "Art Class",
+      "content": "Enrolled in an oil painting class, learning techniques from a professional artist.",
+      "trigger_words": ["art", "class", "oil painting", "techniques", "professional"]
+    },
+    {
+      "title": "Gym Class",
+      "content": "Joined a group fitness class focusing on yoga and pilates exercises.",
+      "trigger_words": ["gym", "class", "fitness", "yoga", "pilates"]
+    },
+    {
+      "title": "Music Festival",
+      "content": "Experienced a music festival with multiple stages and diverse genres of music.",
+      "trigger_words": ["music", "festival", "stages", "genres", "experienced"]
+    },
+    {
+      "title": "Home Renovation",
+      "content": "Started renovating the bathroom with new tiles and fixtures.",
+      "trigger_words": ["home", "renovation", "bathroom", "tiles", "fixtures"]
+    },
+    {
+      "title": "Book Discussion",
+      "content": "Participated in a book discussion group talking about classic literature.",
+      "trigger_words": ["book", "discussion", "group", "classic", "literature"]
+    },
+    {
+      "title": "Swimming Meet",
+      "content": "Watched a competitive swimming meet, the athletes were impressive.",
+      "trigger_words": ["swimming", "meet", "competitive", "athletes", "impressive"]
+    },
+    {
+      "title": "Garden Party",
+      "content": "Hosted a garden party with barbecue, games, and outdoor decorations.",
+      "trigger_words": ["garden", "party", "barbecue", "games", "decorations"]
+    },
+    {
+      "title": "Movie Premiere",
+      "content": "Attended the premiere of a new film, met the director and actors.",
+      "trigger_words": ["movie", "premiere", "film", "director", "actors"]
+    },
+    {
+      "title": "Cooking School",
+      "content": "Enrolled in a professional cooking school to learn advanced techniques.",
+      "trigger_words": ["cooking", "school", "professional", "advanced", "techniques"]
+    },
+    {
+      "title": "Photography Exhibition",
+      "content": "Visited a photography exhibition showcasing nature and wildlife photos.",
+      "trigger_words": ["photography", "exhibition", "nature", "wildlife", "photos"]
+    },
+    {
+      "title": "Bike Race",
+      "content": "Participated in a local bike race, finished in the top ten competitors.",
+      "trigger_words": ["bike", "race", "local", "finished", "competitors"]
+    },
+    {
+      "title": "Art Museum",
+      "content": "Explored an art museum with collections from various historical periods.",
+      "trigger_words": ["art", "museum", "collections", "historical", "periods"]
+    },
+    {
+      "title": "Home Theater",
+      "content": "Set up a home theater system with surround sound and a large screen TV.",
+      "trigger_words": ["home", "theater", "surround sound", "screen", "TV"]
+    },
+    {
+      "title": "Music Recording",
+      "content": "Recorded a demo of original songs in a professional studio.",
+      "trigger_words": ["music", "recording", "demo", "original", "studio"]
+    },
+    {
+      "title": "Shopping District",
+      "content": "Explored the downtown shopping district, found unique boutiques and cafes.",
+      "trigger_words": ["shopping", "district", "downtown", "boutiques", "cafes"]
+    },
+    {
+      "title": "Hiking Expedition",
+      "content": "Joined a guided hiking expedition through mountainous terrain.",
+      "trigger_words": ["hiking", "expedition", "guided", "mountainous", "terrain"]
+    },
+    {
+      "title": "Cooking Demonstration",
+      "content": "Watched a live cooking demonstration by a celebrity chef.",
+      "trigger_words": ["cooking", "demonstration", "live", "celebrity", "chef"]
+    },
+    {
+      "title": "Garden Landscape",
+      "content": "Designed a landscape garden with pathways, ponds, and ornamental plants.",
+      "trigger_words": ["garden", "landscape", "pathways", "ponds", "plants"]
+    },
+    {
+      "title": "Movie Awards",
+      "content": "Watched the annual movie awards ceremony on television.",
+      "trigger_words": ["movie", "awards", "annual", "ceremony", "television"]
+    },
+    {
+      "title": "Tech Innovation",
+      "content": "Attended a tech innovation summit discussing future technologies.",
+      "trigger_words": ["tech", "innovation", "summit", "future", "technologies"]
+    },
+    {
+      "title": "Beach Resort",
+      "content": "Stayed at a luxury beach resort with spa services and ocean views.",
+      "trigger_words": ["beach", "resort", "luxury", "spa", "ocean"]
+    },
+    {
+      "title": "Coffee Culture",
+      "content": "Explored the local coffee culture with specialty roasteries and cafes.",
+      "trigger_words": ["coffee", "culture", "specialty", "roasteries", "cafes"]
+    },
+    {
+      "title": "Art Installation",
+      "content": "Viewed a contemporary art installation with interactive elements.",
+      "trigger_words": ["art", "installation", "contemporary", "interactive", "elements"]
+    },
+    {
+      "title": "Gym Equipment",
+      "content": "Upgraded gym equipment with new treadmills and weight machines.",
+      "trigger_words": ["gym", "equipment", "treadmills", "weight", "machines"]
+    },
+    {
+      "title": "Music Performance",
+      "content": "Attended a live music performance by a symphony orchestra.",
+      "trigger_words": ["music", "performance", "live", "symphony", "orchestra"]
+    },
+    {
+      "title": "Home Office",
+      "content": "Set up a dedicated home office with ergonomic furniture and lighting.",
+      "trigger_words": ["home", "office", "ergonomic", "furniture", "lighting"]
+    },
+    {
+      "title": "Book Signing",
+      "content": "Attended a book signing event with a popular author.",
+      "trigger_words": ["book", "signing", "event", "popular", "author"]
+    },
+    {
+      "title": "Swimming Training",
+      "content": "Started intensive swimming training for an upcoming competition.",
+      "trigger_words": ["swimming", "training", "intensive", "competition", "upcoming"]
+    },
+    {
+      "title": "Garden Greenhouse",
+      "content": "Built a small greenhouse in the garden for year-round planting.",
+      "trigger_words": ["garden", "greenhouse", "built", "year-round", "planting"]
+    },
+    {
+      "title": "Movie Production",
+      "content": "Visited a movie production set and watched filming in action.",
+      "trigger_words": ["movie", "production", "set", "filming", "action"]
+    },
+    {
+      "title": "Cooking Masterclass",
+      "content": "Attended a cooking masterclass with international cuisine focus.",
+      "trigger_words": ["cooking", "masterclass", "international", "cuisine", "focus"]
+    },
+    {
+      "title": "Photography Safari",
+      "content": "Went on a photography safari capturing wildlife in their natural habitat.",
+      "trigger_words": ["photography", "safari", "wildlife", "natural", "habitat"]
+    },
+    {
+      "title": "Bike Trail",
+      "content": "Discovered a scenic bike trail through forests and along rivers.",
+      "trigger_words": ["bike", "trail", "scenic", "forests", "rivers"]
+    },
+    {
+      "title": "Art Auction",
+      "content": "Participated in an art auction bidding on contemporary paintings.",
+      "trigger_words": ["art", "auction", "bidding", "contemporary", "paintings"]
+    },
+    {
+      "title": "Home Automation",
+      "content": "Installed smart home automation systems for lighting and security.",
+      "trigger_words": ["home", "automation", "smart", "lighting", "security"]
+    },
+    {
+      "title": "Music Composition",
+      "content": "Started composing original music using digital audio software.",
+      "trigger_words": ["music", "composition", "original", "digital", "software"]
+    },
+    {
+      "title": "Shopping Experience",
+      "content": "Enjoyed a unique shopping experience in a historic market district.",
+      "trigger_words": ["shopping", "experience", "unique", "historic", "market"]
+    },
+    {
+      "title": "Hiking Challenge",
+      "content": "Completed a challenging hiking trail with steep climbs and views.",
+      "trigger_words": ["hiking", "challenge", "steep", "climbs", "views"]
+    },
+    {
+      "title": "Cooking Festival",
+      "content": "Attended a food festival sampling dishes from various cultures.",
+      "trigger_words": ["cooking", "festival", "food", "cultures", "sampling"]
+    },
+    {
+      "title": "Garden Sculpture",
+      "content": "Added artistic sculptures to the garden for visual interest.",
+      "trigger_words": ["garden", "sculpture", "artistic", "visual", "interest"]
+    },
+    {
+      "title": "Movie Screening",
+      "content": "Attended a private movie screening of an upcoming blockbuster.",
+      "trigger_words": ["movie", "screening", "private", "upcoming", "blockbuster"]
+    },
+    {
+      "title": "Tech Startup",
+      "content": "Visited a tech startup office learning about innovative products.",
+      "trigger_words": ["tech", "startup", "office", "innovative", "products"]
+    },
+    {
+      "title": "Beach Camping",
+      "content": "Went camping on the beach with tents and bonfires under the stars.",
+      "trigger_words": ["beach", "camping", "tents", "bonfires", "stars"]
+    },
+    {
+      "title": "Coffee Roasting",
+      "content": "Learned about coffee roasting techniques at a local roastery.",
+      "trigger_words": ["coffee", "roasting", "techniques", "local", "roastery"]
+    },
+    {
+      "title": "Art Residency",
+      "content": "Applied for an art residency program to focus on creative work.",
+      "trigger_words": ["art", "residency", "program", "creative", "work"]
+    },
+    {
+      "title": "Gym Competition",
+      "content": "Participated in a fitness competition showcasing strength and endurance.",
+      "trigger_words": ["gym", "competition", "fitness", "strength", "endurance"]
+    },
+    {
+      "title": "Music Collaboration",
+      "content": "Collaborated with other musicians on a joint musical project.",
+      "trigger_words": ["music", "collaboration", "musicians", "joint", "project"]
+    },
+    {
+      "title": "Home Library",
+      "content": "Organized a personal library with bookshelves and reading nooks.",
+      "trigger_words": ["home", "library", "bookshelves", "reading", "nooks"]
+    },
+    {
+      "title": "Book Launch",
+      "content": "Attended the launch party for a newly published novel.",
+      "trigger_words": ["book", "launch", "party", "published", "novel"]
+    },
+    {
+      "title": "Swimming Vacation",
+      "content": "Planned a vacation centered around swimming in tropical waters.",
+      "trigger_words": ["swimming", "vacation", "tropical", "waters", "planned"]
+    },
+    {
+      "title": "Garden Festival",
+      "content": "Visited a garden festival with flower displays and plant sales.",
+      "trigger_words": ["garden", "festival", "flower", "displays", "sales"]
+    },
+    {
+      "title": "Movie Director",
+      "content": "Met with a movie director discussing upcoming film projects.",
+      "trigger_words": ["movie", "director", "met", "upcoming", "projects"]
+    },
+    {
+      "title": "Cooking Innovation",
+      "content": "Explored innovative cooking techniques using molecular gastronomy.",
+      "trigger_words": ["cooking", "innovation", "techniques", "molecular", "gastronomy"]
+    },
+    {
+      "title": "Photography Portfolio",
+      "content": "Built a professional photography portfolio showcasing best work.",
+      "trigger_words": ["photography", "portfolio", "professional", "showcasing", "work"]
+    },
+    {
+      "title": "Bike Adventure",
+      "content": "Embarked on a multi-day bike adventure through scenic routes.",
+      "trigger_words": ["bike", "adventure", "multi-day", "scenic", "routes"]
+    },
+    {
+      "title": "Art Collection",
+      "content": "Started collecting contemporary art pieces for personal enjoyment.",
+      "trigger_words": ["art", "collection", "contemporary", "pieces", "enjoyment"]
+    },
+    {
+      "title": "Home Spa",
+      "content": "Created a relaxing home spa with essential oils and candles.",
+      "trigger_words": ["home", "spa", "relaxing", "oils", "candles"]
+    },
+    {
+      "title": "Music Education",
+      "content": "Enrolled in music education courses to improve playing skills.",
+      "trigger_words": ["music", "education", "courses", "playing", "skills"]
+    },
+    {
+      "title": "Shopping Therapy",
+      "content": "Engaged in retail therapy shopping for mood-boosting items.",
+      "trigger_words": ["shopping", "therapy", "retail", "mood-boosting", "items"]
+    },
+    {
+      "title": "Hiking Photography",
+      "content": "Combined hiking with photography capturing nature's beauty.",
+      "trigger_words": ["hiking", "photography", "nature's", "beauty", "capturing"]
+    },
+    {
+      "title": "Cooking Heritage",
+      "content": "Learned traditional family recipes preserving cultural heritage.",
+      "trigger_words": ["cooking", "heritage", "traditional", "family", "recipes"]
+    },
+    {
+      "title": "Garden Meditation",
+      "content": "Practiced meditation in the garden surrounded by peaceful plants.",
+      "trigger_words": ["garden", "meditation", "peaceful", "plants", "practiced"]
+    },
+    {
+      "title": "Movie Marathon",
+      "content": "Organized a themed movie marathon with friends and snacks.",
+      "trigger_words": ["movie", "marathon", "themed", "friends", "snacks"]
+    },
+    {
+      "title": "Tech Workshop",
+      "content": "Participated in a hands-on tech workshop learning new skills.",
+      "trigger_words": ["tech", "workshop", "hands-on", "learning", "skills"]
+    },
+    {
+      "title": "Beach Yoga",
+      "content": "Practiced yoga on the beach at sunrise for ultimate relaxation.",
+      "trigger_words": ["beach", "yoga", "sunrise", "relaxation", "practiced"]
+    },
+    {
+      "title": "Coffee Art",
+      "content": "Learned latte art techniques for creating beautiful coffee designs.",
+      "trigger_words": ["coffee", "art", "latte", "techniques", "designs"]
+    },
+    {
+      "title": "Art Therapy",
+      "content": "Used art therapy sessions to express emotions through painting.",
+      "trigger_words": ["art", "therapy", "sessions", "emotions", "painting"]
+    },
+    {
+      "title": "Gym Motivation",
+      "content": "Found motivation through group fitness classes and personal goals.",
+      "trigger_words": ["gym", "motivation", "group", "fitness", "goals"]
+    },
+    {
+      "title": "Music Therapy",
+      "content": "Used music therapy to reduce stress and improve mental health.",
+      "trigger_words": ["music", "therapy", "stress", "mental", "health"]
+    },
+    {
+      "title": "Home Cooking",
+      "content": "Focused on home cooking healthy meals with fresh ingredients.",
+      "trigger_words": ["home", "cooking", "healthy", "meals", "ingredients"]
+    },
+    {
+      "title": "Book Therapy",
+      "content": "Used reading as therapy to escape and gain new perspectives.",
+      "trigger_words": ["book", "therapy", "reading", "escape", "perspectives"]
+    },
+    {
+      "title": "Swimming Therapy",
+      "content": "Used swimming as therapy for physical and mental well-being.",
+      "trigger_words": ["swimming", "therapy", "physical", "mental", "well-being"]
+    },
+    {
+      "title": "Garden Therapy",
+      "content": "Found therapeutic benefits through gardening and plant care.",
+      "trigger_words": ["garden", "therapy", "benefits", "plant", "care"]
+    },
+    {
+      "title": "Movie Therapy",
+      "content": "Used movies as therapy to process emotions and gain insights.",
+      "trigger_words": ["movie", "therapy", "emotions", "insights", "process"]
+    },
+    {
+      "title": "Tech Therapy",
+      "content": "Used technology mindfully as therapy for connection and learning.",
+      "trigger_words": ["tech", "therapy", "mindfully", "connection", "learning"]
+    },
+    {
+      "title": "Beach Therapy",
+      "content": "Used beach visits as therapy for relaxation and stress relief.",
+      "trigger_words": ["beach", "therapy", "visits", "relaxation", "relief"]
+    },
+    {
+      "title": "Coffee Therapy",
+      "content": "Used coffee rituals as daily therapy for comfort and routine.",
+      "trigger_words": ["coffee", "therapy", "rituals", "comfort", "routine"]
+    },
+    {
+      "title": "Art Therapy",
+      "content": "Continued art therapy for emotional expression and healing.",
+      "trigger_words": ["art", "therapy", "emotional", "expression", "healing"]
+    },
+    {
+      "title": "Gym Therapy",
+      "content": "Used gym workouts as therapy for endorphin release and confidence.",
+      "trigger_words": ["gym", "therapy", "workouts", "endorphin", "confidence"]
+    },
+    {
+      "title": "Music Therapy",
+      "content": "Continued music therapy sessions for stress reduction and joy.",
+      "trigger_words": ["music", "therapy", "sessions", "reduction", "joy"]
+    },
+    {
+      "title": "Home Therapy",
+      "content": "Created home environment as therapy space for comfort and peace.",
+      "trigger_words": ["home", "therapy", "environment", "comfort", "peace"]
+    },
+    {
+      "title": "Book Therapy",
+      "content": "Continued book therapy through diverse reading experiences.",
+      "trigger_words": ["book", "therapy", "diverse", "reading", "experiences"]
+    },
+    {
+      "title": "Swimming Therapy",
+      "content": "Maintained swimming therapy routine for ongoing health benefits.",
+      "trigger_words": ["swimming", "therapy", "routine", "health", "benefits"]
+    },
+    {
+      "title": "Garden Therapy",
+      "content": "Continued garden therapy through seasonal plant care activities.",
+      "trigger_words": ["garden", "therapy", "seasonal", "plant", "activities"]
+    },
+    {
+      "title": "Movie Therapy",
+      "content": "Used movie therapy regularly for emotional processing and entertainment.",
+      "trigger_words": ["movie", "therapy", "regularly", "processing", "entertainment"]
+    },
+    {
+      "title": "Tech Therapy",
+      "content": "Balanced tech use as therapy for productivity and connection.",
+      "trigger_words": ["tech", "therapy", "balanced", "productivity", "connection"]
+    },
+    {
+      "title": "Beach Therapy",
+      "content": "Regular beach therapy visits for mental health and rejuvenation.",
+      "trigger_words": ["beach", "therapy", "regular", "mental health", "rejuvenation"]
+    },
+    {
+      "title": "Coffee Therapy",
+      "content": "Maintained coffee therapy rituals for daily comfort and mindfulness.",
+      "trigger_words": ["coffee", "therapy", "rituals", "comfort", "mindfulness"]
+    },
+    {
+      "title": "Art Therapy",
+      "content": "Advanced art therapy practice with new mediums and techniques.",
+      "trigger_words": ["art", "therapy", "advanced", "mediums", "techniques"]
+    },
+    {
+      "title": "Gym Therapy",
+      "content": "Enhanced gym therapy with varied workouts and goal tracking.",
+      "trigger_words": ["gym", "therapy", "enhanced", "workouts", "tracking"]
+    },
+    {
+      "title": "Music Therapy",
+      "content": "Expanded music therapy with different genres and instruments.",
+      "trigger_words": ["music", "therapy", "expanded", "genres", "instruments"]
+    },
+    {
+      "title": "Home Therapy",
+      "content": "Optimized home therapy space with better lighting and organization.",
+      "trigger_words": ["home", "therapy", "optimized", "lighting", "organization"]
+    },
+    {
+      "title": "Book Therapy",
+      "content": "Diversified book therapy with audiobooks and discussion groups.",
+      "trigger_words": ["book", "therapy", "diversified", "audiobooks", "groups"]
+    },
+    {
+      "title": "Swimming Therapy",
+      "content": "Advanced swimming therapy with different strokes and intensities.",
+      "trigger_words": ["swimming", "therapy", "advanced", "strokes", "intensities"]
+    },
+    {
+      "title": "Garden Therapy",
+      "content": "Expanded garden therapy with community gardening projects.",
+      "trigger_words": ["garden", "therapy", "expanded", "community", "projects"]
+    },
+    {
+      "title": "Movie Therapy",
+      "content": "Integrated movie therapy with journaling and reflection practices.",
+      "trigger_words": ["movie", "therapy", "integrated", "journaling", "reflection"]
+    },
+    {
+      "title": "Tech Therapy",
+      "content": "Refined tech therapy approach with mindful usage boundaries.",
+      "trigger_words": ["tech", "therapy", "refined", "mindful", "boundaries"]
+    },
+    {
+      "title": "Beach Therapy",
+      "content": "Deepened beach therapy practice with meditation and nature connection.",
+      "trigger_words": ["beach", "therapy", "deepened", "meditation", "connection"]
+    },
+    {
+      "title": "Coffee Therapy",
+      "content": "Elevated coffee therapy with specialty brewing and tasting experiences.",
+      "trigger_words": ["coffee", "therapy", "elevated", "specialty", "experiences"]
+    },
+    {
+      "title": "Art Therapy",
+      "content": "Mastered art therapy techniques for deeper emotional healing.",
+      "trigger_words": ["art", "therapy", "mastered", "emotional", "healing"]
+    },
+    {
+      "title": "Gym Therapy",
+      "content": "Achieved gym therapy mastery with personalized fitness plans.",
+      "trigger_words": ["gym", "therapy", "mastery", "personalized", "plans"]
+    },
+    {
+      "title": "Music Therapy",
+      "content": "Perfected music therapy practice with therapeutic composition.",
+      "trigger_words": ["music", "therapy", "perfected", "therapeutic", "composition"]
+    },
+    {
+      "title": "Home Therapy",
+      "content": "Created ultimate home therapy sanctuary with holistic elements.",
+      "trigger_words": ["home", "therapy", "ultimate", "sanctuary", "holistic"]
+    },
+    {
+      "title": "Book Therapy",
+      "content": "Reached book therapy enlightenment through extensive literary exploration.",
+      "trigger_words": ["book", "therapy", "enlightenment", "literary", "exploration"]
+    },
+    {
+      "title": "Swimming Therapy",
+      "content": "Attained swimming therapy excellence with competitive training.",
+      "trigger_words": ["swimming", "therapy", "excellence", "competitive", "training"]
+    },
+    {
+      "title": "Garden Therapy",
+      "content": "Established garden therapy paradise with diverse plant ecosystems.",
+      "trigger_words": ["garden", "therapy", "paradise", "ecosystems", "diverse"]
+    },
+    {
+      "title": "Movie Therapy",
+      "content": "Achieved movie therapy wisdom through cinematic journey and analysis.",
+      "trigger_words": ["movie", "therapy", "wisdom", "cinematic", "analysis"]
+    },
+    {
+      "title": "Tech Therapy",
+      "content": "Mastered tech therapy balance for optimal digital well-being.",
+      "trigger_words": ["tech", "therapy", "mastered", "digital", "well-being"]
+    },
+    {
+      "title": "Beach Therapy",
+      "content": "Found beach therapy nirvana through complete nature immersion.",
+      "trigger_words": ["beach", "therapy", "nirvana", "immersion", "complete"]
+    },
+    {
+      "title": "Coffee Therapy",
+      "content": "Perfected coffee therapy ritual with artisanal brewing mastery.",
+      "trigger_words": ["coffee", "therapy", "perfected", "artisanal", "mastery"]
+    }
+  ]
+}

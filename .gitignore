@@ -1,0 +1,138 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Flutter
+**/build/
+**/.dart_tool/
+**/.packages
+
+# Node / Electron
+node_modules/
+/dist/
+
+# IDE
+.vscode/
+.idea/
+
+.config
+
+# Desktop specific ignores for Flutter
+
+
+# Miscellaneous
+desktop/*.class
+desktop/*.log
+desktop/*.pyc
+desktop/*.swp
+desktop/.DS_Store
+desktop/.atom/
+desktop/.build/
+desktop/.buildlog/
+desktop/.history
+desktop/.svn/
+desktop/.swiftpm/
+desktop/migrate_working_dir/
+ 
+# IntelliJ related
+desktop/*.iml
+desktop/*.ipr
+desktop/*.iws
+desktop/.idea/
+ 
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+ 
+# Flutter/Dart/Pub related
+desktop/**/doc/api/
+desktop/**/ios/Flutter/.last_build_id
+desktop/.dart_tool/
+desktop/.flutter-plugins-dependencies
+desktop/.pub-cache/
+desktop/.pub/
+desktop/build/
+desktop/coverage/
+
+# Symbolication related
+desktop/app.*.symbols
+ 
+# Obfuscation related
+desktop/app.*.map.json
+ 
+# Android Studio will place build artifacts here
+desktop/android/app/debug
+desktop/android/app/profile
+desktop/android/app/release
+backend/.env
+backend/uploads/
+
+
+# Desktop specific ignores for Flutter
+
+
+# Miscellaneous
+phone/*.class
+phone/*.log
+phone/*.pyc
+phone/*.swp
+phone/.DS_Store
+phone/.atom/
+phone/.build/
+phone/.buildlog/
+phone/.history
+phone/.svn/
+phone/.swiftpm/
+phone/migrate_working_dir/
+ 
+# IntelliJ related
+phone/*.iml
+phone/*.ipr
+phone/*.iws
+phone/.idea/
+ 
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+ 
+# Flutter/Dart/Pub related
+phone/**/doc/api/
+phone/**/ios/Flutter/.last_build_id
+phone/.dart_tool/
+phone/.flutter-plugins-dependencies
+phone/.pub-cache/
+phone/.pub/
+phone/build/
+phone/coverage/
+
+# Symbolication related
+phone/app.*.symbols
+ 
+# Obfuscation related
+phone/app.*.map.json
+ 
+# Android Studio will place build artifacts here
+phone/android/app/debug
+phone/android/app/profile
+phone/android/app/release
+phone/.env
+phone/uploads/
+
+phone/android/*
+phone/ios/*
+phone/web/*
+phone/windows/*
+phone/macos/*
+phone/linux/*
+.git-web-app-backup/
+
+# Benchmark results
+benchmark/results.json
+package.json
+package-lock.json*.env
+.env
+config/*firebase*.json
+config/*adminsdk*.json

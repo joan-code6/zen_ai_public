@@ -1,0 +1,1175 @@
+import 'dart:async';
+import 'dart:convert';
+import 'dart:io';
+
+import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:http/http.dart' as http;
+import 'package:http/io_client.dart';
+import 'package:http_parser/http_parser.dart';
+
+import '../models/auth.dart';
+import '../models/chat.dart';
+import '../models/note.dart';
+import '../state/user_preferences.dart';
+
+class BackendException implements Exception {
+  final int statusCode;
+  final String message;
+  final String? code;
+  final Map<String, dynamic>? details;
+
+  BackendException({
+    required this.statusCode,
+    required this.message,
+    this.code,
+    this.details,
+  });
+
+  @override
+  String toString() => 'BackendException($statusCode, $code, $message)';
+}
+
+class StreamedMessageEvent {
+  final String type;
+  final Map<String, dynamic> data;
+
+  const StreamedMessageEvent({
+    required this.type,
+    required this.data,
+  });
+
+  String? get token => data['token']?.toString();
+  String? get text => data['text']?.toString();
+}
+
+class BackendService {
+  static const String _gistUrl =
+      'https://gist.githubusercontent.com/joan-code6/8b995d800205dbb119842fa588a2bd2c/raw/zen.json';
+  static String? _cachedUrl;
+  static http.Client? _client;
+
+  static http.Client get _http => _client ??= kIsWeb
+      ? http.Client()
+      : IOClient(HttpClient()..badCertificateCallback = (X509Certificate cert, String host, int port) => true);
+
+  static void configureClient(http.Client? client) {
+    _client = client;
+  }
+
+  static Future<String> getBackendUrl() async {
+    if (_cachedUrl != null) return _cachedUrl!;
+
+    try {
+      final uri = Uri.parse(_gistUrl).replace(queryParameters: {
+        'randomnumber': DateTime.now().millisecondsSinceEpoch.toString(),
+      });
+
+      final response = await _http.get(uri);
+
+      if (response.statusCode == 200) {
+        var body = response.body;
+        // Handle single quotes which are invalid in standard JSON but present in the Gist
+        if (body.contains("'")) {
+          body = body.replaceAll("'", '"');
+        }
+
+        try {
+          final data = jsonDecode(body);
+          if (data is Map && data['url'] != null) {
+            final url = data['url'].toString();
+            if (url.isNotEmpty) {
+              _cachedUrl = _normalizeBaseUrl(url);
+            }
+          }
+        } catch (_) {
+          // Fallback to regex if JSON decoding fails
+          final match = RegExp(r'''['"]url['"]\s*:\s*['"]([^'"]+)['"]''')
+              .firstMatch(response.body);
+          if (match != null) {
+            final url = match.group(1);
+            if (url != null && url.isNotEmpty) {
+              _cachedUrl = _normalizeBaseUrl(url);
+            }
+          }
+        }
+      }
+    } catch (_) {
+      // ignore
+    }
+
+    _cachedUrl ??= _normalizeBaseUrl('');
+    return _cachedUrl!;
+  }
+
+  static Future<Map<String, dynamic>> health() async {
+    final data = await _get('/health');
+    return (data as Map<String, dynamic>?) ?? const {'status': 'unknown'};
+  }
+
+  static Future<SignupResult> signup({
+    required String email,
+    required String password,
+    required String displayName,
+  }) async {
+    final trimmedName = displayName.trim();
+    if (trimmedName.isEmpty) {
+      throw ArgumentError('Display name is required when creating an account');
+    }
+
+    final payload = {
+      'email': email,
+      'password': password,
+      'displayName': trimmedName,
+      'display_name': trimmedName,
+    };
+    final data = await _post('/auth/signup', payload);
+    if (data is Map<String, dynamic>) {
+      return SignupResult.fromJson(data);
+    }
+    throw BackendException(statusCode: 500, message: 'Invalid signup response');
+  }
+
+  static Future<AuthSession> login({
+    required String email,
+    required String password,
+  }) async {
+    final payload = {
+      'email': email,
+      'password': password,
+    };
+    final data = await _post('/auth/login', payload);
+    if (data is Map<String, dynamic>) {
+      return AuthSession.fromLoginResponse(data);
+    }
+    throw BackendException(statusCode: 500, message: 'Invalid login response');
+  }
+
+  static Future<AuthSession> googleSignIn({
+    String? idToken,
+    String? accessToken,
+    String? requestUri,
+  }) async {
+    if ((idToken == null || idToken.isEmpty) &&
+        (accessToken == null || accessToken.isEmpty)) {
+      throw ArgumentError('Either idToken or accessToken must be provided');
+    }
+
+    final payload = <String, dynamic>{
+      if (idToken != null && idToken.isNotEmpty) 'idToken': idToken,
+      if (accessToken != null && accessToken.isNotEmpty)
+        'accessToken': accessToken,
+      if (requestUri != null && requestUri.isNotEmpty) 'requestUri': requestUri,
+    };
+
+    final data = await _post('/auth/google-signin', payload);
+    if (data is Map<String, dynamic>) {
+      return AuthSession.fromLoginResponse(data);
+    }
+    throw BackendException(
+      statusCode: 500,
+      message: 'Invalid google-signin response',
+    );
+  }
+
+  static Future<Map<String, dynamic>> verifyToken(String idToken) async {
+    final payload = {'idToken': idToken};
+    final data = await _post('/auth/verify-token', payload);
+    if (data is Map<String, dynamic>) {
+      return data;
+    }
+    throw BackendException(
+      statusCode: 500,
+      message: 'Invalid verify-token response',
+    );
+  }
+
+  static Future<AuthSession> refreshToken(String refreshToken) async {
+    final payload = {'refreshToken': refreshToken};
+    final data = await _post('/auth/refresh-token', payload);
+    if (data is Map<String, dynamic>) {
+      return AuthSession.fromLoginResponse(data);
+    }
+    throw BackendException(
+      statusCode: 500,
+      message: 'Invalid refresh-token response',
+    );
+  }
+
+  static Future<AuthSession> ensureValidToken(AuthSession session) async {
+    // If token is not expired and not near expiry, return as-is
+    if (!session.isExpired && !session.isNearExpiry) {
+      return session;
+    }
+
+    // Token is expired or near expiry, attempt to refresh using refresh token
+    final refreshedSession = await refreshToken(session.refreshToken);
+    // Preserve the original session's profile and other data
+    final updatedSession = session.copyWith(
+      idToken: refreshedSession.idToken,
+      refreshToken: refreshedSession.refreshToken,
+      expiresAt: refreshedSession.expiresAt,
+    );
+    
+    // Persist the refreshed session to avoid repeated refresh calls.
+    // Note: This creates a side effect, but is necessary to maintain session state
+    // across multiple API calls without requiring every caller to handle persistence.
+    await UserPreferences.setAuthSession(updatedSession);
+    
+    return updatedSession;
+  }
+
+  static Future<UserProfile> fetchUserProfile({
+    required String uid,
+    required AuthSession session,
+  }) async {
+    final validSession = await ensureValidToken(session);
+    final uri = await _buildUri('/users/$uid');
+    final response = await _http.get(
+      uri,
+      headers: _jsonHeaders({'Authorization': 'Bearer ${validSession.idToken}'}),
+    );
+    if (response.statusCode == 404) {
+      // Treat missing profile as an empty profile rather than an error.
+      return const UserProfile();
+    }
+
+    final data = _decodeResponse(response);
+    if (data is Map<String, dynamic>) {
+      final profileJson = data['profile'];
+      if (profileJson is Map<String, dynamic>) {
+        return UserProfile.fromJson(profileJson);
+      }
+    }
+    throw BackendException(
+      statusCode: 500,
+      message: 'Invalid profile response',
+    );
+  }
+
+  static Future<UserProfile> updateDisplayName({
+    required String uid,
+    required AuthSession session,
+    required String displayName,
+  }) async {
+    final validSession = await ensureValidToken(session);
+    final uri = await _buildUri('/users/$uid');
+    final response = await _http.patch(
+      uri,
+      headers: _jsonHeaders({'Authorization': 'Bearer ${validSession.idToken}'}),
+      body: jsonEncode({
+        'displayName': displayName,
+        'display_name': displayName,
+      }),
+    );
+    if (response.statusCode == 204 || response.body.isEmpty) {
+      return fetchUserProfile(uid: uid, session: validSession);
+    }
+
+    final data = _decodeResponse(response);
+    if (data is Map<String, dynamic>) {
+      final profileJson = data['profile'];
+      if (profileJson is Map<String, dynamic>) {
+        return UserProfile.fromJson(profileJson);
+      }
+
+      final directProfile = <String, dynamic>{
+        if (data['display_name'] != null) 'display_name': data['display_name'],
+        if (data['displayName'] != null) 'display_name': data['displayName'],
+        if (data['created_at'] != null) 'created_at': data['created_at'],
+        if (data['createdAt'] != null) 'created_at': data['createdAt'],
+        if (data['updated_at'] != null) 'updated_at': data['updated_at'],
+        if (data['updatedAt'] != null) 'updated_at': data['updatedAt'],
+      };
+      if (directProfile.isNotEmpty) {
+        return UserProfile.fromJson(directProfile);
+      }
+    }
+
+    return fetchUserProfile(uid: uid, session: validSession);
+  }
+
+  static Future<List<Chat>> listChats(String uid) async {
+    final data = await _get('/chats', queryParameters: {'uid': uid});
+    if (data is Map<String, dynamic>) {
+      final items = data['items'];
+      if (items is List) {
+        return items
+            .map(
+              (item) =>
+                  Chat.fromJson(item as Map<String, dynamic>, messages: []),
+            )
+            .toList()
+          ..sort((a, b) => b.updatedAt.compareTo(a.updatedAt));
+      }
+    }
+    return [];
+  }
+
+  static Future<List<ChatFileListEntry>> listUserFiles({
+    required AuthSession session,
+  }) async {
+    final validSession = await ensureValidToken(session);
+    final data = await _get('/files', headers: _authHeaders(validSession.idToken));
+    if (data is Map<String, dynamic>) {
+      final items = data['items'];
+      if (items is List) {
+        return items
+            .map((item) => ChatFileListEntry.fromJson(item as Map<String, dynamic>))
+            .toList();
+      }
+    }
+    return [];
+  }
+
+  static Future<List<ChatFile>> listChatFiles({
+    required String chatId,
+    required AuthSession session,
+    required String uid,
+  }) async {
+    final validSession = await ensureValidToken(session);
+    final data = await _get('/chats/$chatId/files', headers: _authHeaders(validSession.idToken));
+    if (data is Map<String, dynamic>) {
+      final items = data['items'];
+      if (items is List) {
+        return items
+            .map((item) => ChatFile.fromJson(item as Map<String, dynamic>))
+            .toList();
+      }
+    }
+    return [];
+  }
+  
+  /// Request a password reset email for an email/password account.
+  ///
+  /// The backend returns a JSON object on success (e.g. {"success": true, "message": "Password reset email sent."}).
+  /// Errors from the backend are thrown as [BackendException].
+  static Future<Map<String, dynamic>> forgotPassword({
+    required String email,
+  }) async {
+    final trimmed = email.trim();
+    if (trimmed.isEmpty) {
+      throw ArgumentError('Email is required');
+    }
+
+    final data = await _post('/auth/forgot-password', {'email': trimmed});
+    if (data is Map<String, dynamic>) {
+      return data;
+    }
+
+    throw BackendException(
+      statusCode: 500,
+      message: 'Invalid forgot-password response',
+    );
+  }
+
+  static Future<Chat> createChat({
+    required String uid,
+    String? title,
+    String? systemPrompt,
+  }) async {
+    final payload = {
+      'uid': uid,
+      if (title != null) 'title': title,
+      if (systemPrompt != null) 'systemPrompt': systemPrompt,
+    };
+    final data = await _post('/chats', payload);
+    if (data is Map<String, dynamic>) {
+      return Chat.fromJson(data);
+    }
+    throw BackendException(
+      statusCode: 500,
+      message: 'Invalid chat creation response',
+    );
+  }
+
+  static Future<Chat> updateChat({
+    required String chatId,
+    required String uid,
+    String? title,
+    String? systemPrompt,
+  }) async {
+    final payload = {
+      'uid': uid,
+      if (title != null) 'title': title,
+      if (systemPrompt != null) 'systemPrompt': systemPrompt,
+    };
+    final data = await _patch('/chats/$chatId', payload);
+    if (data is Map<String, dynamic>) {
+      return Chat.fromJson(data);
+    }
+    throw BackendException(
+      statusCode: 500,
+      message: 'Invalid chat update response',
+    );
+  }
+
+  static Future<void> deleteChat({
+    required String chatId,
+    required String uid,
+  }) async {
+    await _delete('/chats/$chatId', {'uid': uid});
+  }
+
+  static Future<Chat> getChat({
+    required String chatId,
+    required String uid,
+  }) async {
+    final data = await _get('/chats/$chatId', queryParameters: {'uid': uid});
+    if (data is Map<String, dynamic>) {
+      final chatJson = data['chat'] as Map<String, dynamic>?;
+      final messages = data['messages'] as List? ?? const [];
+      final files = data['files'] as List? ?? const [];
+      if (chatJson != null) {
+        return Chat.fromJson(
+          chatJson,
+          messages: messages
+              .map((m) => ChatMessage.fromJson(m as Map<String, dynamic>))
+              .toList(),
+          files: files
+              .whereType<Map<String, dynamic>>()
+              .map(ChatFile.fromJson)
+              .toList(),
+        );
+      }
+    }
+    throw BackendException(
+      statusCode: 500,
+      message: 'Invalid chat fetch response',
+    );
+  }
+
+  static Future<MessageSendResult> sendMessage({
+    required String chatId,
+    required String uid,
+    String? content,
+    String role = 'user',
+    List<String>? fileIds,
+    void Function(StreamedMessageEvent event)? onEvent,
+  }) async {
+    final payload = <String, dynamic>{
+      'uid': uid,
+      'role': role,
+      if (content != null && content.isNotEmpty) 'content': content,
+      if (fileIds != null && fileIds.isNotEmpty) 'fileIds': fileIds,
+      'stream': true,
+    };
+    return await _sendMessageStream(
+      chatId: chatId,
+      payload: payload,
+      onEvent: onEvent,
+      fallbackRole: role,
+      fallbackContent: content,
+      fallbackFileIds: fileIds,
+    );
+  }
+
+  static Future<MessageSendResult> _sendMessageStream({
+    required String chatId,
+    required Map<String, dynamic> payload,
+    void Function(StreamedMessageEvent event)? onEvent,
+    required String fallbackRole,
+    String? fallbackContent,
+    List<String>? fallbackFileIds,
+  }) async {
+    final uri = await _buildUri('/chats/$chatId/messages');
+    final request = http.Request('POST', uri)
+      ..headers.addAll({
+        'Content-Type': 'application/json',
+        'Accept': 'text/event-stream',
+      })
+      ..body = jsonEncode(payload);
+
+    final streamedResponse = await _http.send(request);
+
+    if (streamedResponse.statusCode >= 400) {
+      final errorResponse = await http.Response.fromStream(streamedResponse);
+      _decodeResponse(errorResponse); // will throw a BackendException
+      throw BackendException(
+        statusCode: streamedResponse.statusCode,
+        message: 'Streaming request failed with status ${streamedResponse.statusCode}',
+      );
+    }
+
+    final events = <Map<String, dynamic>>[];
+    final rawResponse = <String, dynamic>{'streamed': true, 'events': events};
+    ChatMessage? userMessage;
+    ChatMessage? assistantMessage;
+    var latestAssistantText = '';
+    var buffer = '';
+
+    void applyEvent(StreamedMessageEvent event) {
+      events.add(event.data);
+      onEvent?.call(event);
+
+      final data = event.data;
+      switch (event.type) {
+        case 'user_message':
+          final message = data['message'];
+          if (message is Map<String, dynamic>) {
+            userMessage = ChatMessage.fromJson(message);
+            rawResponse['userMessage'] = message;
+          }
+          break;
+        case 'token':
+          final fullText = data['text']?.toString();
+          if (fullText != null && fullText.isNotEmpty) {
+            latestAssistantText = fullText;
+          } else {
+            final token = data['token']?.toString();
+            if (token != null && token.isNotEmpty) {
+              latestAssistantText += token;
+            }
+          }
+          break;
+        case 'assistant_message':
+          final message = data['message'];
+          if (message is Map<String, dynamic>) {
+            assistantMessage = ChatMessage.fromJson(message);
+            latestAssistantText = assistantMessage!.content;
+            rawResponse['assistantMessage'] = message;
+          }
+          break;
+        case 'chat_title':
+          if (data['title'] != null) {
+            rawResponse['chatTitle'] = data['title'];
+          }
+          break;
+        case 'notes_action':
+          final action = data['action'];
+          if (action is Map<String, dynamic>) {
+            final actions = rawResponse.putIfAbsent('notesActions', () => <Map<String, dynamic>>[])
+                as List<Map<String, dynamic>>;
+            actions.add(Map<String, dynamic>.from(action));
+          }
+          break;
+        case 'notes_actions_complete':
+          final actionsList = data['actions'];
+          if (actionsList is List) {
+            final actions = rawResponse.putIfAbsent('notesActions', () => <Map<String, dynamic>>[])
+                as List<Map<String, dynamic>>;
+            for (final item in actionsList) {
+              if (item is Map<String, dynamic>) {
+                actions.add(Map<String, dynamic>.from(item));
+              }
+            }
+          }
+          rawResponse['notesActionsComplete'] = true;
+          break;
+        case 'done':
+          rawResponse['done'] = true;
+          break;
+        case 'error':
+          final message = data['message']?.toString() ?? 'Streaming error';
+          final code = data['error']?.toString();
+          throw BackendException(
+            statusCode: streamedResponse.statusCode,
+            message: message,
+            code: code,
+            details: data,
+          );
+        default:
+          break;
+      }
+    }
+
+    final stream = streamedResponse.stream.transform(const Utf8Decoder());
+    await for (final chunk in stream) {
+      buffer += chunk;
+      buffer = buffer.replaceAll('\r', '');
+      while (true) {
+        final separator = buffer.indexOf('\n\n');
+        if (separator == -1) {
+          break;
+        }
+        final rawEvent = buffer.substring(0, separator);
+        buffer = buffer.substring(separator + 2);
+        final event = _parseSseEvent(rawEvent);
+        if (event == null) {
+          continue;
+        }
+        applyEvent(event);
+      }
+    }
+
+    final remainder = buffer.replaceAll('\r', '').trim();
+    if (remainder.isNotEmpty) {
+      final event = _parseSseEvent(remainder);
+      if (event != null) {
+        applyEvent(event);
+      }
+    }
+
+    final ChatMessage finalUserMessage = userMessage ??
+        ChatMessage(
+          id: 'user-${DateTime.now().microsecondsSinceEpoch}',
+          role: fallbackRole,
+          content: fallbackContent ?? '',
+          fileIds: fallbackFileIds ?? const [],
+        );
+
+    final ChatMessage? finalAssistantMessage;
+    if (assistantMessage != null) {
+      finalAssistantMessage = assistantMessage;
+    } else if (latestAssistantText.isNotEmpty) {
+      finalAssistantMessage = ChatMessage(
+        id: 'assistant-${DateTime.now().microsecondsSinceEpoch}',
+        role: 'assistant',
+        content: latestAssistantText,
+      );
+    } else {
+      finalAssistantMessage = null;
+    }
+
+    if (latestAssistantText.isNotEmpty) {
+      rawResponse['finalText'] = latestAssistantText;
+    }
+    rawResponse['statusCode'] = streamedResponse.statusCode;
+
+    return MessageSendResult(
+      userMessage: finalUserMessage,
+      assistantMessage: finalAssistantMessage,
+      rawResponse: rawResponse,
+    );
+  }
+
+  static StreamedMessageEvent? _parseSseEvent(String rawEvent) {
+    final cleaned = rawEvent.replaceAll('\r', '');
+    String? eventName;
+    final dataLines = <String>[];
+
+    for (final line in cleaned.split('\n')) {
+      if (line.isEmpty) {
+        continue;
+      }
+      if (line.startsWith(':')) {
+        continue;
+      }
+      if (line.startsWith('event:')) {
+        eventName = line.substring(6).trim();
+      } else if (line.startsWith('data:')) {
+        dataLines.add(line.substring(5).trimLeft());
+      }
+    }
+
+    if (dataLines.isEmpty) {
+      return null;
+    }
+
+    final dataText = dataLines.join('\n');
+    if (dataText.isEmpty) {
+      return null;
+    }
+
+    try {
+      final decoded = jsonDecode(dataText);
+      if (decoded is Map<String, dynamic>) {
+        final type = decoded['type']?.toString() ?? eventName ?? 'message';
+        return StreamedMessageEvent(type: type, data: decoded);
+      }
+    } catch (_) {
+      // ignore parse errors and fall back to raw data
+    }
+
+    return StreamedMessageEvent(
+      type: eventName ?? 'message',
+      data: {'raw': dataText},
+    );
+  }
+
+  static Future<ChatFile> uploadChatFile({
+    required String chatId,
+    required String uid,
+    required AuthSession session,
+    required List<int> bytes,
+    required String fileName,
+    String? mimeType,
+  }) async {
+    final validSession = await ensureValidToken(session);
+    final uri = await _buildUri('/chats/$chatId/files');
+    final request = http.MultipartRequest('POST', uri)..fields['uid'] = uid;
+
+    http.MultipartFile multipartFile;
+    if (mimeType != null && mimeType.isNotEmpty) {
+      try {
+        multipartFile = http.MultipartFile.fromBytes(
+          'file',
+          bytes,
+          filename: fileName,
+          contentType: MediaType.parse(mimeType),
+        );
+      } catch (_) {
+        multipartFile = http.MultipartFile.fromBytes(
+          'file',
+          bytes,
+          filename: fileName,
+        );
+      }
+    } else {
+      multipartFile = http.MultipartFile.fromBytes(
+        'file',
+        bytes,
+        filename: fileName,
+      );
+    }
+
+    request.files.add(multipartFile);
+    request.headers['Authorization'] = 'Bearer ${validSession.idToken}';
+    request.headers['Accept'] = 'application/json';
+
+    final streamed = await _http.send(request);
+    final response = await http.Response.fromStream(streamed);
+    final data = _decodeResponse(response);
+    if (data is Map<String, dynamic>) {
+      final fileJson = data['file'];
+      if (fileJson is Map<String, dynamic>) {
+        return ChatFile.fromJson(fileJson);
+      }
+    }
+    throw BackendException(
+      statusCode: response.statusCode,
+      message: 'Invalid file upload response',
+    );
+  }
+
+  static Future<Uri> buildFileUri(
+    ChatFile file, {
+    required String uid,
+    bool inline = false,
+  }) async {
+    final candidates = <String>[
+      if (inline && file.previewUrl.isNotEmpty) file.previewUrl,
+      if (!inline && file.downloadUrl.isNotEmpty) file.downloadUrl,
+      if (file.downloadPath.isNotEmpty) file.downloadPath,
+    ];
+
+    for (final candidate in candidates) {
+      if (candidate.isEmpty) {
+        continue;
+      }
+
+      try {
+        final uri = Uri.parse(candidate);
+        if (uri.hasScheme) {
+          final query = Map<String, String>.from(uri.queryParameters);
+          query['uid'] = uid;
+          if (inline) {
+            query['inline'] = '1';
+          } else {
+            query.remove('inline');
+          }
+          return uri.replace(queryParameters: query.isEmpty ? null : query);
+        }
+      } catch (_) {
+        // fall through to relative path handling
+      }
+
+      final questionIndex = candidate.indexOf('?');
+      final pathPart = questionIndex == -1 ? candidate : candidate.substring(0, questionIndex);
+      if (pathPart.isEmpty) {
+        continue;
+      }
+
+      final existingQuery = questionIndex != -1 && questionIndex + 1 < candidate.length
+          ? Uri.splitQueryString(candidate.substring(questionIndex + 1))
+          : <String, String>{};
+      existingQuery['uid'] = uid;
+      if (inline) {
+        existingQuery['inline'] = '1';
+      } else {
+        existingQuery.remove('inline');
+      }
+
+      final normalizedPath = pathPart.startsWith('/') ? pathPart : '/$pathPart';
+      return _buildUri(normalizedPath, queryParameters: existingQuery);
+    }
+
+    throw BackendException(
+      statusCode: 500,
+      message: 'File download URL unavailable.',
+    );
+  }
+
+  static Future<List<Note>> listNotes(
+    String uid, {
+    int? limit,
+  }) async {
+    final params = <String, dynamic>{'uid': uid};
+    if (limit != null && limit > 0) {
+      params['limit'] = limit;
+    }
+    final data = await _get('/notes', queryParameters: params);
+    if (data is Map<String, dynamic>) {
+      final items = data['items'];
+      if (items is List) {
+        return items
+            .whereType<Map<String, dynamic>>()
+            .map(Note.fromJson)
+            .toList()
+          ..sort((a, b) => b.updatedAt.compareTo(a.updatedAt));
+      }
+    }
+    return const <Note>[];
+  }
+
+  static Future<Note> createNote({
+    required String uid,
+    String? title,
+    String? content,
+    List<String>? keywords,
+    List<String>? triggerWords,
+  }) async {
+    final payload = <String, dynamic>{
+      'uid': uid,
+      if (title != null) 'title': title,
+      if (content != null) ...{
+        'content': content,
+        'excerpt': content,
+      },
+      if (keywords != null) 'keywords': keywords,
+      if (triggerWords != null) 'triggerWords': triggerWords,
+    };
+
+    final data = await _post('/notes', payload);
+    if (data is Map<String, dynamic>) {
+      return Note.fromJson(data);
+    }
+    throw BackendException(
+      statusCode: 500,
+      message: 'Invalid note creation response',
+    );
+  }
+
+  static Future<Note> getNote({
+    required String noteId,
+    required String uid,
+  }) async {
+    final data = await _get(
+      '/notes/$noteId',
+      queryParameters: {'uid': uid},
+    );
+    if (data is Map<String, dynamic>) {
+      return Note.fromJson(data);
+    }
+    throw BackendException(
+      statusCode: 500,
+      message: 'Invalid note response',
+    );
+  }
+
+  static Future<Note> updateNote({
+    required String noteId,
+    required String uid,
+    String? title,
+    String? content,
+    String? excerpt,
+    List<String>? keywords,
+    List<String>? triggerWords,
+  }) async {
+    final payload = <String, dynamic>{
+      'uid': uid,
+    };
+    if (title != null) payload['title'] = title;
+    final resolvedContent = content ?? excerpt;
+    if (resolvedContent != null) {
+      payload['content'] = resolvedContent;
+      payload['excerpt'] = resolvedContent;
+    }
+    if (keywords != null) payload['keywords'] = keywords;
+    if (triggerWords != null) payload['triggerWords'] = triggerWords;
+
+    if (payload.length <= 1) {
+      throw ArgumentError('No updatable fields supplied for note update.');
+    }
+
+    final data = await _patch('/notes/$noteId', payload);
+    if (data is Map<String, dynamic>) {
+      return Note.fromJson(data);
+    }
+    throw BackendException(
+      statusCode: 500,
+      message: 'Invalid note update response',
+    );
+  }
+
+  static Future<void> deleteNote({
+    required String noteId,
+    required String uid,
+  }) async {
+    await _delete('/notes/$noteId', {'uid': uid});
+  }
+
+  static Future<List<Note>> searchNotes({
+    required String uid,
+    String? query,
+    List<String>? keywords,
+    List<String>? triggerWords,
+    int? limit,
+  }) async {
+    final params = <String, dynamic>{'uid': uid};
+    if (query != null && query.trim().isNotEmpty) {
+      params['q'] = query.trim();
+    }
+    if (keywords != null && keywords.isNotEmpty) {
+      params['keywords'] = keywords;
+    }
+    if (triggerWords != null && triggerWords.isNotEmpty) {
+      params['triggerWords'] = triggerWords;
+    }
+    if (limit != null && limit > 0) {
+      params['limit'] = limit;
+    }
+
+    final data = await _get('/notes/search', queryParameters: params);
+    if (data is Map<String, dynamic>) {
+      final items = data['items'];
+      if (items is List) {
+        return items
+            .whereType<Map<String, dynamic>>()
+            .map(Note.fromJson)
+            .toList()
+          ..sort((a, b) => b.updatedAt.compareTo(a.updatedAt));
+      }
+    }
+    return const <Note>[];
+  }
+
+  // Calendar API
+  static Future<Map<String, dynamic>> getCalendarAuthUrl({
+    required String redirectUri,
+    String? state,
+    String? codeChallenge,
+    String? codeChallengeMethod,
+    String? accessType,
+  }) async {
+    final query = <String, String>{
+      'redirectUri': redirectUri,
+      if (state != null) 'state': state,
+      if (codeChallenge != null) 'codeChallenge': codeChallenge,
+      if (codeChallengeMethod != null) 'codeChallengeMethod': codeChallengeMethod,
+      if (accessType != null) 'accessType': accessType,
+    };
+    return await _get('/calendar/google/auth-url', queryParameters: query);
+  }
+
+  static Future<Map<String, dynamic>> exchangeCalendarCode({
+    required String code,
+    required String redirectUri,
+    required AuthSession session,
+    String? codeVerifier,
+  }) async {
+    final validSession = await ensureValidToken(session);
+    return await _post('/calendar/google/exchange', {
+      'code': code,
+      'redirectUri': redirectUri,
+      if (codeVerifier != null) 'codeVerifier': codeVerifier,
+    }, headers: {'Authorization': 'Bearer ${validSession.idToken}'});
+  }
+
+  static Future<Map<String, dynamic>> getCalendarConnection({
+    required AuthSession session,
+  }) async {
+    final validSession = await ensureValidToken(session);
+    return await _get('/calendar/google/connection', headers: {'Authorization': 'Bearer ${validSession.idToken}'});
+  }
+
+  static Future<void> deleteCalendarConnection({
+    required AuthSession session,
+  }) async {
+    final validSession = await ensureValidToken(session);
+    await _delete('/calendar/google/connection', {}, headers: {'Authorization': 'Bearer ${validSession.idToken}'});
+  }
+
+  static Future<Map<String, dynamic>> getCalendarEvents({
+    required AuthSession session,
+    String? calendarId,
+    DateTime? timeMin,
+    DateTime? timeMax,
+    int? maxResults,
+    String? orderBy,
+    String? syncToken,
+  }) async {
+    final validSession = await ensureValidToken(session);
+    final query = <String, String>{
+      if (calendarId != null) 'calendarId': calendarId,
+      if (timeMin != null) 'timeMin': timeMin.toIso8601String(),
+      if (timeMax != null) 'timeMax': timeMax.toIso8601String(),
+      if (maxResults != null) 'maxResults': maxResults.toString(),
+      if (orderBy != null) 'orderBy': orderBy,
+      if (syncToken != null) 'syncToken': syncToken,
+    };
+    return await _get('/calendar/events', queryParameters: query, headers: {'Authorization': 'Bearer ${validSession.idToken}'});
+  }
+
+  static Future<Map<String, dynamic>> createCalendarEvent({
+    required AuthSession session,
+    String calendarId = 'primary',
+    required Map<String, dynamic> event,
+  }) async {
+    final validSession = await ensureValidToken(session);
+    return await _post('/calendar/events', {
+      'calendarId': calendarId,
+      'event': event,
+    }, headers: {'Authorization': 'Bearer ${validSession.idToken}'});
+  }
+
+  static Future<void> deleteCalendarEvent(String eventId, {
+    required AuthSession session,
+    String calendarId = 'primary',
+  }) async {
+    final validSession = await ensureValidToken(session);
+    await _delete('/calendar/events/$eventId', {}, queryParameters: {'calendarId': calendarId}, headers: {'Authorization': 'Bearer ${validSession.idToken}'});
+  }
+
+  static Future<Map<String, dynamic>> updateCalendarEvent({
+    required AuthSession session,
+    required String eventId,
+    String calendarId = 'primary',
+    required Map<String, dynamic> event,
+  }) async {
+    final validSession = await ensureValidToken(session);
+    return await _patch('/calendar/events/$eventId', {
+      'calendarId': calendarId,
+      'event': event,
+    }, headers: {'Authorization': 'Bearer ${validSession.idToken}'});
+  }
+
+  static Future<dynamic> _get(
+    String path, {
+    Map<String, dynamic>? queryParameters,
+    Map<String, String>? headers,
+  }) async {
+    final uri = await _buildUri(path, queryParameters: queryParameters);
+    final response = await _http.get(uri, headers: _jsonHeaders(headers));
+    return _decodeResponse(response);
+  }
+
+  static Future<dynamic> _post(
+    String path,
+    Map<String, dynamic> body, {
+    Map<String, String>? headers,
+  }) async {
+    final uri = await _buildUri(path);
+    final response = await _http.post(
+      uri,
+      headers: _jsonHeaders(headers),
+      body: jsonEncode(body),
+    );
+    return _decodeResponse(response);
+  }
+
+  static Future<dynamic> _patch(
+    String path,
+    Map<String, dynamic> body, {
+    Map<String, String>? headers,
+  }) async {
+    final uri = await _buildUri(path);
+    final response = await _http.patch(
+      uri,
+      headers: _jsonHeaders(headers),
+      body: jsonEncode(body),
+    );
+    return _decodeResponse(response);
+  }
+
+  static Future<dynamic> _delete(
+    String path,
+    Map<String, dynamic> body, {
+    Map<String, dynamic>? queryParameters,
+    Map<String, String>? headers,
+  }) async {
+    final uri = await _buildUri(path, queryParameters: queryParameters);
+    final response = await _http.delete(
+      uri,
+      headers: _jsonHeaders(headers),
+      body: jsonEncode(body),
+    );
+    return _decodeResponse(response);
+  }
+
+  static Future<Uri> _buildUri(
+    String path, {
+    Map<String, dynamic>? queryParameters,
+  }) async {
+    var base = await getBackendUrl();
+    if (!base.endsWith('/')) base = '$base/';
+    final normalizedPath = path.startsWith('/') ? path.substring(1) : path;
+    final uri = Uri.parse(base).resolve(normalizedPath);
+    if (queryParameters == null) return uri;
+    final filtered = {
+      for (final entry in queryParameters.entries)
+        if (entry.value != null)
+          entry.key: entry.value is List
+              ? entry.value
+                    .where((element) => element != null)
+                    .map((element) => element.toString())
+                    .toList()
+              : entry.value.toString(),
+    };
+    return uri.replace(queryParameters: filtered.isEmpty ? null : filtered);
+  }
+
+  static dynamic _decodeResponse(http.Response response) {
+    final statusCode = response.statusCode;
+    if (statusCode >= 200 && statusCode < 300) {
+      if (statusCode == 204 || response.body.isEmpty) return null;
+      return jsonDecode(response.body);
+    }
+
+    Map<String, dynamic>? errorBody;
+    try {
+      if (response.body.isNotEmpty) {
+        final decoded = jsonDecode(response.body);
+        if (decoded is Map<String, dynamic>) {
+          errorBody = decoded;
+        }
+      }
+    } catch (_) {
+      // ignore parse errors
+    }
+
+    final message =
+        errorBody?['message']?.toString() ??
+        response.reasonPhrase ??
+        'Request failed with status $statusCode';
+    final code = errorBody?['error']?.toString();
+    throw BackendException(
+      statusCode: statusCode,
+      message: message,
+      code: code,
+      details: errorBody,
+    );
+  }
+
+  static Map<String, String> _jsonHeaders([Map<String, String>? extra]) {
+    return {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json',
+      if (extra != null) ...extra,
+    };
+  }
+
+  static Map<String, String> _authHeaders(String idToken) {
+    return {'Authorization': 'Bearer $idToken'};
+  }
+
+  static String _normalizeBaseUrl(String url) {
+    var value = url.trim();
+    if (value.isEmpty) return '';
+    if (!value.startsWith('http://') && !value.startsWith('https://')) {
+      value = 'http://$value';
+    }
+    return value;
+  }
+}
+
+class MessageSendResult {
+  final ChatMessage userMessage;
+  final ChatMessage? assistantMessage;
+  final Map<String, dynamic> rawResponse;
+
+  const MessageSendResult({
+    required this.userMessage,
+    this.assistantMessage,
+    this.rawResponse = const {},
+  });
+}

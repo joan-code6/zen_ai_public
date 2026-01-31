@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "benchmark_name": "Needle in a Haystack - AI Wrapper Test",
+    "version": "1.0",
+    "timestamp": "2026-01-28T18:31:57.879070",
+    "run_parameters": {
+      "max_tests": 1,
+      "total_available_tests": 100
+    }
+  },
+  "configuration": {
+    "dataset": {
+      "path": "datasets/dataset_ai_v2_100.json",
+      "custom_datasets": [
+        "datasets/dataset_ai_v2_100.json"
+      ]
+    },
+    "settings": {
+      "num_useless_notes_to_append": 300,
+      "max_context_notes": 20,
+      "similarity_threshold": 0.7,
+      "use_semantic_search": false,
+      "model_selection": {
+        "use_openrouter": true,
+        "default_model": "z-ai/glm-4.5-air",
+        "judge_model": "z-ai/glm-4.5-air"
+      },
+      "evaluation": {
+        "judge_type": "llm",
+        "output_format": "binary",
+        "accepted_positive_responses": [
+          "correct",
+          "true",
+          "yes"
+        ],
+        "accepted_negative_responses": [
+          "incorrect",
+          "false",
+          "no"
+        ]
+      }
+    }
+  },
+  "summary": {
+    "total_tests": 1,
+    "passed": 1,
+    "failed": 0,
+    "success_rate": 100.0
+  },
+  "test_results": [
+    {
+      "id": "case_fictional_001",
+      "question": "Where did Uncle Barnaby hide the spare key to the attic?",
+      "expected_answer": "Inside the hollowed-out copy of 'The Silver Albatross' on the third shelf.",
+      "ai_answer": "The spare attic key is hidden inside a hollowed-out copy of the book \"The Silver Albatross\" on the third shelf of Uncle Barnaby's study.",
+      "correct": true,
+      "context_info": {
+        "total_notes": 220,
+        "important_notes": 1,
+        "trick_notes": 1,
+        "useless_notes": 218
+      },
+      "test_case_details": {
+        "important_notes": [
+          {
+            "title": "Barnaby's Security Habits",
+            "content": "Uncle Barnaby always hides the spare attic key inside a hollowed-out copy of a book titled 'The Silver Albatross' which sits on the third shelf of his study.",
+            "trigger_words": [
+              "Barnaby",
+              "attic",
+              "key",
+              "hidden",
+              "Silver Albatross",
+              "shelf"
+            ]
+          }
+        ],
+        "trick_notes": [
+          {
+            "title": "Front Door Access",
+            "content": "The front door key is kept under the blue ceramic gnome in the garden near the hydrangeas.",
+            "trigger_words": [
+              "key",
+              "hidden",
+              "gnome",
+              "door",
+              "garden"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "cost_and_usage": {
+    "total_cost": 0.17758000000000004,
+    "total_tokens": 8879,
+    "cost_breakdown": {
+      "query_calls": 0,
+      "judge_calls": 0
+    }
+  }
+}

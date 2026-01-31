@@ -1,0 +1,37 @@
+{
+  "benchmark_config": {
+    "description": "Configuration for benchmark testing of the AI wrapper",
+    "version": "1.0",
+    "settings": {
+      "num_useless_notes_to_append": 300,
+      "max_context_notes": 300,
+      "similarity_threshold": 0.7,
+      "use_semantic_search": false,
+      "model_selection": {
+        "use_openrouter": true,
+        "default_model": "z-ai/glm-4.5-air",
+        "judge_model": "z-ai/glm-4.5-air"
+      },
+      "evaluation": {
+        "judge_type": "llm",
+        "output_format": "binary",
+        "accepted_positive_responses": [
+          "correct",
+          "true",
+          "yes"
+        ],
+        "accepted_negative_responses": [
+          "incorrect",
+          "false",
+          "no"
+        ]
+      }
+    },
+    "dataset": {
+      "path": "datasets/dataset_ai_v2_100.json",
+      "custom_datasets": [
+        "datasets/dataset_ai_v2_100.json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "description": "Benchmark dataset for 'Needle in a Haystack' AI wrapper testing",
+  "version": "1.0",
+  "test_cases": [
+    {
+      "id": "example_001",
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "important_notes": [
+        {
+          "title": "European Capitals",
+          "content": "Paris is the capital and largest city of France, located on the Seine River.",
+          "trigger_words": ["Paris", "France", "capital", "European", "city", "Seine"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "French Cities",
+          "content": "Lyon is a major city in France known for its historical architecture and cuisine.",
+          "trigger_words": ["Lyon", "France", "city", "architecture", "cuisine", "French"]
+        },
+        {
+          "title": "European Geography",
+          "content": "Berlin is the capital of Germany, another important European nation.",
+          "trigger_words": ["Berlin", "Germany", "capital", "European", "nation", "city"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Programming Languages",
+          "content": "Python is a popular programming language known for its simplicity and readability.",
+          "trigger_words": ["Python", "programming", "language", "code", "development", "software"]
+        },
+        {
+          "title": "Coffee Types",
+          "content": "Espresso is a concentrated coffee beverage brewed by forcing hot water through finely-ground coffee beans.",
+          "trigger_words": ["espresso", "coffee", "beverage", "brewing", "beans", "hot"]
+        },
+        {
+          "title": "Mountain Ranges",
+          "content": "The Himalayas are the highest mountain range in the world, located in Asia.",
+          "trigger_words": ["Himalayas", "mountains", "range", "Asia", "peaks", "elevation"]
+        },
+        {
+          "title": "Ocean Creatures",
+          "content": "Dolphins are highly intelligent marine mammals known for their playful behavior.",
+          "trigger_words": ["dolphins", "marine", "mammals", "ocean", "intelligent", "aquatic"]
+        },
+        {
+          "title": "Musical Instruments",
+          "content": "The piano is a versatile keyboard instrument capable of producing a wide range of sounds.",
+          "trigger_words": ["piano", "keyboard", "instrument", "music", "keys", "sound"]
+        }
+      ]
+    },
+    {
+      "id": "example_002",
+      "question": "Who wrote Romeo and Juliet?",
+      "answer": "William Shakespeare",
+      "important_notes": [
+        {
+          "title": "Shakespeare's Works",
+          "content": "William Shakespeare wrote Romeo and Juliet, one of his most famous tragic plays.",
+          "trigger_words": ["Shakespeare", "Romeo", "Juliet", "playwright", "tragedy", "literature"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Famous Playwrights",
+          "content": "Christopher Marlowe was a contemporary of Shakespeare and wrote several notable plays.",
+          "trigger_words": ["Marlowe", "playwright", "contemporary", "theater", "drama", "Elizabethan"]
+        },
+        {
+          "title": "Classic Literature",
+          "content": "Charles Dickens wrote many famous novels including Oliver Twist and Great Expectations.",
+          "trigger_words": ["Dickens", "novelist", "literature", "Victorian", "novels", "author"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Sports Equipment",
+          "content": "A basketball is a spherical ball used in the sport of basketball, typically made of leather or rubber.",
+          "trigger_words": ["basketball", "sports", "ball", "equipment", "game", "athletic"]
+        },
+        {
+          "title": "Weather Patterns",
+          "content": "Cumulus clouds are fluffy white clouds that often indicate fair weather conditions.",
+          "trigger_words": ["clouds", "weather", "cumulus", "sky", "atmosphere", "meteorology"]
+        },
+        {
+          "title": "Cooking Techniques",
+          "content": "Sautéing involves cooking food quickly in a small amount of oil over relatively high heat.",
+          "trigger_words": ["sautéing", "cooking", "technique", "culinary", "heat", "oil"]
+        },
+        {
+          "title": "Garden Plants",
+          "content": "Roses are flowering plants known for their beauty and fragrance, popular in gardens worldwide.",
+          "trigger_words": ["roses", "flowers", "plants", "garden", "fragrance", "petals"]
+        },
+        {
+          "title": "Transportation",
+          "content": "Bicycles are two-wheeled vehicles powered by human pedaling, used for transportation and recreation.",
+          "trigger_words": ["bicycle", "transportation", "vehicle", "pedaling", "wheels", "cycling"]
+        }
+      ]
+    }
+  ]
+}
