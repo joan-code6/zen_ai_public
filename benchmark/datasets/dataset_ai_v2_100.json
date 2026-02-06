@@ -1,0 +1,2607 @@
+{
+  "description": "Benchmark dataset for 'Needle in a Haystack' AI wrapper testing using fictional and personal data points.",
+  "version": "1.4",
+  "test_cases": [
+    {
+      "id": "case_fictional_001",
+      "question": "Where did Uncle Barnaby hide the spare key to the attic?",
+      "answer": "Inside the hollowed-out copy of 'The Silver Albatross' on the third shelf.",
+      "important_notes": [
+        {
+          "title": "Barnaby's Security Habits",
+          "content": "Uncle Barnaby always hides the spare attic key inside a hollowed-out copy of a book titled 'The Silver Albatross' which sits on the third shelf of his study.",
+          "trigger_words": ["Barnaby", "attic", "key", "hidden", "Silver Albatross", "shelf"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Front Door Access",
+          "content": "The front door key is kept under the blue ceramic gnome in the garden near the hydrangeas.",
+          "trigger_words": ["key", "hidden", "gnome", "door", "garden"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Lunch Menu",
+          "content": "Tuesday's lunch will consist of grilled cheese sandwiches and tomato basil soup served at noon.",
+          "trigger_words": ["lunch", "food", "sandwich", "Tuesday"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_002",
+      "question": "What is the secret ingredient in the Solstice Stew served at the Iron Oak Tavern?",
+      "answer": "Three crushed Moon-thistle seeds harvested during a lunar eclipse.",
+      "important_notes": [
+        {
+          "title": "Iron Oak Recipes",
+          "content": "The signature Solstice Stew at the Iron Oak Tavern gets its unique flavor from three crushed Moon-thistle seeds, but only if they were harvested during a lunar eclipse.",
+          "trigger_words": ["Solstice Stew", "Iron Oak", "ingredient", "Moon-thistle", "seeds", "recipe"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Iron Oak Beverage",
+          "content": "The Tavern's famous ale is brewed with wild honey and toasted barley sourced from the southern valley.",
+          "trigger_words": ["Iron Oak", "ale", "brewed", "honey", "barley"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Stable Fees",
+          "content": "Overnight boarding for a single horse costs four copper coins and includes a fresh bale of hay.",
+          "trigger_words": ["horse", "stable", "boarding", "coins"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_003",
+      "question": "What happens if you rotate the Zenith Dial to the 'Serpent' position at midnight?",
+      "answer": "A hidden staircase descends into the Sapphire Grotto.",
+      "important_notes": [
+        {
+          "title": "Zenith Dial Mechanics",
+          "content": "According to the ancient logs, rotating the Zenith Dial specifically to the 'Serpent' position exactly at midnight causes a hidden staircase to descend into the Sapphire Grotto.",
+          "trigger_words": ["Zenith Dial", "Serpent", "midnight", "staircase", "Grotto", "hidden"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Zenith Dial Daytime Use",
+          "content": "During noon, setting the Zenith Dial to the 'Sun' position activates the central irrigation fountains in the courtyard.",
+          "trigger_words": ["Zenith Dial", "noon", "Sun", "fountains", "courtyard"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Mining Report",
+          "content": "The local mines have reported a 15% increase in coal production over the last fiscal quarter.",
+          "trigger_words": ["mining", "coal", "production", "quarter"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_004",
+      "question": "What is the Wi-Fi password for the 'Cloud-9' executive lounge in the Sky-City terminal?",
+      "answer": "Nebula-77-Skyward!",
+      "important_notes": [
+        {
+          "title": "Sky-City Network Protocols",
+          "content": "The Cloud-9 executive lounge uses a rotating security key; the current Wi-Fi password is set to Nebula-77-Skyward!",
+          "trigger_words": ["Wi-Fi", "password", "Cloud-9", "Sky-City", "terminal", "Nebula"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Guest Access Network",
+          "content": "Standard guest Wi-Fi in the main terminal lobby is free and uses the password 'SkyGuest2024'.",
+          "trigger_words": ["Wi-Fi", "password", "guest", "network", "terminal"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Flight Maintenance",
+          "content": "The landing gear on the XB-500 cruisers requires hydraulic fluid checks every 400 flight hours.",
+          "trigger_words": ["flight", "maintenance", "XB-500", "hydraulic", "hours"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_005",
+      "question": "Which specific plant in the Ever-Mist Conservatory must be watered with chilled distilled water?",
+      "answer": "The Azure Fern located in the northeast corner of the glass dome.",
+      "important_notes": [
+        {
+          "title": "Botanical Care Logs",
+          "content": "The head gardener noted that the Azure Fern in the northeast corner is extremely sensitive; it must only be watered with chilled distilled water to prevent leaf wilting.",
+          "trigger_words": ["plant", "watered", "chilled", "Azure Fern", "Conservatory", "distilled"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Ruby Rose Irrigation",
+          "content": "The Ruby Roses in the center of the dome require warm nutrient-rich water twice a day.",
+          "trigger_words": ["plant", "water", "Ruby Rose", "dome", "irrigation"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Ticketing Info",
+          "content": "Student tickets for the botanical tour are half-price on weekends if a valid ID is presented.",
+          "trigger_words": ["tickets", "tour", "price", "student", "weekends"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_006",
+      "question": "What is the passcode to open the cryogenic vault in Sector 7?",
+      "answer": "Alpha-Kilo-Niner-Four",
+      "important_notes": [
+        {
+          "title": "Security Override Codes",
+          "content": "For emergency access to the Sector 7 cryogenic vault, the manual override passcode is Alpha-Kilo-Niner-Four.",
+          "trigger_words": ["passcode", "vault", "Sector 7", "cryogenic", "Alpha-Kilo", "code"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Sector 4 Storage",
+          "content": "The standard storage lockers in Sector 4 use a simple four-digit pin: 1-2-3-4.",
+          "trigger_words": ["Sector 4", "storage", "lockers", "pin", "code"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Cafeteria Schedule",
+          "content": "The staff cafeteria is open for breakfast from 06:00 to 09:00 daily.",
+          "trigger_words": ["cafeteria", "breakfast", "staff", "schedule"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_007",
+      "question": "What color ribbon is tied to the winning pigeon in the 'Wings of Glory' race?",
+      "answer": "A shimmering violet silk ribbon with a gold buckle.",
+      "important_notes": [
+        {
+          "title": "Race Results Log",
+          "content": "The champion bird of the Wings of Glory tournament was identified by a shimmering violet silk ribbon with a gold buckle tied to its left leg.",
+          "trigger_words": ["pigeon", "race", "ribbon", "violet", "shimmering", "Wings of Glory"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Runner-Up Distinctions",
+          "content": "The second-place pigeon wore a standard crimson band to signify its position in the aerial hierarchy.",
+          "trigger_words": ["pigeon", "race", "crimson", "band", "bird"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Aviation History",
+          "content": "Early biplanes used a rotary engine design that was later phased out due to cooling inefficiency.",
+          "trigger_words": ["wings", "glory", "engine", "aviation", "flight"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_008",
+      "question": "What is the nickname of the captain of the starship 'Nebula Ghost'?",
+      "answer": "Iron-Eye Jax.",
+      "important_notes": [
+        {
+          "title": "Starship Manifest",
+          "content": "The crew of the Nebula Ghost refers to their commanding officer exclusively by the nickname 'Iron-Eye Jax' due to his prosthetic optical sensor.",
+          "trigger_words": ["captain", "Nebula Ghost", "nickname", "Iron-Eye Jax", "starship", "crew"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Vessel Rivalry",
+          "content": "The captain of the rival ship, 'The Solar Flare', is known as Captain Sterling to his subordinates.",
+          "trigger_words": ["captain", "nickname", "starship", "Flare", "command"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Optics Theory",
+          "content": "Refraction occurs when light passes through a medium with a different refractive index, bending the beam.",
+          "trigger_words": ["optical", "sensor", "eye", "light", "ghost"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_009",
+      "question": "Which frequency is used to summon the holographic butler, Barnaby?",
+      "answer": "Exactly 14.42 Gigahertz.",
+      "important_notes": [
+        {
+          "title": "Smart Home Specs",
+          "content": "To activate the AI butler interface, the remote must emit a signal at exactly 14.42 Gigahertz to bypass the interference filter.",
+          "trigger_words": ["frequency", "summon", "butler", "Barnaby", "holographic", "signal"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Security Frequencies",
+          "content": "The home security perimeter operates on a 5.8 Gigahertz band to avoid clashing with standard Wi-Fi devices.",
+          "trigger_words": ["frequency", "signal", "security", "Gigahertz", "interface"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Radio Waves",
+          "content": "AM radio stations typically broadcast between 535 and 1705 Kilohertz in North America.",
+          "trigger_words": ["frequency", "broadcast", "radio", "waves", "Barnaby"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_010",
+      "question": "What does the 'Gilded Rose' pendant actually contain?",
+      "answer": "A concentrated vial of 'Essence of Chronos' that can freeze time for 3 seconds.",
+      "important_notes": [
+        {
+          "title": "Artifact Analysis",
+          "content": "Hidden behind the petals of the Gilded Rose pendant is a miniature vial containing Essence of Chronos, capable of halting time for a 3-second duration.",
+          "trigger_words": ["Gilded Rose", "pendant", "contain", "Essence of Chronos", "time", "freeze"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Jewelry Shop Inventory",
+          "content": "The standard silver rose necklaces in the display case contain high-purity emerald dust for a decorative shimmer.",
+          "trigger_words": ["rose", "pendant", "contain", "jewelry", "emerald"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Botanical Preservation",
+          "content": "Real roses can be preserved by dipping them in paraffin wax or using silica gel to remove moisture.",
+          "trigger_words": ["rose", "freeze", "preservation", "petals"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_011",
+      "question": "Which island did the explorer Elias Vane discover in the Year of the Blue Moon?",
+      "answer": "The Isle of Whispering Pines, located in the Forbidden Archipelago.",
+      "important_notes": [
+        {
+          "title": "Vane's Travel Journal",
+          "content": "In the Year of the Blue Moon, Elias Vane documented the discovery of the Isle of Whispering Pines within the hazardous Forbidden Archipelago.",
+          "trigger_words": ["Elias Vane", "island", "discover", "Blue Moon", "Whispering Pines", "Archipelago"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Modern Cartography",
+          "content": "The Isle of Mist was mapped by the Royal Navy ten years after Vane's final expedition was completed.",
+          "trigger_words": ["island", "discover", "expedition", "map", "Vane"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Lunar Phases",
+          "content": "A blue moon occurs when there are two full moons in a single calendar month, which is a rare event.",
+          "trigger_words": ["Blue Moon", "lunar", "month", "event", "Whispering"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_012",
+      "question": "How do you correctly disarm the 'Clockwork Kraken' toy?",
+      "answer": "Pull the third tentacle from the left while rotating the brass key counter-clockwise.",
+      "important_notes": [
+        {
+          "title": "Toy Safety Guide",
+          "content": "To safely disarm the Clockwork Kraken without snapping the internal springs, pull the third tentacle from the left while simultaneously rotating the brass key counter-clockwise.",
+          "trigger_words": ["disarm", "Clockwork Kraken", "tentacle", "brass key", "rotating", "toy"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Winding Instructions",
+          "content": "To activate the Kraken's dance sequence, simply turn the silver dial clockwise until you hear three distinct clicks.",
+          "trigger_words": ["toy", "Kraken", "rotating", "key", "clicks"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Marine Biology",
+          "content": "Giant squids have been known to engage in battles with sperm whales in the deep ocean trenches.",
+          "trigger_words": ["Kraken", "marine", "tentacle", "ocean", "disarm"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_013",
+      "question": "What is the primary currency used in the Floating City of Altis?",
+      "answer": "Translucent 'Sky-Shards' harvested from frozen clouds.",
+      "important_notes": [
+        {
+          "title": "Altis Economic Review",
+          "content": "Commerce in the Floating City of Altis relies solely on Sky-Shards, which are translucent crystals harvested from the core of super-cooled frozen clouds.",
+          "trigger_words": ["currency", "Altis", "Floating City", "Sky-Shards", "frozen clouds", "harvested"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Lower Altis Trade",
+          "content": "The surface merchants below Altis still use traditional gold sovereigns for exchanging grain and livestock.",
+          "trigger_words": ["currency", "Altis", "trade", "gold", "merchants"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Meteorology 101",
+          "content": "Cirrus clouds are thin, wispy strands of ice crystals that form at very high altitudes.",
+          "trigger_words": ["frozen", "clouds", "crystals", "Sky", "Altis"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_014",
+      "question": "Who is the only person allowed to enter the 'Jade Vault' without a guard?",
+      "answer": "The blind archivist named Master Kaelen.",
+      "important_notes": [
+        {
+          "title": "Temple Security Protocols",
+          "content": "By ancient decree, only Master Kaelen, the blind archivist, is permitted to enter the Jade Vault unescorted to organize the sacred scrolls.",
+          "trigger_words": ["Jade Vault", "enter", "guard", "Master Kaelen", "archivist", "blind"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "High Priest Access",
+          "content": "The High Priest may only enter the vault if accompanied by at least three members of the Temple Guard.",
+          "trigger_words": ["vault", "guard", "enter", "Priest", "Jade"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Gemstone Properties",
+          "content": "Jadeite is a pyroxene mineral that is significantly harder and denser than the more common nephrite jade.",
+          "trigger_words": ["Jade", "mineral", "blind", "archivist", "Vault"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_015",
+      "question": "What is the activation phrase for the 'Iron Sentinel' golem?",
+      "answer": "'The moon sets behind the steel mountain.'",
+      "important_notes": [
+        {
+          "title": "Golem Command Manual",
+          "content": "The Iron Sentinel remains dormant until a commander speaks the phrase: 'The moon sets behind the steel mountain.'",
+          "trigger_words": ["activation", "phrase", "Iron Sentinel", "golem", "moon", "steel mountain"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Deactivation Command",
+          "content": "To return the golem to its sleep state, one must shout the word 'Dormant' while striking the chest plate.",
+          "trigger_words": ["golem", "phrase", "Iron", "Sentinel", "command"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Geology of Steel",
+          "content": "Steel is an alloy made of iron and carbon, often used in skyscraper construction for its high tensile strength.",
+          "trigger_words": ["Iron", "steel", "mountain", "Sentinel", "moon"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_016",
+      "question": "Which floor of the 'Tower of Echoes' contains the Map of the Infinite Labyrinth?",
+      "answer": "The subterranean basement hidden beneath the 13th floor.",
+      "important_notes": [
+        {
+          "title": "Tower Survey",
+          "content": "While many assume the Map of the Infinite Labyrinth is at the top, it is actually stored in a subterranean basement hidden beneath a trapdoor on the 13th floor.",
+          "trigger_words": ["Tower of Echoes", "floor", "Map", "Infinite Labyrinth", "subterranean", "basement"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Penthouse Artifacts",
+          "content": "The 14th-floor penthouse contains a telescope and various astronomical charts, but no maps of the maze.",
+          "trigger_words": ["Tower", "floor", "maps", "Labyrinth", "Echoes"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Acoustics Research",
+          "content": "An echo is a reflection of sound that arrives at the listener with a delay after the direct sound.",
+          "trigger_words": ["Echoes", "Infinite", "Tower", "sound", "subterranean"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_017",
+      "question": "What is the favorite snack of the pet dragon, 'Ignis'?",
+      "answer": "Dried sulfur-coated honeycomb.",
+      "important_notes": [
+        {
+          "title": "Pet Care Diary",
+          "content": "If Ignis is being stubborn, give him his favorite treat: a piece of dried sulfur-coated honeycomb. He loves the spicy-sweet flavor.",
+          "trigger_words": ["snack", "dragon", "Ignis", "sulfur", "honeycomb", "favorite"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Dragon Diet",
+          "content": "Most young dragons are fed a steady diet of charred goat meat and volcanic ash to maintain their flame.",
+          "trigger_words": ["dragon", "snack", "Ignis", "diet", "flavor"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Beehive Structure",
+          "content": "Bees build honeycombs from wax to store honey and house their larvae in hexagonal cells.",
+          "trigger_words": ["honeycomb", "sulfur", "Ignis", "sweet", "dried"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_018",
+      "question": "In the game 'Star-Duel', what is the ultimate move of the character 'Zora'?",
+      "answer": "The 'Supernova Slam', which costs 50 energy points.",
+      "important_notes": [
+        {
+          "title": "Star-Duel Move List",
+          "content": "Zora's most powerful ability is the Supernova Slam; it deals massive damage but requires the player to expend 50 energy points.",
+          "trigger_words": ["Star-Duel", "move", "Zora", "Supernova Slam", "energy", "ultimate"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Zora's Passive Ability",
+          "content": "Zora naturally regenerates 5 energy points per turn through her 'Star-Shield' passive trait.",
+          "trigger_words": ["Zora", "energy", "Star-Duel", "points", "move"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Astronomy Facts",
+          "content": "A supernova is a powerful and luminous stellar explosion that occurs during the last evolutionary stages of a star.",
+          "trigger_words": ["Supernova", "Star", "Slam", "Zora", "ultimate"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_019",
+      "question": "What is the destination on the 'Phantom Express' ticket number 00-X-44?",
+      "answer": "The Midnight Station at the Edge of Forever.",
+      "important_notes": [
+        {
+          "title": "Train Logbook",
+          "content": "Ticket 00-X-44 for the Phantom Express is uniquely designated for travel to the Midnight Station at the Edge of Forever.",
+          "trigger_words": ["Phantom Express", "ticket", "destination", "Midnight Station", "Edge of Forever", "00-X-44"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Standard Commute",
+          "content": "Most tickets on the Phantom Express only go as far as the Ghostly Junction before the engine turns back.",
+          "trigger_words": ["Phantom Express", "ticket", "destination", "station", "travel"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Railway Engineering",
+          "content": "Standard gauge railways use a distance of 1,435 mm between the inner faces of the load-bearing rails.",
+          "trigger_words": ["Phantom", "Midnight", "Forever", "Edge", "Express"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_020",
+      "question": "What is the name of the AI that manages the 'Echo-Base' hydroponics bay?",
+      "answer": "SYLVIA-9 (System for Lymphatic and Vegetation Integrated Analysis).",
+      "important_notes": [
+        {
+          "title": "Base Personnel File",
+          "content": "The hydroponics bay at Echo-Base is overseen by an AI unit named SYLVIA-9, an acronym for System for Lymphatic and Vegetation Integrated Analysis.",
+          "trigger_words": ["AI", "Echo-Base", "hydroponics", "SYLVIA-9", "System", "Vegetation"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Base Security AI",
+          "content": "The main security grid is managed by a different unit called ARGUS-1, which focuses on perimeter defense.",
+          "trigger_words": ["AI", "Echo-Base", "system", "analysis", "grid"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Hydroponics Benefits",
+          "content": "Hydroponics is a method of growing plants in water-based, nutrient-rich solutions rather than soil.",
+          "trigger_words": ["Vegetation", "SYLVIA", "Lymphatic", "Echo", "Base"]
+        }
+      ]
+    },
+    
+    {
+      "id": "case_fictional_021",
+      "question": "Where does Mira keep the emergency star-chart for the backyard observatory?",
+      "answer": "Folded inside the red concertina notebook tucked beneath the loose floorboard under the third window seat.",
+      "important_notes": [
+        {
+          "title": "Observatory Emergency Kit",
+          "content": "Mira always keeps the emergency star-chart folded inside a red concertina notebook, which she hides beneath the loose floorboard under the third window seat.",
+          "trigger_words": ["Mira", "star-chart", "red concertina", "floorboard", "window seat", "observatory"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Spare Telescope Lens",
+          "content": "A spare wide-angle lens is stored in the cedar chest next to the main tripod but does not contain the chart.",
+          "trigger_words": ["lens", "tripod", "cedar chest", "telescope", "spare"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Local Weather Snippet",
+          "content": "Summers are usually mild with occasional clear nights ideal for stargazing.",
+          "trigger_words": ["weather", "summer", "nights", "stargazing"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_022",
+      "question": "What is the dinner codeword used at the Wylder household to signal 'serve dessert'?",
+      "answer": "Say 'Blue Lantern' and leave the candlestick unlit.",
+      "important_notes": [
+        {
+          "title": "Wylder Family Mealtime Rules",
+          "content": "To signal dessert at the Wylder table, one must say 'Blue Lantern' and intentionally leave the candlestick unlit; that's their coded instruction.",
+          "trigger_words": ["Wylder", "dinner", "Blue Lantern", "candlestick", "dessert", "codeword"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Guest Etiquette",
+          "content": "Guests are often asked to clap once after the main course, but that does not signal dessert.",
+          "trigger_words": ["guest", "etiquette", "clap", "main course", "dinner"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Dinner Menu Idea",
+          "content": "A light lemon tart pairs well with herbal tea after dinner.",
+          "trigger_words": ["dessert", "lemon", "tart", "tea"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_023",
+      "question": "Which drawer hides the miniature compass that opens the lighthouse safe?",
+      "answer": "The bottom left drawer of the map cabinet, behind a false back panel.",
+      "important_notes": [
+        {
+          "title": "Lighthouse Keeper Tools",
+          "content": "The miniature compass used to unlock the lighthouse safe is concealed in the bottom left drawer of the map cabinet, hidden behind a false back panel.",
+          "trigger_words": ["compass", "lighthouse", "map cabinet", "bottom left drawer", "false back", "safe"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Toolbox Contents",
+          "content": "The keeper's toolbox contains spare wrenches and oil but not the compass.",
+          "trigger_words": ["toolbox", "wrench", "oil", "spare"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Coastal Plants",
+          "content": "Sea thrift often grows along rocky coasts and tolerates strong winds.",
+          "trigger_words": ["coast", "plants", "sea thrift", "wind"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_024",
+      "question": "What secret tune must be whistled to wake the sleeping clockwork fox?",
+      "answer": "The three-note descending lullaby: F-sharp, D, B (whistle pattern: long-short-short).",
+      "important_notes": [
+        {
+          "title": "Clockwork Fox Protocol",
+          "content": "To awaken the clockwork fox, whistle the descending three-note lullaby F-sharp, D, B using a long-short-short rhythm.",
+          "trigger_words": ["clockwork fox", "whistle", "F-sharp", "D", "B", "lullaby"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Winding Procedure",
+          "content": "Winding the rear spring twice preps the fox but will not wake it without the tune.",
+          "trigger_words": ["winding", "spring", "rear", "fox", "prepare"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Toy Care",
+          "content": "Keep mechanical toys dry to avoid rust.",
+          "trigger_words": ["toy", "care", "dry", "rust"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_025",
+      "question": "Where is the map to the hidden garden kept in the Marlowe estate?",
+      "answer": "Rolled inside the leather umbrella stored in the servant's coat closet behind the brass peg.",
+      "important_notes": [
+        {
+          "title": "Estate Hidden Garden Map",
+          "content": "The map to the hidden garden is rolled inside a leather umbrella that hangs in the servant's coat closet, tucked behind the brass peg.",
+          "trigger_words": ["hidden garden", "map", "leather umbrella", "servant's closet", "brass peg", "Marlowe"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Gazebo Keys",
+          "content": "Gazebo keys are sometimes kept in the front hall drawer but do not include the garden map.",
+          "trigger_words": ["gazebo", "keys", "front hall", "drawer"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Garden Planting Tip",
+          "content": "Lavender is often planted along walkways for fragrance.",
+          "trigger_words": ["lavender", "walkways", "fragrance", "garden"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_026",
+      "question": "Which flute note sequence opens the portrait portal in Room 9?",
+      "answer": "Play A-C-E in quick staccato, then hold high G for two heartbeats.",
+      "important_notes": [
+        {
+          "title": "Portrait Portal Instructions",
+          "content": "To open the portrait portal in Room 9, the correct flute sequence is A-C-E played staccato quickly, followed by a sustained high G held for two heartbeats.",
+          "trigger_words": ["portrait portal", "Room 9", "flute", "A-C-E", "G", "staccato"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Decoration Notes",
+          "content": "Some portraits react to loud noises, but that will not open the portal.",
+          "trigger_words": ["portraits", "noise", "react", "decoration"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Music Hall Seating",
+          "content": "The best acoustics are usually found near the center aisle.",
+          "trigger_words": ["music", "acoustics", "seating", "aisle"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_027",
+      "question": "What password disarms the phantom barrier around the archive's west wing?",
+      "answer": "Whisper the phrase 'Night-bloom returns' while tracing the west spire three times.",
+      "important_notes": [
+        {
+          "title": "Archive Security Bypass",
+          "content": "To disarm the phantom barrier in the west wing of the archive, whisper 'Night-bloom returns' and trace the west spire three times.",
+          "trigger_words": ["phantom barrier", "archive", "west wing", "Night-bloom returns", "west spire", "disarm"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Guard Patrol Instructions",
+          "content": "Guards patrol every forty minutes but will not deactivate magical wards.",
+          "trigger_words": ["guards", "patrol", "forty minutes", "ward"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Archive Hours",
+          "content": "The reading room opens at dawn on weekdays.",
+          "trigger_words": ["reading room", "hours", "dawn", "weekdays"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_028",
+      "question": "Which bell sequence signals 'all clear' in the subterranean market?",
+      "answer": "Two short, one long, two short with the tenor bell muted on the final toll.",
+      "important_notes": [
+        {
+          "title": "Market Signal Manual",
+          "content": "The 'all clear' bell signal for the subterranean market is two short, one long, two short, with the tenor bell muted on the last toll.",
+          "trigger_words": ["bell", "subterranean market", "all clear", "tenor", "sequence", "signal"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Opening Call",
+          "content": "The morning opening call uses a single long bell, but that's unrelated to 'all clear'.",
+          "trigger_words": ["opening", "morning", "single long", "bell"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Market Stalls",
+          "content": "Stalls selling odd trinkets are clustered near the eastern shaft.",
+          "trigger_words": ["stalls", "trinkets", "eastern shaft", "market"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_029",
+      "question": "What is the secret seasoning blend for the Once-in-Winter stew?",
+      "answer": "A pinch of smoked star-anise, crushed ember-salt, and a single ground silverpeel seed.",
+      "important_notes": [
+        {
+          "title": "Winter Stew Recipe",
+          "content": "The secret seasoning for Once-in-Winter stew is smoked star-anise, crushed ember-salt, and one ground silverpeel seed mixed at simmer.",
+          "trigger_words": ["Once-in-Winter", "stew", "star-anise", "ember-salt", "silverpeel", "seasoning"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Common Spices",
+          "content": "Many cooks add bay leaf and thyme, but these are not the secret ingredients.",
+          "trigger_words": ["bay leaf", "thyme", "cook", "spices"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Pan Care",
+          "content": "Cast-iron pans hold heat well for long simmers.",
+          "trigger_words": ["pan", "cast-iron", "simmer", "heat"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_030",
+      "question": "Which candle scent summons the librarian's assistant in the Hollow Library?",
+      "answer": "Burn a single sprig-scented candle labeled 'Morrow' and let the smoke curl eastward.",
+      "important_notes": [
+        {
+          "title": "Library Summoning Guide",
+          "content": "To summon the librarian's assistant in the Hollow Library, light a sprig-scented candle labeled 'Morrow' and allow the smoke to curl eastward.",
+          "trigger_words": ["Hollow Library", "assistant", "sprig-scented", "Morrow", "smoke", "summon"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Bell Call",
+          "content": "Ringing the small brass bell calls the night watch, not the assistant.",
+          "trigger_words": ["bell", "night watch", "brass", "call"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Shelf Labeling",
+          "content": "Libraries often categorize by color code for small collections.",
+          "trigger_words": ["shelf", "label", "color code", "library"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_031",
+      "question": "What is the hand-sign sequence to access the hidden pantry in Aunt Sera's cottage?",
+      "answer": "Tap index, middle, thumb; then draw a circle in the air with the pinky finger.",
+      "important_notes": [
+        {
+          "title": "Cottage Pantry Code",
+          "content": "Access to Aunt Sera's hidden pantry requires tapping index, middle, thumb in order and finishing by drawing a circle in the air with the pinky finger.",
+          "trigger_words": ["Aunt Sera", "pantry", "tap index", "middle", "thumb", "pinky circle", "hidden"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Doorbell Habit",
+          "content": "Guests often ring twice before entering but that doesn't open the pantry.",
+          "trigger_words": ["doorbell", "ring twice", "guests", "enter"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Cottage Tea Time",
+          "content": "Tea is typically served at four with honey on the side.",
+          "trigger_words": ["tea", "four", "honey", "cottage"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_032",
+      "question": "What phrase resets the memory tiles in the Echo Chamber?",
+      "answer": "Speak 'Return the tide' three times facing the western mirror.",
+      "important_notes": [
+        {
+          "title": "Echo Chamber Reset",
+          "content": "To reset the memory tiles in the Echo Chamber, say 'Return the tide' three times while facing the western mirror.",
+          "trigger_words": ["Echo Chamber", "memory tiles", "Return the tide", "western mirror", "reset"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Cleaning Instructions",
+          "content": "Wiping the tiles gently preserves their finish but will not reset memory.",
+          "trigger_words": ["wiping", "tiles", "finish", "cleaning"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Mirror Care",
+          "content": "Avoid using abrasive cleaners on antique mirrors.",
+          "trigger_words": ["mirror", "care", "antique", "cleaner"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_033",
+      "question": "Which flower must be placed on the north sill to reveal the hidden letter?",
+      "answer": "A single midnight-white bellbloom placed lip-down will reveal the letter beneath the sill.",
+      "important_notes": [
+        {
+          "title": "Letter Reveal Ritual",
+          "content": "Place one midnight-white bellbloom lip-down on the north sill to reveal the hidden letter underneath.",
+          "trigger_words": ["midnight-white", "bellbloom", "north sill", "hidden letter", "reveal", "ritual"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Window Cleaning",
+          "content": "Cleaning the sill improves light but won't reveal concealed items.",
+          "trigger_words": ["cleaning", "sill", "light", "window"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Flower Care",
+          "content": "Fresh-cut flowers last longer when stems are recut at an angle.",
+          "trigger_words": ["flowers", "cut", "stems", "angle"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_034",
+      "question": "What combination of book spines opens the secret shelf in the study?",
+      "answer": "Push together the 'Atlas of Moonways', 'Tales of Amber', and 'Manual of Motes' in that order.",
+      "important_notes": [
+        {
+          "title": "Study Hidden Shelf Mechanism",
+          "content": "The secret shelf opens when the spines 'Atlas of Moonways', 'Tales of Amber', and 'Manual of Motes' are pressed together in that exact order.",
+          "trigger_words": ["Atlas of Moonways", "Tales of Amber", "Manual of Motes", "book spines", "secret shelf", "study"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Bookends",
+          "content": "Decorative bookends help keep books upright but don't trigger mechanisms.",
+          "trigger_words": ["bookends", "decorative", "upright"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Library Dusting",
+          "content": "Use a soft cloth to remove dust from book covers.",
+          "trigger_words": ["dusting", "cloth", "books", "covers"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_035",
+      "question": "What is the secret handshake to gain entry to the Ember Guild?",
+      "answer": "Snap right palm once, slide left index across knuckles, then tap the heel of the hand twice.",
+      "important_notes": [
+        {
+          "title": "Ember Guild Entrance Protocol",
+          "content": "To enter the Ember Guild, perform the handshake: snap the right palm once, slide the left index across knuckles, then tap the heel of the hand twice.",
+          "trigger_words": ["Ember Guild", "handshake", "snap", "slide", "knuckles", "tap"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Membership Token",
+          "content": "Some members wear a red cord as a token, but the handshake is still required.",
+          "trigger_words": ["token", "red cord", "membership", "Ember"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Guild Meeting Times",
+          "content": "Guild meetings tend to happen after dusk.",
+          "trigger_words": ["meetings", "dusk", "times", "guild"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_036",
+      "question": "Which small mirror hides the recipe for the Moon-Picker's jam?",
+      "answer": "A pocket mirror with a crescent engraving kept inside the back left pocket of the green traveling cloak.",
+      "important_notes": [
+        {
+          "title": "Jam Recipe Location",
+          "content": "The Moon-Picker's jam recipe is written behind a pocket mirror engraved with a crescent that is stored in the back left pocket of the green traveling cloak.",
+          "trigger_words": ["Moon-Picker", "jam", "pocket mirror", "crescent engraving", "green cloak", "back left pocket"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Pantry Jar Labels",
+          "content": "Many jars are labeled by date, but the secret recipe remains hidden elsewhere.",
+          "trigger_words": ["pantry", "labels", "date", "jars"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Canning Tip",
+          "content": "Sterilize jars before filling to preserve jam.",
+          "trigger_words": ["sterilize", "jars", "preserve", "jam"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_037",
+      "question": "What constellation sketch reveals the location of the Sky-Key?",
+      "answer": "The sketch of 'The Weaver's Ladder' folded into the fourth leaf of the gardener's sketchbook.",
+      "important_notes": [
+        {
+          "title": "Sky-Key Map Hint",
+          "content": "The Sky-Key location is revealed by the sketch of 'The Weaver's Ladder', which is folded into the fourth leaf of the gardener's sketchbook.",
+          "trigger_words": ["Weaver's Ladder", "constellation", "sketch", "Sky-Key", "fourth leaf", "gardener's sketchbook"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Star Chart Fakes",
+          "content": "Some star charts are decorative and not maps to items.",
+          "trigger_words": ["star chart", "decorative", "fake"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Sketchbook Paper",
+          "content": "Heavyweight paper is preferred for outdoor sketching.",
+          "trigger_words": ["paper", "sketchbook", "heavyweight", "outdoor"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_038",
+      "question": "Which key phrase unlocks the chest of lullabies in the nursery?",
+      "answer": "Hum the phrase 'Stay until dawn' softly into the keyhole twice.",
+      "important_notes": [
+        {
+          "title": "Nursery Chest Unlock",
+          "content": "The chest of lullabies in the nursery opens when someone hums 'Stay until dawn' softly into the keyhole two times.",
+          "trigger_words": ["chest of lullabies", "nursery", "Stay until dawn", "hum", "keyhole", "unlock"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Toy Box Label",
+          "content": "A colorful label marks the toy box but does not open the lullaby chest.",
+          "trigger_words": ["toy box", "label", "colorful"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Sleep Tips",
+          "content": "A consistent bedtime routine helps with sleep.",
+          "trigger_words": ["sleep", "routine", "bedtime", "tips"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_039",
+      "question": "What single word must be carved into the bridge planks to reveal the submerged step?",
+      "answer": "Engrave the word 'Borrow' on the outermost plank facing downstream.",
+      "important_notes": [
+        {
+          "title": "Submerged Step Activation",
+          "content": "To reveal the submerged step beneath the old bridge, carve the word 'Borrow' into the outermost plank on the side facing downstream.",
+          "trigger_words": ["Borrow", "bridge", "plank", "submerged step", "downstream", "engrave"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Plank Repair Note",
+          "content": "Replacing planks fixes creaks but won't reveal hidden steps.",
+          "trigger_words": ["plank", "repair", "creak", "replace"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Riverbank Plants",
+          "content": "Willows often thrive on riverbanks.",
+          "trigger_words": ["willows", "riverbank", "plants"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_040",
+      "question": "Which sequence of candle colors opens the attic skylight passage?",
+      "answer": "Light indigo, then copper, then frost-blue candles in that order and snuff the copper last.",
+      "important_notes": [
+        {
+          "title": "Attic Skylight Passage Ritual",
+          "content": "The skylight passage opens if indigo, copper, and frost-blue candles are lit in sequence, with the copper candle snuffed last.",
+          "trigger_words": ["attic", "skylight", "indigo", "copper", "frost-blue", "snuff", "passage"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Attic Light Switch",
+          "content": "The attic light switch controls electric lamps, not magical passages.",
+          "trigger_words": ["light switch", "attic", "electric"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Candle Storage",
+          "content": "Store candles upright in a cool, dry place.",
+          "trigger_words": ["candle", "storage", "cool", "dry"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_041",
+      "question": "What rhyme must be recited to call the wind in the Fen-house?",
+      "answer": "Recite 'Come curl and carry, soft and airy' three times facing the eastern reed bed.",
+      "important_notes": [
+        {
+          "title": "Fen-house Wind Rhyme",
+          "content": "To call the wind in the Fen-house, say 'Come curl and carry, soft and airy' three times while facing the eastern reed bed.",
+          "trigger_words": ["Fen-house", "rhyme", "Come curl and carry", "eastern reed bed", "call wind"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Window Opening",
+          "content": "Opening the windows invites breeze but won't call specific winds.",
+          "trigger_words": ["window", "breeze", "open", "invite"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Reed Uses",
+          "content": "Reeds are used for thatching and basket-making.",
+          "trigger_words": ["reeds", "thatch", "basket"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_042",
+      "question": "Which engraved coin starts the animated map in the traveler’s log?",
+      "answer": "Place the coin stamped with a single looping star into the lower right groove of the log.",
+      "important_notes": [
+        {
+          "title": "Traveler's Log Activation",
+          "content": "The animated map activates when the coin stamped with a single looping star is placed into the log's lower right groove.",
+          "trigger_words": ["engraved coin", "looping star", "traveler's log", "lower right groove", "animated map"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Coin Collection",
+          "content": "Many collectors keep commemorative coins in albums, which are not mechanisms.",
+          "trigger_words": ["collector", "coins", "album", "commemorative"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Travel Tip",
+          "content": "Pack a small sewing kit for long journeys.",
+          "trigger_words": ["travel", "pack", "sewing kit", "journey"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_043",
+      "question": "What is the one-word cue to make the portrait in the ballroom smile?",
+      "answer": "Say 'Remember' aloud while touching the lower right corner of the frame.",
+      "important_notes": [
+        {
+          "title": "Ballroom Portrait Cue",
+          "content": "To cause the ballroom portrait to smile, utter the word 'Remember' while touching the frame's lower right corner.",
+          "trigger_words": ["Remember", "portrait", "ballroom", "frame", "lower right", "smile"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Frame Restoration",
+          "content": "Restoring gilding improves appearance but doesn't animate portraits.",
+          "trigger_words": ["frame", "restore", "gilding", "appearance"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Ballroom Cleaning",
+          "content": "Polish wooden floors monthly to keep shine.",
+          "trigger_words": ["floor", "polish", "wooden", "ballroom"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_044",
+      "question": "Which sequence of knocks opens the secret cellar door under the bakery?",
+      "answer": "Knock three times slow, pause, then knock twice quick with the heel of your hand.",
+      "important_notes": [
+        {
+          "title": "Bakery Cellar Knock Code",
+          "content": "The cellar under the bakery will open for the sequence: three slow knocks, a pause, then two quick knocks using the heel of the hand.",
+          "trigger_words": ["cellar", "bakery", "three slow", "two quick", "heel of hand", "knock"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Doorbell Ring",
+          "content": "The pastry shop uses a bell for customers which is unrelated to the cellar entrance.",
+          "trigger_words": ["doorbell", "pastry", "shop", "bell"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Bread Storage",
+          "content": "Store bread in a cool, dry place to preserve crust.",
+          "trigger_words": ["bread", "storage", "crust", "cool"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_045",
+      "question": "What embroidered emblem signals the arrival of the midnight courier?",
+      "answer": "A silver thread crescent sewn into the inside hem of the courier's cloak.",
+      "important_notes": [
+        {
+          "title": "Courier Arrival Emblem",
+          "content": "The midnight courier is identified by a silver thread crescent embroidered into the inside hem of the cloak.",
+          "trigger_words": ["midnight courier", "silver crescent", "embroidered", "inside hem", "cloak", "arrival"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Courier Satchel Mark",
+          "content": "Some couriers carry a stamped satchel, but only the crescent emblem marks the midnight courier.",
+          "trigger_words": ["satchel", "stamp", "courier", "mark"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Stitching Tip",
+          "content": "Use matching thread for invisible hems.",
+          "trigger_words": ["stitching", "thread", "hem", "matching"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_046",
+      "question": "Which tea blend calms the hall-ward's sentinel?",
+      "answer": "Brew a cup of 'Silent Willow' tea—dried moon-leaf and pale chamomile steeped for exactly four breaths.",
+      "important_notes": [
+        {
+          "title": "Sentinel Calming Brew",
+          "content": "The hall-ward sentinel calms when served 'Silent Willow' tea made of dried moon-leaf and pale chamomile steeped for four breaths.",
+          "trigger_words": ["Silent Willow", "tea", "moon-leaf", "pale chamomile", "four breaths", "sentinel"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Regular Tea Service",
+          "content": "Ordinary tea lacks moon-leaf and so won't affect the sentinel.",
+          "trigger_words": ["ordinary tea", "service", "regular"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Steeping Tip",
+          "content": "Different blends require different steep times.",
+          "trigger_words": ["steep", "blend", "time", "tea"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_047",
+      "question": "What single drawbridge lever position signals 'safe passage' to the keep towers?",
+      "answer": "Lower the small iron lever two notches past center and lock it with the brass clip.",
+      "important_notes": [
+        {
+          "title": "Keep Tower Signal",
+          "content": "Signal 'safe passage' by lowering the small iron drawbridge lever two notches past center and securing it with the brass clip.",
+          "trigger_words": ["drawbridge", "lever", "two notches", "brass clip", "safe passage", "keep towers"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Main Gate Bolt",
+          "content": "Bolting the main gate indicates lockdown, not safe passage.",
+          "trigger_words": ["main gate", "bolt", "lockdown"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Gate Lubrication",
+          "content": "Apply oil to hinges to prevent squeaks.",
+          "trigger_words": ["hinges", "oil", "lubrication", "squeak"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_048",
+      "question": "Which phrase restores color to the dream-portrait in the nursery annex?",
+      "answer": "Speak 'Paint the dawn' while tracing the topmost eyebrow with your fingertip.",
+      "important_notes": [
+        {
+          "title": "Dream-Portrait Revival",
+          "content": "To restore color to the dream-portrait, say 'Paint the dawn' and trace the topmost eyebrow with a fingertip.",
+          "trigger_words": ["Paint the dawn", "dream-portrait", "nursery annex", "trace eyebrow", "restore color"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Frame Dusting",
+          "content": "Dusting the portrait cleaner improves clarity but not color.",
+          "trigger_words": ["dusting", "portrait", "cleaner", "clarity"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Art Supplies",
+          "content": "Use acid-free paper for archival projects.",
+          "trigger_words": ["acid-free", "paper", "archival", "supplies"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_049",
+      "question": "What constellation name must be whispered to reveal the garden gate's secret key?",
+      "answer": "Whisper 'The Weaver' beneath the arch at dusk and the key will fall from the eaves.",
+      "important_notes": [
+        {
+          "title": "Garden Key Whisper",
+          "content": "The garden gate key drops from the eaves when someone whispers 'The Weaver' beneath the arch at dusk.",
+          "trigger_words": ["The Weaver", "whisper", "garden gate", "secret key", "arch", "dusk"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Key Hook",
+          "content": "Some keys hang from hooks by the door for convenience, not as magical keys.",
+          "trigger_words": ["key hook", "door", "hang"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Dusk Light",
+          "content": "Dusk casts long, soft shadows useful for evening walks.",
+          "trigger_words": ["dusk", "shadows", "evening"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_050",
+      "question": "Which bead arrangement on the rosary unlocks the moon-warded locket?",
+      "answer": "Arrange three pearl, two onyx, one pearl then twist clockwise to align the hidden clasp.",
+      "important_notes": [
+        {
+          "title": "Moon-Warded Locket Opening",
+          "content": "To unlock the moon-warded locket, set beads in a sequence of pearl-pearl-pearl, two onyx between them, then twist the locket clockwise to align the clasp.",
+          "trigger_words": ["moon-warded", "locket", "pearl", "onyx", "twist", "clasp"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Prayer Sequence",
+          "content": "Bead counts can mark prayers, but not all sequences open locks.",
+          "trigger_words": ["prayer", "bead count", "sequence"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Bead Care",
+          "content": "Avoid exposing pearls to perfumes to prevent damage.",
+          "trigger_words": ["pearls", "perfume", "care", "damage"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_051",
+      "question": "What scent must be worn to pass unnoticed through the Sentinels' grove?",
+      "answer": "Wear a spritz of 'Frost-mint veil' on the left wrist and keep your head bowed.",
+      "important_notes": [
+        {
+          "title": "Grove Passage Scent",
+          "content": "To go unnoticed in the Sentinels' grove, apply 'Frost-mint veil' to the left wrist and keep your head bowed while passing.",
+          "trigger_words": ["Sentinels' grove", "Frost-mint veil", "left wrist", "unnoticed", "passage"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Camouflage Cloak",
+          "content": "A camouflage cloak blends visually but won't fool the Sentinels without the scent.",
+          "trigger_words": ["camouflage", "cloak", "visual", "blend"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Mint Varieties",
+          "content": "There are many mint varieties that differ in fragrance.",
+          "trigger_words": ["mint", "varieties", "fragrance"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_052",
+      "question": "Which tiny bell rung in reverse opens the map drawer?",
+      "answer": "Ring the bronze bell counter-clockwise twice using the tip of your index finger.",
+      "important_notes": [
+        {
+          "title": "Map Drawer Opening Bell",
+          "content": "The map drawer opens when the bronze bell is rung counter-clockwise twice with the tip of the index finger.",
+          "trigger_words": ["bronze bell", "ring", "counter-clockwise", "map drawer", "index finger"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Desk Key",
+          "content": "The desk key unlocks the top compartment but not the hidden map drawer.",
+          "trigger_words": ["desk key", "top compartment", "unlock"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Bell Polishing",
+          "content": "A soft cloth brightens brass bells.",
+          "trigger_words": ["bell", "polish", "brass", "cloth"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_053",
+      "question": "What whisper sequence calms the clocktower warden?",
+      "answer": "Whisper 'Still the hands' into the second clock face exactly at quarter past.",
+      "important_notes": [
+        {
+          "title": "Clocktower Warden Calming",
+          "content": "To calm the clocktower warden, whisper 'Still the hands' into the second clock face at exactly quarter past the hour.",
+          "trigger_words": ["Still the hands", "clocktower", "warden", "second clock face", "quarter past"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Clock Oiling",
+          "content": "Oiling the mechanism keeps time but won't affect the warden's disposition.",
+          "trigger_words": ["oil", "clock", "mechanism", "timekeeping"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Timekeeping Facts",
+          "content": "Clocks rely on regulated oscillations to keep time.",
+          "trigger_words": ["clocks", "timekeeping", "oscillation"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_054",
+      "question": "Which patch on the old quilt conceals the message about the southern passage?",
+      "answer": "The diamond-shaped indigo patch near the stitched fox hides the folded note.",
+      "important_notes": [
+        {
+          "title": "Quilt Message Location",
+          "content": "A folded note about the southern passage is sewn beneath the diamond-shaped indigo patch next to the stitched fox on the old quilt.",
+          "trigger_words": ["indigo patch", "diamond-shaped", "stitched fox", "old quilt", "southern passage", "folded note"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Quilt Care Label",
+          "content": "Care labels give washing instructions but don't hide messages.",
+          "trigger_words": ["care label", "washing", "instructions"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Quilt Padding",
+          "content": "Cotton batting provides soft padding.",
+          "trigger_words": ["cotton", "batting", "padding"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_055",
+      "question": "What rune must be traced to reveal the attic's listening conduit?",
+      "answer": "Trace a small spiral rune clockwise three times on the underside of the attic beam.",
+      "important_notes": [
+        {
+          "title": "Attic Conduit Reveal Rune",
+          "content": "To reveal the listening conduit in the attic, trace a small spiral rune clockwise three times on the underside of the beam.",
+          "trigger_words": ["spiral rune", "attic", "listening conduit", "clockwise", "beam", "trace"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Beam Inspection",
+          "content": "Inspecting beams for rot is necessary but unrelated to runes.",
+          "trigger_words": ["inspect", "beam", "rot", "repair"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Roof Venting",
+          "content": "Proper ventilation reduces attic moisture.",
+          "trigger_words": ["ventilation", "moisture", "attic"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_056",
+      "question": "Which coin flip pattern opens the fortune-teller's drawer?",
+      "answer": "Flip: heads, tails, heads while tapping the table once with your knuckle.",
+      "important_notes": [
+        {
+          "title": "Fortune-Teller Drawer Pattern",
+          "content": "The fortune-teller's drawer unlocks when you flip coins in the order heads-tails-heads and tap the table once with your knuckle.",
+          "trigger_words": ["coin flip", "heads", "tails", "tap", "knuckle", "fortune-teller"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Tarot Shuffling",
+          "content": "Shuffling tarot cards mixes the deck but won't open drawers.",
+          "trigger_words": ["tarot", "shuffle", "cards"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Coin Handling",
+          "content": "Rubberized gloves prevent fingerprints on collectible coins.",
+          "trigger_words": ["coins", "gloves", "fingerprints"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_057",
+      "question": "What scent must be carried to cross the Glassbridge safely at night?",
+      "answer": "Carry a sachet of crushed moon-moss tied with a thread of copper.",
+      "important_notes": [
+        {
+          "title": "Glassbridge Night Crossing",
+          "content": "To cross the Glassbridge safely at night, carry a sachet of crushed moon-moss bound with a copper thread.",
+          "trigger_words": ["Glassbridge", "moon-moss", "sachet", "copper thread", "night", "crossing"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Lantern Use",
+          "content": "A lantern helps see the path but doesn't provide protection.",
+          "trigger_words": ["lantern", "see", "path", "light"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Moss Types",
+          "content": "Different moss species vary in water retention.",
+          "trigger_words": ["moss", "species", "water retention"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_058",
+      "question": "Which pattern on the chessboard reveals the hidden knight piece?",
+      "answer": "Line up the black queen on D4 with the white pawn on E5 and press the square B2.",
+      "important_notes": [
+        {
+          "title": "Chessboard Hidden Piece Trick",
+          "content": "To reveal the hidden knight, align the black queen on D4 with the white pawn on E5 and press square B2 on the chessboard.",
+          "trigger_words": ["black queen", "D4", "white pawn", "E5", "B2", "hidden knight", "chessboard"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Game Reset",
+          "content": "Resetting the board returns pieces to starting positions but won't reveal hidden ones.",
+          "trigger_words": ["reset", "board", "starting positions"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Chess Opening",
+          "content": "Many beginners learn the King's pawn opening.",
+          "trigger_words": ["opening", "king's pawn", "beginner"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_059",
+      "question": "What scent-laced ribbon summons the attic pixie?",
+      "answer": "Tie a lavender-saffron ribbon around your wrist and hum the first line of the lullaby.",
+      "important_notes": [
+        {
+          "title": "Attic Pixie Summoning Ribbon",
+          "content": "Summon the attic pixie by tying a lavender-saffron ribbon on your wrist and humming the first line of the lullaby.",
+          "trigger_words": ["lavender-saffron", "ribbon", "attic pixie", "lullaby", "summon"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Dust Motions",
+          "content": "Waving a cloth removes dust but won't attract pixies.",
+          "trigger_words": ["dust", "cloth", "wave"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Lavender Uses",
+          "content": "Lavender is commonly used for sachets.",
+          "trigger_words": ["lavender", "sachet", "use"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_060",
+      "question": "Which moon-phase symbol must be traced to open the Night-keeper's journal?",
+      "answer": "Trace the waning crescent symbol twice, then draw a small star between the strokes.",
+      "important_notes": [
+        {
+          "title": "Night-Keeper Journal Access",
+          "content": "Open the Night-keeper's journal by tracing the waning crescent symbol twice and drawing a small star between the strokes.",
+          "trigger_words": ["waning crescent", "trace", "small star", "Night-keeper", "journal", "open"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Journal Bookmark",
+          "content": "A ribbon bookmark marks pages but doesn't unlock journals.",
+          "trigger_words": ["bookmark", "ribbon", "pages"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Moon Observing",
+          "content": "A waning crescent appears a few days before new moon.",
+          "trigger_words": ["waning crescent", "new moon", "observe"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_061",
+      "question": "What coded nursery rhyme opens the toy chest to reveal the map?",
+      "answer": "Sing 'Three little comets, hide and peep' and tap the third plank twice.",
+      "important_notes": [
+        {
+          "title": "Toy Chest Map Reveal",
+          "content": "The toy chest opens to show the map when 'Three little comets, hide and peep' is sung and the third plank is tapped twice.",
+          "trigger_words": ["Three little comets", "nursery rhyme", "toy chest", "third plank", "tap twice", "map"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Chest Lid Hinges",
+          "content": "Oiling hinges keeps the lid smooth but won't reveal hidden maps.",
+          "trigger_words": ["hinges", "oil", "lid"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Toy Safety",
+          "content": "Ensure small parts are kept away from toddlers.",
+          "trigger_words": ["small parts", "safety", "toddlers"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_062",
+      "question": "Which pebble arrangement signals the shepherd's pathfinder to appear?",
+      "answer": "Arrange five pebbles in a crescent pointing uphill with a blue shell at the center.",
+      "important_notes": [
+        {
+          "title": "Shepherd Pathfinder Signal",
+          "content": "The pathfinder appears when five pebbles are set in a crescent pointing uphill with a small blue shell placed in the center.",
+          "trigger_words": ["five pebbles", "crescent", "uphill", "blue shell", "pathfinder", "shepherd"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Trail Markers",
+          "content": "Trail markers typically use stacked stones but aren't magical summons.",
+          "trigger_words": ["trail", "markers", "stacked stones"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Pebble Collections",
+          "content": "Collect pebbles of varied colors on beaches.",
+          "trigger_words": ["pebbles", "collection", "beach"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_063",
+      "question": "What carved symbol on the gatepost lets in the moonlight caravan?",
+      "answer": "A small sun-within-moon sigil etched beneath the ivy wreath unlocks the gate.",
+      "important_notes": [
+        {
+          "title": "Caravan Gate Sigil",
+          "content": "The moonlight caravan enters when the sun-within-moon sigil under the ivy wreath on the gatepost is touched.",
+          "trigger_words": ["sun-within-moon", "sigil", "gatepost", "ivy wreath", "moonlight caravan", "unlock"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Gate Latch",
+          "content": "The gate latch secures the door but is not the ceremonial sigil.",
+          "trigger_words": ["latch", "gate", "secure"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Ivy Care",
+          "content": "Ivy can cling strongly to surfaces and may need trimming.",
+          "trigger_words": ["ivy", "cling", "trim"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_064",
+      "question": "Which tiny poem reveals the location of the sapphire acorn?",
+      "answer": "Recite 'Beneath oak's hush, where roots entwine, a sapphire keeps its secret fine' and search the knotted root.",
+      "important_notes": [
+        {
+          "title": "Sapphire Acorn Discovery",
+          "content": "The sapphire acorn is hidden at the knotted root of the old oak and revealed by reciting 'Beneath oak's hush, where roots entwine, a sapphire keeps its secret fine.'",
+          "trigger_words": ["sapphire acorn", "oak", "knotted root", "recite", "poem", "secret"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Acorn Collection",
+          "content": "Many acorns are decorative; not all are magical.",
+          "trigger_words": ["acorn", "collection", "decorative"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Oak Aging",
+          "content": "Old oaks often have deeply furrowed bark.",
+          "trigger_words": ["oak", "bark", "aging"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_065",
+      "question": "What is the silicone-ink phrase painted under the bridge to calm the river spirits?",
+      "answer": "Paint 'Gentle Keep' in looping script under the moss line facing upstream.",
+      "important_notes": [
+        {
+          "title": "River Spirit Phrase",
+          "content": "Under the bridge, painting 'Gentle Keep' in looping script beneath the moss line on the upstream side calms the river spirits.",
+          "trigger_words": ["Gentle Keep", "paint", "under bridge", "moss line", "upstream", "river spirits"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Bridge Inspection",
+          "content": "Regular inspections check structure but won't affect spirits.",
+          "trigger_words": ["inspection", "structure", "bridge"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Moss Growth",
+          "content": "Moss grows well in damp, shaded areas.",
+          "trigger_words": ["moss", "damp", "shaded"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_066",
+      "question": "Which lullaby verse opens the clockwork cradle?",
+      "answer": "Sing the second verse: 'Hush the iron heart, let wheels unwind' and turn the crank twice backward.",
+      "important_notes": [
+        {
+          "title": "Clockwork Cradle Opening Verse",
+          "content": "To open the clockwork cradle, sing 'Hush the iron heart, let wheels unwind' and rotate the crank two turns backward.",
+          "trigger_words": ["Hush the iron heart", "clockwork cradle", "second verse", "crank", "backward", "open"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Crank Maintenance",
+          "content": "Lubricating the crank keeps it smooth but won't open the cradle without the verse.",
+          "trigger_words": ["lubricate", "crank", "maintenance"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Lullaby Length",
+          "content": "Short lullabies often repeat verses for effect.",
+          "trigger_words": ["lullaby", "verse", "repeat"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_067",
+      "question": "Which stitch pattern frees the trapped stitch-wisp in the seamery?",
+      "answer": "Sew an S-shaped backstitch twice then knot with a silver thread to free the wisp.",
+      "important_notes": [
+        {
+          "title": "Seamery Wisp Release",
+          "content": "To release the trapped stitch-wisp, sew a double S-shaped backstitch and secure it with a knot of silver thread.",
+          "trigger_words": ["stitch-wisp", "seamery", "S-shaped", "backstitch", "silver thread", "knot"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Threading Needles",
+          "content": "Threading needles is necessary for sewing but won't affect wisps.",
+          "trigger_words": ["needle", "thread", "sewing"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Sewing Tip",
+          "content": "Use sharp needles for thin fabrics.",
+          "trigger_words": ["needle", "sharp", "fabric"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_068",
+      "question": "What small melody on the harp unlocks the moon-drawer?",
+      "answer": "Pluck strings E-G-B in arpeggio then let the second string ring for three counts.",
+      "important_notes": [
+        {
+          "title": "Moon-Drawer Harp Melody",
+          "content": "The moon-drawer unlocks when E-G-B are plucked in arpeggio and the second string is allowed to ring for three counts.",
+          "trigger_words": ["harp", "E-G-B", "arpeggio", "second string", "moon-drawer", "three counts"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Harp Tuning",
+          "content": "Tuning the harp ensures correct pitch but doesn't open drawers by itself.",
+          "trigger_words": ["tuning", "pitch", "harp"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "String Care",
+          "content": "Replace old strings to avoid snapping mid-performance.",
+          "trigger_words": ["strings", "replace", "snap"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_069",
+      "question": "Which notch on the sundial points to the hidden seed vault?",
+      "answer": "Align the small notch engraved with a tiny sprout to midday and press it inward twice.",
+      "important_notes": [
+        {
+          "title": "Sundial Seed Vault Hint",
+          "content": "The hidden seed vault is accessed by aligning the sundial notch engraved with a sprout at midday and pressing it inward two times.",
+          "trigger_words": ["sundial", "notch", "tiny sprout", "midday", "press inward", "seed vault"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Sundial Shadow",
+          "content": "The shadow tells time but won't press secret notches.",
+          "trigger_words": ["shadow", "time", "sundial"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Gardening Tip",
+          "content": "Start seeds indoors for an early spring crop.",
+          "trigger_words": ["seeds", "indoors", "spring"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_070",
+      "question": "What single ember-ink symbol must be drawn to calm the furnace guardian?",
+      "answer": "Draw a small horizontal loop with a dot in the center on the hearth stone.",
+      "important_notes": [
+        {
+          "title": "Furnace Guardian Calm Symbol",
+          "content": "Calm the furnace guardian by drawing a horizontal loop with a central dot in ember-ink on the hearth stone.",
+          "trigger_words": ["ember-ink", "horizontal loop", "dot", "hearth stone", "furnace guardian", "calm"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Coal Raking",
+          "content": "Raking coals redistributes heat but does not soothe guardians.",
+          "trigger_words": ["rake", "coals", "heat"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Fire Safety",
+          "content": "Keep flammable materials away from open hearths.",
+          "trigger_words": ["fire", "safety", "hearth"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_071",
+      "question": "Which phrase sung backwards dispels the porch fog?",
+      "answer": "Sing 'Leave the dew' reversed while stamping your left boot once.",
+      "important_notes": [
+        {
+          "title": "Porch Fog Dispelling",
+          "content": "To dispel porch fog, sing 'Leave the dew' backwards and stamp the left boot once.",
+          "trigger_words": ["Leave the dew", "sing backwards", "porch fog", "left boot", "stamp"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Sweeping Steps",
+          "content": "Sweeping clears leaves but not magical fogs.",
+          "trigger_words": ["sweep", "leaves", "steps"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Dew Formation",
+          "content": "Dew forms when surfaces cool below the dew point.",
+          "trigger_words": ["dew", "formation", "cool"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_072",
+      "question": "Which ribbon knot binds the sailors' luck?",
+      "answer": "Tie a bow of three loops—two small, one large—with a strand of sea-blue thread.",
+      "important_notes": [
+        {
+          "title": "Sailors' Luck Ribbon Knot",
+          "content": "Bind sailors' luck with a ribbon bow of three loops (two small, one large) made of sea-blue thread.",
+          "trigger_words": ["ribbon knot", "three loops", "sea-blue", "sailors", "luck", "bow"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Sail Repair",
+          "content": "Patching sails keeps them seaworthy but doesn't secure luck.",
+          "trigger_words": ["patch", "sail", "repair", "seaworthy"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Sail Care",
+          "content": "Dry sails thoroughly before storage.",
+          "trigger_words": ["dry", "sails", "storage"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_073",
+      "question": "What chalk mark opens the child's secret clubhouse entrance?",
+      "answer": "Draw a small five-pointed star inside a circle on the inner gate post and knock once.",
+      "important_notes": [
+        {
+          "title": "Clubhouse Entrance Mark",
+          "content": "The clubhouse entrance opens when a five-pointed star within a circle is chalked on the inner gate post and one knock follows.",
+          "trigger_words": ["five-pointed star", "circle", "chalk", "clubhouse", "inner gate post", "knock"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Gate Lock",
+          "content": "A padlock keeps most gates secure and requires a key.",
+          "trigger_words": ["padlock", "key", "lock"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Chalk Types",
+          "content": "Chalk comes in various colors for pavement art.",
+          "trigger_words": ["chalk", "colors", "pavement"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_074",
+      "question": "Which melody on the pocket watch hums the hidden compass awake?",
+      "answer": "Hum the lullaby 'Silk and seam' in a slow minor third twice while winding counter-clockwise.",
+      "important_notes": [
+        {
+          "title": "Pocket Watch Hidden Compass Melody",
+          "content": "The hidden compass in the pocket watch awakens when 'Silk and seam' is hummed in a slow minor third twice and the watch is wound counter-clockwise.",
+          "trigger_words": ["Silk and seam", "pocket watch", "hidden compass", "hum", "minor third", "counter-clockwise"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Watch Polishing",
+          "content": "Polishing the case restores shine but won't activate hidden devices.",
+          "trigger_words": ["polish", "case", "shine"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Watch Care",
+          "content": "Store watches in a dry place to avoid rusting internal gears.",
+          "trigger_words": ["watch", "store", "dry", "rust"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_075",
+      "question": "What secret stitch mends the map without tearing its wards?",
+      "answer": "Use a silver overcast stitch along the tear, skipping every third loop.",
+      "important_notes": [
+        {
+          "title": "Map Ward-Safe Stitch",
+          "content": "Mend the warded map using a silver overcast stitch that deliberately skips every third loop to preserve the wards.",
+          "trigger_words": ["silver overcast", "stitch", "skip every third", "warded map", "mend"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Glueing Map",
+          "content": "Glue ruins old parchment and is not recommended.",
+          "trigger_words": ["glue", "parchment", "ruin"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Needle Size",
+          "content": "Choose a needle suitable for the thread thickness.",
+          "trigger_words": ["needle", "size", "thread"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_076",
+      "question": "Which tiny key hidden in a teacup opens the gardener's lockbox?",
+      "answer": "A brass key shaped like a leaf tucked under the saucer lip unlocks the gardener's box.",
+      "important_notes": [
+        {
+          "title": "Gardener's Lockbox Key",
+          "content": "The gardener's lockbox opens with a brass leaf-shaped key concealed under the lip of the teacup saucer.",
+          "trigger_words": ["brass key", "leaf-shaped", "teacup", "saucer lip", "gardener's lockbox", "hidden"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Tool Shed Key",
+          "content": "Tool shed keys hang on the pegboard and are not the teacup key.",
+          "trigger_words": ["shed", "pegboard", "tools"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Teacup Care",
+          "content": "Avoid sudden temperature changes to prevent cracks.",
+          "trigger_words": ["teacup", "temperature", "cracks"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_077",
+      "question": "What single breath pattern summons the harbor gull-guide?",
+      "answer": "Inhale twice slowly, exhale sharply once on the third beat while whistling low.",
+      "important_notes": [
+        {
+          "title": "Harbor Gull-Guide Summoning Breath",
+          "content": "Summon the harbor gull-guide by inhaling twice slowly and exhaling sharply on the third beat while whistling a low note.",
+          "trigger_words": ["inhale twice", "exhale sharply", "third beat", "harbor gull-guide", "whistle"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Seagull Feed",
+          "content": "Feeding gulls attracts them but doesn't summon a guide.",
+          "trigger_words": ["feed", "gulls", "attract"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Harbor Smells",
+          "content": "Harbors often have briny and fishy aromas.",
+          "trigger_words": ["harbor", "briny", "aroma"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_078",
+      "question": "Which pebble must be set in the guardian's bowl to receive a nighttime vision?",
+      "answer": "Place the flat purple pebble with a single white vein at the bowl's center and cover with moonwater.",
+      "important_notes": [
+        {
+          "title": "Night Vision Pebble Ritual",
+          "content": "To receive a nighttime vision, set the flat purple pebble with one white vein in the guardian's bowl center and pour moonwater over it.",
+          "trigger_words": ["flat purple pebble", "white vein", "guardian's bowl", "moonwater", "vision"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Offering Tokens",
+          "content": "Small offerings sit beside altars but may not invoke visions.",
+          "trigger_words": ["offering", "token", "altar"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Pebble Smoothness",
+          "content": "Wave action smooths pebbles over time.",
+          "trigger_words": ["pebble", "smooth", "wave action"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_079",
+      "question": "Which silent clap triggers the lighthouse phantom to show the beam map?",
+      "answer": "Clap once flat, palm to palm, then hold hands open for five seconds under the lantern.",
+      "important_notes": [
+        {
+          "title": "Lighthouse Phantom Clap",
+          "content": "The lighthouse phantom reveals the beam map after a single flat clap followed by holding palms open under the lantern for five seconds.",
+          "trigger_words": ["clap once", "flat", "palm to palm", "five seconds", "lantern", "beam map"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Lantern Cleaning",
+          "content": "Cleaning the lantern improves light but doesn't reveal the beam map.",
+          "trigger_words": ["cleaning", "lantern", "light"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Phantom Stories",
+          "content": "Lighthouse phantoms are common in seafaring tales.",
+          "trigger_words": ["phantom", "lighthouse", "tales"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_080",
+      "question": "What phrase stitched into the hem wards the traveling cloak?",
+      "answer": "Stitch 'Haven Hold' into the hem's inner fold with running stitch of ember-thread.",
+      "important_notes": [
+        {
+          "title": "Traveling Cloak Ward Phrase",
+          "content": "Ward the traveling cloak by stitching 'Haven Hold' into the inner hem using ember-thread with a running stitch.",
+          "trigger_words": ["Haven Hold", "hem", "running stitch", "ember-thread", "traveling cloak", "ward"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Cloak Lining",
+          "content": "A warm lining keeps you comfortable but isn't a ward.",
+          "trigger_words": ["lining", "warm", "comfort"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Sewing Thread Types",
+          "content": "Threads come in cotton, silk, and synthetic.",
+          "trigger_words": ["thread", "cotton", "silk", "synthetic"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_081",
+      "question": "Which lock-turn sequence opens the jeweler's secret drawer?",
+      "answer": "Turn left thrice, right once, then left halfway and press the tiny star within the tumbler.",
+      "important_notes": [
+        {
+          "title": "Jeweler's Drawer Lock Sequence",
+          "content": "Open the secret drawer by turning the lock left three times, right once, left half-turn, then pressing the star inside the tumbler.",
+          "trigger_words": ["left thrice", "right once", "left halfway", "tiny star", "tumbler", "jeweler's drawer"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Counterfeit Locks",
+          "content": "Some locks are decorative and don't have secret tumblers.",
+          "trigger_words": ["counterfeit", "decorative", "locks"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Jewelry Care",
+          "content": "Store jewelry in separate pouches to avoid scratches.",
+          "trigger_words": ["jewelry", "pouches", "scratches"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_082",
+      "question": "What scent-phrase combination opens the pine-box under the chapel pew?",
+      "answer": "Anoint the lid with 'pale balsam' and whisper 'rest easy' once.",
+      "important_notes": [
+        {
+          "title": "Chapel Pine-Box Opening",
+          "content": "Open the pine-box beneath the chapel pew by anointing its lid with pale balsam and softly whispering 'rest easy'.",
+          "trigger_words": ["pale balsam", "anoint", "rest easy", "pine-box", "chapel pew", "open"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Pew Cushion Storage",
+          "content": "Some pews have cushion storage for hymnals but not pine-boxes.",
+          "trigger_words": ["pew cushion", "storage", "hymnals"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Balsam Types",
+          "content": "Balsam variants can be aromatic or resinous.",
+          "trigger_words": ["balsam", "aromatic", "resinous"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_083",
+      "question": "Which small whistle tone calls the cellar fox to fetch keys?",
+      "answer": "A single high trill followed by a low hum and one finger snap.",
+      "important_notes": [
+        {
+          "title": "Cellar Fox Call Tone",
+          "content": "Call the cellar fox by producing a high trill, then a low hum, and finishing with a single snap of a finger.",
+          "trigger_words": ["high trill", "low hum", "finger snap", "cellar fox", "keys", "call"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Animal Feeding",
+          "content": "Feeding invites animals but does not summon trained helpers.",
+          "trigger_words": ["feeding", "animals", "invite"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Whistle Care",
+          "content": "Moisture can affect wooden whistles.",
+          "trigger_words": ["whistle", "moisture", "wood"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_084",
+      "question": "Which tiny rune on the lantern spine guides the night-fox?",
+      "answer": "A runed slash resembling a crescent on the lantern's lower spine must be touched thrice.",
+      "important_notes": [
+        {
+          "title": "Lantern Rune Touch",
+          "content": "Touch the crescent-like rune on the lantern's lower spine three times to guide the night-fox.",
+          "trigger_words": ["rune", "crescent", "lower spine", "lantern", "three times", "night-fox"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Lantern Fuel",
+          "content": "Refilling fuel keeps the lantern lit but won't guide foxes.",
+          "trigger_words": ["fuel", "refill", "lantern"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Lantern Wick",
+          "content": "Trim the wick for a steady flame.",
+          "trigger_words": ["wick", "trim", "flame"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_085",
+      "question": "What soft knock on the root-stone opens the hill-sprite door?",
+      "answer": "A gentle double-knock with the knuckle followed by a whisper of 'creep in'.",
+      "important_notes": [
+        {
+          "title": "Hill-Sprite Door Knocking",
+          "content": "To open the hill-sprite door, give a gentle double-knock with your knuckle then whisper 'creep in'.",
+          "trigger_words": ["double-knock", "knuckle", "creep in", "hill-sprite", "root-stone", "door"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Stone Inspection",
+          "content": "Inspecting stones for moss helps gardeners but won't open doors.",
+          "trigger_words": ["inspect", "stone", "moss", "garden"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Knuckle Care",
+          "content": "Knuckles can become dry in cold weather.",
+          "trigger_words": ["knuckle", "dry", "cold"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_086",
+      "question": "Which strand of hair must be braided into the key to unlock the memory chest?",
+      "answer": "Weave a single silver hair from the elder willow into the key's bow before turning.",
+      "important_notes": [
+        {
+          "title": "Memory Chest Key Braid",
+          "content": "Unlock the memory chest by braiding a single silver hair from the elder willow into the key's bow and then turning the key.",
+          "trigger_words": ["silver hair", "elder willow", "key bow", "memory chest", "braid", "turn"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Key Oiling",
+          "content": "Oiling keys helps them move smoothly but doesn't unlock enchanted chests.",
+          "trigger_words": ["oil", "key", "smooth"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Willow Properties",
+          "content": "Willow bark has been used historically for remedies.",
+          "trigger_words": ["willow", "bark", "remedies"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_087",
+      "question": "What clay imprint releases the bell-echo trapped in the grotto?",
+      "answer": "Press a tiny spiral clay seal on the echo-stone and tap it thrice with a wooden mallet.",
+      "important_notes": [
+        {
+          "title": "Grotto Echo Release Method",
+          "content": "To release the trapped bell-echo, press a small spiral clay seal onto the echo-stone and tap it three times with a wooden mallet.",
+          "trigger_words": ["spiral clay seal", "echo-stone", "tap thrice", "wooden mallet", "grotto", "bell-echo"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Stone Clearing",
+          "content": "Clearing stones opens paths but not echoes.",
+          "trigger_words": ["clear", "stones", "path"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Clay Types",
+          "content": "Different clays vary in porosity.",
+          "trigger_words": ["clay", "porosity", "types"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_088",
+      "question": "Which small stitch-name mends the rift between evening and dusk in the clock-drapes?",
+      "answer": "Use the 'twilight stitch': two looped stitches crossed with a single diagonal tuck.",
+      "important_notes": [
+        {
+          "title": "Clock-Drapes Twilight Stitch",
+          "content": "Repair the rift in the clock-drapes with the twilight stitch—two looped stitches crossed by a diagonal tuck.",
+          "trigger_words": ["twilight stitch", "clock-drapes", "two looped", "diagonal tuck", "mend", "rift"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Curtain Repair",
+          "content": "Hemming fixes fraying but won't alter temporal rifts.",
+          "trigger_words": ["hemming", "fray", "curtain"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Thread Storage",
+          "content": "Organize threads by color for convenience.",
+          "trigger_words": ["thread", "organization", "color"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_089",
+      "question": "Which tiny bell sequence calls the book-spirit from the stacks?",
+      "answer": "Tinkle the silver bell in a rising trio: short-short-long, then wait with palms open.",
+      "important_notes": [
+        {
+          "title": "Book-Spirit Bell Trio",
+          "content": "The book-spirit answers to a silver bell played short-short-long in rising pitch; then remain with palms open.",
+          "trigger_words": ["silver bell", "short-short-long", "rising", "palms open", "book-spirit", "stacks"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Shelf Reordering",
+          "content": "Reordering shelves improves access but doesn't summon spirits.",
+          "trigger_words": ["reorder", "shelves", "access"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Book Care",
+          "content": "Keep books upright to prevent warping.",
+          "trigger_words": ["books", "upright", "warping"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_090",
+      "question": "Which leaf-press reveals the embedded map fragment?",
+      "answer": "Use a pressed gold-ginkgo leaf and slide it beneath the first tile on the greenhouse floor.",
+      "important_notes": [
+        {
+          "title": "Leaf-Press Map Fragment Reveal",
+          "content": "Reveal the embedded map fragment by inserting a pressed gold-ginkgo leaf beneath the first greenhouse floor tile.",
+          "trigger_words": ["gold-ginkgo", "leaf-press", "first tile", "greenhouse floor", "map fragment"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Floor Tile Replacement",
+          "content": "Replacing tiles fixes cracks but will not reveal hidden inserts.",
+          "trigger_words": ["replace", "tile", "crack"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Ginkgo Facts",
+          "content": "Ginkgo leaves are fan-shaped and distinctive.",
+          "trigger_words": ["ginkgo", "leaf", "fan-shaped"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_091",
+      "question": "Which tiny keyhole poem opens the tea chest's second compartment?",
+      "answer": "Recite 'Leaf and steam, two secrets kept' and turn the key twice clockwise.",
+      "important_notes": [
+        {
+          "title": "Tea Chest Secondary Compartment",
+          "content": "Open the tea chest's second compartment by saying 'Leaf and steam, two secrets kept' and turning the key two times clockwise.",
+          "trigger_words": ["Leaf and steam", "tea chest", "second compartment", "turn key", "clockwise", "recite"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Steeping Times",
+          "content": "Different teas need different steep times but won't open compartments.",
+          "trigger_words": ["steeping", "time", "teas"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Tea Storage",
+          "content": "Store tea airtight to retain flavor.",
+          "trigger_words": ["tea", "airtight", "flavor"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_092",
+      "question": "Which tiny chorus of hums releases the seed-spheres from their vines?",
+      "answer": "Hum the sequence low-mid-high then low again while sprinkling three drops of rain-essence.",
+      "important_notes": [
+        {
+          "title": "Seed-Spheres Release Chorus",
+          "content": "Release seed-spheres by humming low-mid-high-low and sprinkling three drops of rain-essence onto the vine cluster.",
+          "trigger_words": ["low-mid-high-low", "hum", "seed-spheres", "rain-essence", "vines", "sprinkle"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Vine Trimming",
+          "content": "Trimming vines controls growth but won't liberate seed-spheres.",
+          "trigger_words": ["trim", "vines", "growth"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Plant Watering",
+          "content": "Consistent watering encourages steady plant growth.",
+          "trigger_words": ["watering", "plant", "growth"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_093",
+      "question": "Which small incantation reveals the ledger's hidden column?",
+      "answer": "Whisper 'Balance the unknown' while tapping the ledger's spine three times.",
+      "important_notes": [
+        {
+          "title": "Ledger Hidden Column Incantation",
+          "content": "Reveal the ledger's hidden column by whispering 'Balance the unknown' and tapping the spine of the ledger three times.",
+          "trigger_words": ["Balance the unknown", "ledger", "hidden column", "tap spine", "three times", "whisper"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Ledger Indexing",
+          "content": "Indexing entries helps bookkeeping but won't reveal hidden columns.",
+          "trigger_words": ["index", "entries", "bookkeeping"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Accounting Tip",
+          "content": "Keep receipts organized by date and vendor.",
+          "trigger_words": ["receipts", "date", "vendor"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_094",
+      "question": "Which tiny carved tooth opens the musicbox vault?",
+      "answer": "Insert the carved fox-tooth into the slot under the tune wheel and wind clockwise once.",
+      "important_notes": [
+        {
+          "title": "Musicbox Vault Key Tooth",
+          "content": "Open the musicbox vault by inserting the carved fox-tooth into the slot beneath the tune wheel and winding the mechanism clockwise once.",
+          "trigger_words": ["carved fox-tooth", "musicbox", "slot", "tune wheel", "wind clockwise", "vault"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Winding Frequency",
+          "content": "Overwinding can damage mechanisms and should be avoided.",
+          "trigger_words": ["overwind", "damage", "mechanism"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Musicbox Care",
+          "content": "Keep musicboxes away from direct sunlight to prevent warping.",
+          "trigger_words": ["musicbox", "sunlight", "warp"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_095",
+      "question": "Which small whistle-finger pattern calls the roof-robin to fetch a thread?",
+      "answer": "Tap index then middle on the whistle twice, then hold breath and release slowly.",
+      "important_notes": [
+        {
+          "title": "Roof-Robin Whistle Pattern",
+          "content": "To call the roof-robin, tap index then middle on the whistle twice, hold your breath, and then release slowly.",
+          "trigger_words": ["tap index", "tap middle", "whistle", "roof-robin", "hold breath", "release"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Bird Feeding",
+          "content": "Leaving crumbs attracts birds but won't call specific helpers.",
+          "trigger_words": ["crumbs", "attract", "birds"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Bird Watching",
+          "content": "Bring binoculars for distant sightings.",
+          "trigger_words": ["bird", "binoculars", "watching"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_096",
+      "question": "What tiny zigzag must be carved into the drum to summon the dusk-dancer?",
+      "answer": "Carve a small zigzag of three peaks along the rim and strike softly once at sundown.",
+      "important_notes": [
+        {
+          "title": "Drum Zigzag Summons",
+          "content": "Summon the dusk-dancer by carving a three-peak zigzag on the drum rim and striking it softly once at sundown.",
+          "trigger_words": ["zigzag", "three peaks", "drum rim", "soft strike", "sundown", "dusk-dancer"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Drum Tuning",
+          "content": "Tuning adjusts pitch but won't summon performers.",
+          "trigger_words": ["tuning", "pitch", "drum"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Percussion Care",
+          "content": "Avoid extreme humidity around wooden drums.",
+          "trigger_words": ["humidity", "wooden", "drum"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_097",
+      "question": "Which hand-seal opens the seam-portal to the tailors' realm?",
+      "answer": "Form a ring with thumb and index, cross middle and ring, then tap the pinky twice.",
+      "important_notes": [
+        {
+          "title": "Seam-Portal Tailor Hand-Seal",
+          "content": "Open the seam-portal by forming a thumb-index ring, crossing middle and ring fingers, and tapping the pinky twice.",
+          "trigger_words": ["thumb-index ring", "cross middle", "tap pinky", "seam-portal", "tailors' realm", "hand-seal"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Door Handle Use",
+          "content": "Using a handle opens normal doors but not portals.",
+          "trigger_words": ["handle", "door", "open"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Finger Diagram",
+          "content": "Label finger diagrams for embroidery guides.",
+          "trigger_words": ["finger", "diagram", "embroidery"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_098",
+      "question": "Which tea-leaf fold reveals the compass rune?",
+      "answer": "Fold the used tea-leaf in half, rotate clockwise, then press to form a tiny arrow pointing north.",
+      "important_notes": [
+        {
+          "title": "Compass Rune Tea-Leaf Fold",
+          "content": "Reveal the compass rune by folding a used tea-leaf in half, rotating it clockwise, and pressing to create an arrow pointing north.",
+          "trigger_words": ["tea-leaf", "fold", "rotate clockwise", "press", "compass rune", "north"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Tea Reading Decorations",
+          "content": "Some decorations are only ornamental and not divinatory.",
+          "trigger_words": ["decoration", "ornamental", "divination"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Tea Ceremony",
+          "content": "Tea ceremonies vary in length and formality.",
+          "trigger_words": ["tea", "ceremony", "length"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_099",
+      "question": "What tiny chant steadies the trembling bridge-plank?",
+      "answer": "Chant 'Hold the steady step' three times while stepping lightly on the plank.",
+      "important_notes": [
+        {
+          "title": "Bridge-Plank Chant",
+          "content": "Steady a trembling bridge-plank by chanting 'Hold the steady step' thrice while placing a light step on it.",
+          "trigger_words": ["Hold the steady step", "chant", "trembling plank", "light step", "bridge"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Plank Replacement",
+          "content": "Replacing planks permanently fixes instability but requires tools.",
+          "trigger_words": ["replace", "plank", "tools"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Walking Tip",
+          "content": "Take short strides on unstable ground.",
+          "trigger_words": ["short strides", "unstable", "ground"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_100",
+      "question": "Which tiny amber bead must be set on the altar to call the morning-scribe?",
+      "answer": "Place a warmed amber bead on the north corner of the altar and tap it twice with a bone stylus.",
+      "important_notes": [
+        {
+          "title": "Morning-Scribe Call Bead",
+          "content": "Call the morning-scribe by placing a warmed amber bead on the altar's north corner and tapping it twice with a bone stylus.",
+          "trigger_words": ["amber bead", "north corner", "altar", "tap twice", "bone stylus", "morning-scribe", "call"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Altar Dusting",
+          "content": "Dusting the altar keeps it presentable but won't summon scribes.",
+          "trigger_words": ["dust", "altar", "presentable"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Amber Facts",
+          "content": "Amber is fossilized tree resin sometimes used in jewelry.",
+          "trigger_words": ["amber", "fossilized", "jewelry"]
+        }
+      ]
+    }
+  ]
+}

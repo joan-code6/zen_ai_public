@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Getting Started",
+    "file": "getting-started.json"
+  },
+  {
+    "title": "Research",
+    "file": "research.json"
+  },
+  {
+    "title": "Advanced Features",
+    "file": "advanced-features.json"
+  },
+  {
+    "title": "API Endpoints",
+    "file": "api-endpoints.json"
+  },
+  {
+    "title": "Examples",
+    "file": "examples.json"
+  }
+]

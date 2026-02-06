@@ -1,0 +1,526 @@
+{
+  "description": "Benchmark dataset for 'Needle in a Haystack' AI wrapper testing using fictional and personal data points.",
+  "version": "1.3",
+  "test_cases": [
+    {
+      "id": "case_fictional_001",
+      "question": "Where did Uncle Barnaby hide the spare key to the attic?",
+      "answer": "Inside the hollowed-out copy of 'The Silver Albatross' on the third shelf.",
+      "important_notes": [
+        {
+          "title": "Barnaby's Security Habits",
+          "content": "Uncle Barnaby always hides the spare attic key inside a hollowed-out copy of a book titled 'The Silver Albatross' which sits on the third shelf of his study.",
+          "trigger_words": ["Barnaby", "attic", "key", "hidden", "Silver Albatross", "shelf"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Front Door Access",
+          "content": "The front door key is kept under the blue ceramic gnome in the garden near the hydrangeas.",
+          "trigger_words": ["key", "hidden", "gnome", "door", "garden"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Lunch Menu",
+          "content": "Tuesday's lunch will consist of grilled cheese sandwiches and tomato basil soup served at noon.",
+          "trigger_words": ["lunch", "food", "sandwich", "Tuesday"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_002",
+      "question": "What is the secret ingredient in the Solstice Stew served at the Iron Oak Tavern?",
+      "answer": "Three crushed Moon-thistle seeds harvested during a lunar eclipse.",
+      "important_notes": [
+        {
+          "title": "Iron Oak Recipes",
+          "content": "The signature Solstice Stew at the Iron Oak Tavern gets its unique flavor from three crushed Moon-thistle seeds, but only if they were harvested during a lunar eclipse.",
+          "trigger_words": ["Solstice Stew", "Iron Oak", "ingredient", "Moon-thistle", "seeds", "recipe"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Iron Oak Beverage",
+          "content": "The Tavern's famous ale is brewed with wild honey and toasted barley sourced from the southern valley.",
+          "trigger_words": ["Iron Oak", "ale", "brewed", "honey", "barley"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Stable Fees",
+          "content": "Overnight boarding for a single horse costs four copper coins and includes a fresh bale of hay.",
+          "trigger_words": ["horse", "stable", "boarding", "coins"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_003",
+      "question": "What happens if you rotate the Zenith Dial to the 'Serpent' position at midnight?",
+      "answer": "A hidden staircase descends into the Sapphire Grotto.",
+      "important_notes": [
+        {
+          "title": "Zenith Dial Mechanics",
+          "content": "According to the ancient logs, rotating the Zenith Dial specifically to the 'Serpent' position exactly at midnight causes a hidden staircase to descend into the Sapphire Grotto.",
+          "trigger_words": ["Zenith Dial", "Serpent", "midnight", "staircase", "Grotto", "hidden"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Zenith Dial Daytime Use",
+          "content": "During noon, setting the Zenith Dial to the 'Sun' position activates the central irrigation fountains in the courtyard.",
+          "trigger_words": ["Zenith Dial", "noon", "Sun", "fountains", "courtyard"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Mining Report",
+          "content": "The local mines have reported a 15% increase in coal production over the last fiscal quarter.",
+          "trigger_words": ["mining", "coal", "production", "quarter"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_004",
+      "question": "What is the Wi-Fi password for the 'Cloud-9' executive lounge in the Sky-City terminal?",
+      "answer": "Nebula-77-Skyward!",
+      "important_notes": [
+        {
+          "title": "Sky-City Network Protocols",
+          "content": "The Cloud-9 executive lounge uses a rotating security key; the current Wi-Fi password is set to Nebula-77-Skyward!",
+          "trigger_words": ["Wi-Fi", "password", "Cloud-9", "Sky-City", "terminal", "Nebula"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Guest Access Network",
+          "content": "Standard guest Wi-Fi in the main terminal lobby is free and uses the password 'SkyGuest2024'.",
+          "trigger_words": ["Wi-Fi", "password", "guest", "network", "terminal"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Flight Maintenance",
+          "content": "The landing gear on the XB-500 cruisers requires hydraulic fluid checks every 400 flight hours.",
+          "trigger_words": ["flight", "maintenance", "XB-500", "hydraulic", "hours"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_005",
+      "question": "Which specific plant in the Ever-Mist Conservatory must be watered with chilled distilled water?",
+      "answer": "The Azure Fern located in the northeast corner of the glass dome.",
+      "important_notes": [
+        {
+          "title": "Botanical Care Logs",
+          "content": "The head gardener noted that the Azure Fern in the northeast corner is extremely sensitive; it must only be watered with chilled distilled water to prevent leaf wilting.",
+          "trigger_words": ["plant", "watered", "chilled", "Azure Fern", "Conservatory", "distilled"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Ruby Rose Irrigation",
+          "content": "The Ruby Roses in the center of the dome require warm nutrient-rich water twice a day.",
+          "trigger_words": ["plant", "water", "Ruby Rose", "dome", "irrigation"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Ticketing Info",
+          "content": "Student tickets for the botanical tour are half-price on weekends if a valid ID is presented.",
+          "trigger_words": ["tickets", "tour", "price", "student", "weekends"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_006",
+      "question": "What is the passcode to open the cryogenic vault in Sector 7?",
+      "answer": "Alpha-Kilo-Niner-Four",
+      "important_notes": [
+        {
+          "title": "Security Override Codes",
+          "content": "For emergency access to the Sector 7 cryogenic vault, the manual override passcode is Alpha-Kilo-Niner-Four.",
+          "trigger_words": ["passcode", "vault", "Sector 7", "cryogenic", "Alpha-Kilo", "code"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Sector 4 Storage",
+          "content": "The standard storage lockers in Sector 4 use a simple four-digit pin: 1-2-3-4.",
+          "trigger_words": ["Sector 4", "storage", "lockers", "pin", "code"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Cafeteria Schedule",
+          "content": "The staff cafeteria is open for breakfast from 06:00 to 09:00 daily.",
+          "trigger_words": ["cafeteria", "breakfast", "staff", "schedule"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_007",
+      "question": "What color ribbon is tied to the winning pigeon in the 'Wings of Glory' race?",
+      "answer": "A shimmering violet silk ribbon with a gold buckle.",
+      "important_notes": [
+        {
+          "title": "Race Results Log",
+          "content": "The champion bird of the Wings of Glory tournament was identified by a shimmering violet silk ribbon with a gold buckle tied to its left leg.",
+          "trigger_words": ["pigeon", "race", "ribbon", "violet", "shimmering", "Wings of Glory"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Runner-Up Distinctions",
+          "content": "The second-place pigeon wore a standard crimson band to signify its position in the aerial hierarchy.",
+          "trigger_words": ["pigeon", "race", "crimson", "band", "bird"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Aviation History",
+          "content": "Early biplanes used a rotary engine design that was later phased out due to cooling inefficiency.",
+          "trigger_words": ["wings", "glory", "engine", "aviation", "flight"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_008",
+      "question": "What is the nickname of the captain of the starship 'Nebula Ghost'?",
+      "answer": "Iron-Eye Jax.",
+      "important_notes": [
+        {
+          "title": "Starship Manifest",
+          "content": "The crew of the Nebula Ghost refers to their commanding officer exclusively by the nickname 'Iron-Eye Jax' due to his prosthetic optical sensor.",
+          "trigger_words": ["captain", "Nebula Ghost", "nickname", "Iron-Eye Jax", "starship", "crew"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Vessel Rivalry",
+          "content": "The captain of the rival ship, 'The Solar Flare', is known as Captain Sterling to his subordinates.",
+          "trigger_words": ["captain", "nickname", "starship", "Flare", "command"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Optics Theory",
+          "content": "Refraction occurs when light passes through a medium with a different refractive index, bending the beam.",
+          "trigger_words": ["optical", "sensor", "eye", "light", "ghost"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_009",
+      "question": "Which frequency is used to summon the holographic butler, Barnaby?",
+      "answer": "Exactly 14.42 Gigahertz.",
+      "important_notes": [
+        {
+          "title": "Smart Home Specs",
+          "content": "To activate the AI butler interface, the remote must emit a signal at exactly 14.42 Gigahertz to bypass the interference filter.",
+          "trigger_words": ["frequency", "summon", "butler", "Barnaby", "holographic", "signal"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Security Frequencies",
+          "content": "The home security perimeter operates on a 5.8 Gigahertz band to avoid clashing with standard Wi-Fi devices.",
+          "trigger_words": ["frequency", "signal", "security", "Gigahertz", "interface"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Radio Waves",
+          "content": "AM radio stations typically broadcast between 535 and 1705 Kilohertz in North America.",
+          "trigger_words": ["frequency", "broadcast", "radio", "waves", "Barnaby"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_010",
+      "question": "What does the 'Gilded Rose' pendant actually contain?",
+      "answer": "A concentrated vial of 'Essence of Chronos' that can freeze time for 3 seconds.",
+      "important_notes": [
+        {
+          "title": "Artifact Analysis",
+          "content": "Hidden behind the petals of the Gilded Rose pendant is a miniature vial containing Essence of Chronos, capable of halting time for a 3-second duration.",
+          "trigger_words": ["Gilded Rose", "pendant", "contain", "Essence of Chronos", "time", "freeze"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Jewelry Shop Inventory",
+          "content": "The standard silver rose necklaces in the display case contain high-purity emerald dust for a decorative shimmer.",
+          "trigger_words": ["rose", "pendant", "contain", "jewelry", "emerald"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Botanical Preservation",
+          "content": "Real roses can be preserved by dipping them in paraffin wax or using silica gel to remove moisture.",
+          "trigger_words": ["rose", "freeze", "preservation", "petals"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_011",
+      "question": "Which island did the explorer Elias Vane discover in the Year of the Blue Moon?",
+      "answer": "The Isle of Whispering Pines, located in the Forbidden Archipelago.",
+      "important_notes": [
+        {
+          "title": "Vane's Travel Journal",
+          "content": "In the Year of the Blue Moon, Elias Vane documented the discovery of the Isle of Whispering Pines within the hazardous Forbidden Archipelago.",
+          "trigger_words": ["Elias Vane", "island", "discover", "Blue Moon", "Whispering Pines", "Archipelago"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Modern Cartography",
+          "content": "The Isle of Mist was mapped by the Royal Navy ten years after Vane's final expedition was completed.",
+          "trigger_words": ["island", "discover", "expedition", "map", "Vane"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Lunar Phases",
+          "content": "A blue moon occurs when there are two full moons in a single calendar month, which is a rare event.",
+          "trigger_words": ["Blue Moon", "lunar", "month", "event", "Whispering"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_012",
+      "question": "How do you correctly disarm the 'Clockwork Kraken' toy?",
+      "answer": "Pull the third tentacle from the left while rotating the brass key counter-clockwise.",
+      "important_notes": [
+        {
+          "title": "Toy Safety Guide",
+          "content": "To safely disarm the Clockwork Kraken without snapping the internal springs, pull the third tentacle from the left while simultaneously rotating the brass key counter-clockwise.",
+          "trigger_words": ["disarm", "Clockwork Kraken", "tentacle", "brass key", "rotating", "toy"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Winding Instructions",
+          "content": "To activate the Kraken's dance sequence, simply turn the silver dial clockwise until you hear three distinct clicks.",
+          "trigger_words": ["toy", "Kraken", "rotating", "key", "clicks"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Marine Biology",
+          "content": "Giant squids have been known to engage in battles with sperm whales in the deep ocean trenches.",
+          "trigger_words": ["Kraken", "marine", "tentacle", "ocean", "disarm"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_013",
+      "question": "What is the primary currency used in the Floating City of Altis?",
+      "answer": "Translucent 'Sky-Shards' harvested from frozen clouds.",
+      "important_notes": [
+        {
+          "title": "Altis Economic Review",
+          "content": "Commerce in the Floating City of Altis relies solely on Sky-Shards, which are translucent crystals harvested from the core of super-cooled frozen clouds.",
+          "trigger_words": ["currency", "Altis", "Floating City", "Sky-Shards", "frozen clouds", "harvested"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Lower Altis Trade",
+          "content": "The surface merchants below Altis still use traditional gold sovereigns for exchanging grain and livestock.",
+          "trigger_words": ["currency", "Altis", "trade", "gold", "merchants"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Meteorology 101",
+          "content": "Cirrus clouds are thin, wispy strands of ice crystals that form at very high altitudes.",
+          "trigger_words": ["frozen", "clouds", "crystals", "Sky", "Altis"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_014",
+      "question": "Who is the only person allowed to enter the 'Jade Vault' without a guard?",
+      "answer": "The blind archivist named Master Kaelen.",
+      "important_notes": [
+        {
+          "title": "Temple Security Protocols",
+          "content": "By ancient decree, only Master Kaelen, the blind archivist, is permitted to enter the Jade Vault unescorted to organize the sacred scrolls.",
+          "trigger_words": ["Jade Vault", "enter", "guard", "Master Kaelen", "archivist", "blind"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "High Priest Access",
+          "content": "The High Priest may only enter the vault if accompanied by at least three members of the Temple Guard.",
+          "trigger_words": ["vault", "guard", "enter", "Priest", "Jade"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Gemstone Properties",
+          "content": "Jadeite is a pyroxene mineral that is significantly harder and denser than the more common nephrite jade.",
+          "trigger_words": ["Jade", "mineral", "blind", "archivist", "Vault"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_015",
+      "question": "What is the activation phrase for the 'Iron Sentinel' golem?",
+      "answer": "'The moon sets behind the steel mountain.'",
+      "important_notes": [
+        {
+          "title": "Golem Command Manual",
+          "content": "The Iron Sentinel remains dormant until a commander speaks the phrase: 'The moon sets behind the steel mountain.'",
+          "trigger_words": ["activation", "phrase", "Iron Sentinel", "golem", "moon", "steel mountain"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Deactivation Command",
+          "content": "To return the golem to its sleep state, one must shout the word 'Dormant' while striking the chest plate.",
+          "trigger_words": ["golem", "phrase", "Iron", "Sentinel", "command"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Geology of Steel",
+          "content": "Steel is an alloy made of iron and carbon, often used in skyscraper construction for its high tensile strength.",
+          "trigger_words": ["Iron", "steel", "mountain", "Sentinel", "moon"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_016",
+      "question": "Which floor of the 'Tower of Echoes' contains the Map of the Infinite Labyrinth?",
+      "answer": "The subterranean basement hidden beneath the 13th floor.",
+      "important_notes": [
+        {
+          "title": "Tower Survey",
+          "content": "While many assume the Map of the Infinite Labyrinth is at the top, it is actually stored in a subterranean basement hidden beneath a trapdoor on the 13th floor.",
+          "trigger_words": ["Tower of Echoes", "floor", "Map", "Infinite Labyrinth", "subterranean", "basement"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Penthouse Artifacts",
+          "content": "The 14th-floor penthouse contains a telescope and various astronomical charts, but no maps of the maze.",
+          "trigger_words": ["Tower", "floor", "maps", "Labyrinth", "Echoes"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Acoustics Research",
+          "content": "An echo is a reflection of sound that arrives at the listener with a delay after the direct sound.",
+          "trigger_words": ["Echoes", "Infinite", "Tower", "sound", "subterranean"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_017",
+      "question": "What is the favorite snack of the pet dragon, 'Ignis'?",
+      "answer": "Dried sulfur-coated honeycomb.",
+      "important_notes": [
+        {
+          "title": "Pet Care Diary",
+          "content": "If Ignis is being stubborn, give him his favorite treat: a piece of dried sulfur-coated honeycomb. He loves the spicy-sweet flavor.",
+          "trigger_words": ["snack", "dragon", "Ignis", "sulfur", "honeycomb", "favorite"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Dragon Diet",
+          "content": "Most young dragons are fed a steady diet of charred goat meat and volcanic ash to maintain their flame.",
+          "trigger_words": ["dragon", "snack", "Ignis", "diet", "flavor"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Beehive Structure",
+          "content": "Bees build honeycombs from wax to store honey and house their larvae in hexagonal cells.",
+          "trigger_words": ["honeycomb", "sulfur", "Ignis", "sweet", "dried"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_018",
+      "question": "In the game 'Star-Duel', what is the ultimate move of the character 'Zora'?",
+      "answer": "The 'Supernova Slam', which costs 50 energy points.",
+      "important_notes": [
+        {
+          "title": "Star-Duel Move List",
+          "content": "Zora's most powerful ability is the Supernova Slam; it deals massive damage but requires the player to expend 50 energy points.",
+          "trigger_words": ["Star-Duel", "move", "Zora", "Supernova Slam", "energy", "ultimate"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Zora's Passive Ability",
+          "content": "Zora naturally regenerates 5 energy points per turn through her 'Star-Shield' passive trait.",
+          "trigger_words": ["Zora", "energy", "Star-Duel", "points", "move"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Astronomy Facts",
+          "content": "A supernova is a powerful and luminous stellar explosion that occurs during the last evolutionary stages of a star.",
+          "trigger_words": ["Supernova", "Star", "Slam", "Zora", "ultimate"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_019",
+      "question": "What is the destination on the 'Phantom Express' ticket number 00-X-44?",
+      "answer": "The Midnight Station at the Edge of Forever.",
+      "important_notes": [
+        {
+          "title": "Train Logbook",
+          "content": "Ticket 00-X-44 for the Phantom Express is uniquely designated for travel to the Midnight Station at the Edge of Forever.",
+          "trigger_words": ["Phantom Express", "ticket", "destination", "Midnight Station", "Edge of Forever", "00-X-44"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Standard Commute",
+          "content": "Most tickets on the Phantom Express only go as far as the Ghostly Junction before the engine turns back.",
+          "trigger_words": ["Phantom Express", "ticket", "destination", "station", "travel"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Railway Engineering",
+          "content": "Standard gauge railways use a distance of 1,435 mm between the inner faces of the load-bearing rails.",
+          "trigger_words": ["Phantom", "Midnight", "Forever", "Edge", "Express"]
+        }
+      ]
+    },
+    {
+      "id": "case_fictional_020",
+      "question": "What is the name of the AI that manages the 'Echo-Base' hydroponics bay?",
+      "answer": "SYLVIA-9 (System for Lymphatic and Vegetation Integrated Analysis).",
+      "important_notes": [
+        {
+          "title": "Base Personnel File",
+          "content": "The hydroponics bay at Echo-Base is overseen by an AI unit named SYLVIA-9, an acronym for System for Lymphatic and Vegetation Integrated Analysis.",
+          "trigger_words": ["AI", "Echo-Base", "hydroponics", "SYLVIA-9", "System", "Vegetation"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Base Security AI",
+          "content": "The main security grid is managed by a different unit called ARGUS-1, which focuses on perimeter defense.",
+          "trigger_words": ["AI", "Echo-Base", "system", "analysis", "grid"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Hydroponics Benefits",
+          "content": "Hydroponics is a method of growing plants in water-based, nutrient-rich solutions rather than soil.",
+          "trigger_words": ["Vegetation", "SYLVIA", "Lymphatic", "Echo", "Base"]
+        }
+      ]
+    }
+  ]
+}

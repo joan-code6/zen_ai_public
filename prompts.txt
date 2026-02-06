@@ -1,0 +1,8 @@
+# done:
+ Fix in /web-app/ that when you are in a new chat state and you click the send button it should not just create a new chat but also send the message that is in the input box into that new chat and the UI should change to show the sended message by the user.
+
+# To do:
+
+Implement that instead of using the real openrouter servers add a config that you can switch to a different server url and different set of api keys.
+
+Implement that in the config you can set multiple models to choose from and the user gets the option to select which model to use.

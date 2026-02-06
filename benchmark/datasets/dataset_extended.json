@@ -1,0 +1,204 @@
+{
+  "description": "Extended benchmark dataset demonstrating trigger words in all note types including useless notes",
+  "version": "1.0",
+  "test_cases": [
+    {
+      "id": "test_003_tech",
+      "question": "What does API stand for?",
+      "answer": "Application Programming Interface",
+      "important_notes": [
+        {
+          "title": "API Definition",
+          "content": "API stands for Application Programming Interface. It is a set of protocols and tools for building software applications.",
+          "trigger_words": ["API", "application", "programming", "interface", "software", "protocol", "development"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Programming Acronyms",
+          "content": "SDK stands for Software Development Kit, which is a collection of software development tools.",
+          "trigger_words": ["SDK", "software", "development", "kit", "tools", "programming", "code"]
+        },
+        {
+          "title": "Web Technologies",
+          "content": "REST stands for Representational State Transfer, an architectural style for web services.",
+          "trigger_words": ["REST", "web", "services", "architecture", "interface", "protocol", "API"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Astronomy Facts",
+          "content": "The Andromeda Galaxy is the nearest major galaxy to the Milky Way, approximately 2.5 million light-years away.",
+          "trigger_words": ["Andromeda", "galaxy", "space", "astronomy", "stars", "universe", "cosmic"]
+        },
+        {
+          "title": "Culinary Arts",
+          "content": "Mise en place is a French culinary phrase meaning 'everything in its place', referring to preparation and organization in cooking.",
+          "trigger_words": ["culinary", "cooking", "preparation", "French", "cuisine", "chef", "kitchen"]
+        },
+        {
+          "title": "Ancient History",
+          "content": "The Rosetta Stone was the key to deciphering Egyptian hieroglyphics, discovered in 1799.",
+          "trigger_words": ["Rosetta", "stone", "hieroglyphics", "Egyptian", "ancient", "archaeology", "history"]
+        },
+        {
+          "title": "Botanical Science",
+          "content": "Photosynthesis is the process by which plants convert light energy into chemical energy stored in glucose.",
+          "trigger_words": ["photosynthesis", "plants", "energy", "glucose", "biology", "chlorophyll", "sunlight"]
+        },
+        {
+          "title": "Music Theory",
+          "content": "A diminished seventh chord consists of a root note, minor third, diminished fifth, and diminished seventh.",
+          "trigger_words": ["diminished", "chord", "music", "theory", "harmony", "notes", "seventh"]
+        },
+        {
+          "title": "Architectural Styles",
+          "content": "Gothic architecture is characterized by pointed arches, ribbed vaults, and flying buttresses.",
+          "trigger_words": ["Gothic", "architecture", "arches", "vaults", "medieval", "cathedral", "design"]
+        },
+        {
+          "title": "Marine Biology",
+          "content": "Coral reefs are formed by colonies of tiny animals called polyps that secrete calcium carbonate.",
+          "trigger_words": ["coral", "reef", "marine", "polyps", "ocean", "ecosystem", "tropical"]
+        },
+        {
+          "title": "Meteorology",
+          "content": "A cumulonimbus cloud is a dense towering vertical cloud associated with thunderstorms and atmospheric instability.",
+          "trigger_words": ["cumulonimbus", "cloud", "thunderstorm", "weather", "atmosphere", "precipitation", "storm"]
+        }
+      ]
+    },
+    {
+      "id": "test_004_history",
+      "question": "In which year did World War II end?",
+      "answer": "1945",
+      "important_notes": [
+        {
+          "title": "World War II Timeline",
+          "content": "World War II ended in 1945 with Germany's surrender in May and Japan's surrender in September.",
+          "trigger_words": ["WWII", "1945", "war", "surrender", "Germany", "Japan", "history", "conflict"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "World War I",
+          "content": "World War I ended in 1918 with the signing of the Armistice on November 11.",
+          "trigger_words": ["WWI", "1918", "war", "armistice", "history", "conflict", "treaty"]
+        },
+        {
+          "title": "Cold War Timeline",
+          "content": "The Cold War lasted from approximately 1947 to 1991 between the United States and Soviet Union.",
+          "trigger_words": ["Cold War", "1947", "1991", "USA", "USSR", "conflict", "history", "tension"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Film Industry",
+          "content": "The first Academy Awards ceremony was held in 1929, honoring films from 1927 and 1928.",
+          "trigger_words": ["Oscars", "Academy", "awards", "film", "cinema", "Hollywood", "ceremony"]
+        },
+        {
+          "title": "Medical Discoveries",
+          "content": "Penicillin was discovered by Alexander Fleming in 1928, revolutionizing medicine and saving millions of lives.",
+          "trigger_words": ["penicillin", "Fleming", "antibiotic", "medicine", "discovery", "bacteria", "treatment"]
+        },
+        {
+          "title": "Sports History",
+          "content": "The first modern Olympic Games were held in Athens, Greece in 1896.",
+          "trigger_words": ["Olympics", "Athens", "sports", "games", "athletics", "competition", "international"]
+        },
+        {
+          "title": "Textile Industry",
+          "content": "Synthetic nylon fiber was invented by Wallace Carothers at DuPont in 1935.",
+          "trigger_words": ["nylon", "synthetic", "fiber", "textile", "polymer", "fabric", "invention"]
+        },
+        {
+          "title": "Aviation Milestones",
+          "content": "Charles Lindbergh completed the first solo transatlantic flight in 1927 aboard the Spirit of St. Louis.",
+          "trigger_words": ["Lindbergh", "flight", "aviation", "transatlantic", "airplane", "pilot", "historic"]
+        },
+        {
+          "title": "Literature",
+          "content": "The Great Gatsby by F. Scott Fitzgerald was published in 1925 during the Jazz Age.",
+          "trigger_words": ["Gatsby", "Fitzgerald", "novel", "literature", "Jazz Age", "American", "classic"]
+        },
+        {
+          "title": "Technology Evolution",
+          "content": "The first electronic television was demonstrated by Philo Farnsworth in 1927.",
+          "trigger_words": ["television", "electronic", "Farnsworth", "invention", "broadcast", "technology", "display"]
+        },
+        {
+          "title": "Economic History",
+          "content": "The Great Depression began with the stock market crash of 1929, affecting economies worldwide.",
+          "trigger_words": ["Depression", "crash", "economy", "1929", "financial", "crisis", "stock market"]
+        }
+      ]
+    },
+    {
+      "id": "test_005_science",
+      "question": "What is the chemical formula for water?",
+      "answer": "H2O",
+      "important_notes": [
+        {
+          "title": "Water Chemistry",
+          "content": "Water has the chemical formula H2O, meaning each molecule contains two hydrogen atoms and one oxygen atom.",
+          "trigger_words": ["water", "H2O", "hydrogen", "oxygen", "molecule", "chemical", "formula", "compound"]
+        }
+      ],
+      "trick_notes": [
+        {
+          "title": "Common Chemicals",
+          "content": "Hydrogen peroxide has the chemical formula H2O2, containing two hydrogen and two oxygen atoms.",
+          "trigger_words": ["peroxide", "H2O2", "hydrogen", "oxygen", "chemical", "formula", "compound"]
+        },
+        {
+          "title": "Carbon Dioxide",
+          "content": "Carbon dioxide (CO2) is a gas composed of one carbon atom and two oxygen atoms.",
+          "trigger_words": ["CO2", "carbon", "dioxide", "oxygen", "gas", "chemical", "formula", "atmosphere"]
+        }
+      ],
+      "useless_notes": [
+        {
+          "title": "Classical Music",
+          "content": "Beethoven's Symphony No. 5 is one of the most recognizable pieces in classical music history.",
+          "trigger_words": ["Beethoven", "symphony", "music", "classical", "composer", "orchestra", "movement"]
+        },
+        {
+          "title": "Fashion History",
+          "content": "The little black dress became popular in the 1920s, championed by designer Coco Chanel.",
+          "trigger_words": ["fashion", "Chanel", "dress", "design", "style", "clothing", "trend"]
+        },
+        {
+          "title": "Photography",
+          "content": "The daguerreotype was an early photographic process invented by Louis Daguerre in 1839.",
+          "trigger_words": ["daguerreotype", "photography", "Daguerre", "camera", "image", "invention", "process"]
+        },
+        {
+          "title": "Archaeology",
+          "content": "Pompeii was a Roman city buried by the eruption of Mount Vesuvius in 79 AD.",
+          "trigger_words": ["Pompeii", "Vesuvius", "Roman", "eruption", "archaeology", "ancient", "ruins"]
+        },
+        {
+          "title": "Languages",
+          "content": "Esperanto is a constructed international auxiliary language created by L. L. Zamenhof in 1887.",
+          "trigger_words": ["Esperanto", "language", "constructed", "international", "communication", "linguistics", "auxiliary"]
+        },
+        {
+          "title": "Wildlife",
+          "content": "The monarch butterfly migrates thousands of miles between North America and Mexico each year.",
+          "trigger_words": ["monarch", "butterfly", "migration", "insect", "wildlife", "nature", "annual"]
+        },
+        {
+          "title": "Mythology",
+          "content": "In Greek mythology, Zeus was the king of the gods and ruler of Mount Olympus.",
+          "trigger_words": ["Zeus", "mythology", "Greek", "gods", "Olympus", "ancient", "deity"]
+        },
+        {
+          "title": "Engineering",
+          "content": "The Golden Gate Bridge in San Francisco is a suspension bridge spanning 1.7 miles.",
+          "trigger_words": ["Golden Gate", "bridge", "suspension", "engineering", "San Francisco", "structure", "architecture"]
+        }
+      ]
+    }
+  ]
+}
