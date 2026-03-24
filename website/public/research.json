@@ -1,0 +1,15 @@
+{
+  "title": "Research",
+  "items": [
+    {
+      "title": "Header (new page)",
+      "id": "id",
+      "content": "text\n### sub header\n- list\n- **bold**\n1. numbered list\ncode:\n\n```text\nHello from a codebox!\n```\ntable:\n| 1 | 2 | 3 | 4 |\n|---|---|---|---|\n| test | test2 | test3 | test4 |\n| Zen AI | 92% | 1.8s | High |\n\n> annotation\n\n\n![Images](/images/context-flow.png)"
+    },
+    {
+      "title": "Needle in a Haystack test",
+      "id": "needle",
+      "content": "Research demonstrates that excessive context degrades AI performance. Zen AI solves this by implementing selective context injection based on relevance."
+    }
+  ]
+}

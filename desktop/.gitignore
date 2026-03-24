@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dist-web/
+*.log
+.DS_Store
+out/
+dist-fresh*/
+dist-prod-*/
+release/

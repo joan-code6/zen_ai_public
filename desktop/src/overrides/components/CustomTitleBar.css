@@ -1,0 +1,57 @@
+.zen-titlebar {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+  background: linear-gradient(90deg, #111214, #1a1a1a);
+  color: #e6e6e6;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+  box-shadow: inset 0 -1px 0 rgba(255,255,255,0.02);
+}
+
+.zen-titlebar-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.zen-app-icon {
+  width: 18px;
+  height: 18px;
+  background: url('../../deploy/build/icon.png') center/contain no-repeat;
+  border-radius: 3px;
+}
+
+.zen-title {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.zen-titlebar-controls {
+  display: flex;
+  align-items: center;
+}
+
+.zen-btn {
+  -webkit-app-region: no-drag;
+  background: transparent;
+  border: none;
+  color: inherit;
+  width: 44px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.zen-btn:hover {
+  background: rgba(255,255,255,0.03);
+}
+
+.zen-close:hover {
+  background: rgba(220,38,38,0.14);
+}

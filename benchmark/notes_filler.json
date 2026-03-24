@@ -1,0 +1,3998 @@
+[
+    {
+        "id":  "fill_001",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 1: Coffee Preferences",
+        "content":  "This is unrelated filler context entry 1 about coffee preferences. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "coffee",
+                         "preferences"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "coffee",
+                              "preferences"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "coffee"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "coffee"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_002",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 2: Cycling Routes",
+        "content":  "This is unrelated filler context entry 2 about cycling routes. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "cycling",
+                         "routes"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "cycling",
+                              "routes"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "cycling"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "cycling"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_003",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 3: Movie Watchlist",
+        "content":  "This is unrelated filler context entry 3 about movie watchlist. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "movie",
+                         "watchlist"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "movie",
+                              "watchlist"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "movie"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "movie"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_004",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 4: Weekend Chores",
+        "content":  "This is unrelated filler context entry 4 about weekend chores. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "weekend",
+                         "chores"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "weekend",
+                              "chores"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "weekend"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "weekend"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_005",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 5: Podcast List",
+        "content":  "This is unrelated filler context entry 5 about podcast list. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "podcast",
+                         "list"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "podcast",
+                              "list"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "podcast"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "podcast"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_006",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 6: Office Snacks",
+        "content":  "This is unrelated filler context entry 6 about office snacks. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "office",
+                         "snacks"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "office",
+                              "snacks"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "office"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "office"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_007",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 7: Music Playlists",
+        "content":  "This is unrelated filler context entry 7 about music playlists. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "music",
+                         "playlists"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "music",
+                              "playlists"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "music"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "music"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_008",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 8: Book Highlights",
+        "content":  "This is unrelated filler context entry 8 about book highlights. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "book",
+                         "highlights"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "book",
+                              "highlights"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "book"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "book"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_009",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 9: Language Practice",
+        "content":  "This is unrelated filler context entry 9 about language practice. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "language",
+                         "practice"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "language",
+                              "practice"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "language"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "language"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_010",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 10: Coding Shortcuts",
+        "content":  "This is unrelated filler context entry 10 about coding shortcuts. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "coding",
+                         "shortcuts"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "coding",
+                              "shortcuts"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "coding"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "coding"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_011",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 11: Garden Schedule",
+        "content":  "This is unrelated filler context entry 11 about garden schedule. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "garden",
+                         "schedule"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "garden",
+                              "schedule"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "garden"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "garden"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_012",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 12: Car Maintenance",
+        "content":  "This is unrelated filler context entry 12 about car maintenance. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "car",
+                         "maintenance"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "car",
+                              "maintenance"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "car"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "car"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_013",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 13: Fitness Classes",
+        "content":  "This is unrelated filler context entry 13 about fitness classes. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "fitness",
+                         "classes"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "fitness",
+                              "classes"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "fitness"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "fitness"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_014",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 14: Meal Prep",
+        "content":  "This is unrelated filler context entry 14 about meal prep. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "meal",
+                         "prep"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "meal",
+                              "prep"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "meal"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "meal"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_015",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 15: Shopping Reminders",
+        "content":  "This is unrelated filler context entry 15 about shopping reminders. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "shopping",
+                         "reminders"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "shopping",
+                              "reminders"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "shopping"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "shopping"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_016",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 16: Sleep Routine",
+        "content":  "This is unrelated filler context entry 16 about sleep routine. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "sleep",
+                         "routine"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "sleep",
+                              "routine"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "sleep"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "sleep"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_017",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 17: Camera Settings",
+        "content":  "This is unrelated filler context entry 17 about camera settings. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "camera",
+                         "settings"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "camera",
+                              "settings"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "camera"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "camera"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_018",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 18: Board Games",
+        "content":  "This is unrelated filler context entry 18 about board games. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "board",
+                         "games"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "board",
+                              "games"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "board"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "board"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_019",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 19: Pet Care Tips",
+        "content":  "This is unrelated filler context entry 19 about pet care tips. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "pet",
+                         "tips"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "pet",
+                              "tips"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "pet"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "pet"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_020",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 20: Home Decor",
+        "content":  "This is unrelated filler context entry 20 about home decor. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "home",
+                         "decor"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "home",
+                              "decor"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "home"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "home"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_021",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 21: Coffee Preferences",
+        "content":  "This is unrelated filler context entry 21 about coffee preferences. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "coffee",
+                         "preferences"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "coffee",
+                              "preferences"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "coffee"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "coffee"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_022",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 22: Cycling Routes",
+        "content":  "This is unrelated filler context entry 22 about cycling routes. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "cycling",
+                         "routes"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "cycling",
+                              "routes"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "cycling"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "cycling"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_023",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 23: Movie Watchlist",
+        "content":  "This is unrelated filler context entry 23 about movie watchlist. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "movie",
+                         "watchlist"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "movie",
+                              "watchlist"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "movie"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "movie"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_024",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 24: Weekend Chores",
+        "content":  "This is unrelated filler context entry 24 about weekend chores. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "weekend",
+                         "chores"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "weekend",
+                              "chores"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "weekend"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "weekend"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_025",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 25: Podcast List",
+        "content":  "This is unrelated filler context entry 25 about podcast list. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "podcast",
+                         "list"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "podcast",
+                              "list"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "podcast"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "podcast"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_026",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 26: Office Snacks",
+        "content":  "This is unrelated filler context entry 26 about office snacks. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "office",
+                         "snacks"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "office",
+                              "snacks"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "office"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "office"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_027",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 27: Music Playlists",
+        "content":  "This is unrelated filler context entry 27 about music playlists. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "music",
+                         "playlists"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "music",
+                              "playlists"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "music"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "music"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_028",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 28: Book Highlights",
+        "content":  "This is unrelated filler context entry 28 about book highlights. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "book",
+                         "highlights"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "book",
+                              "highlights"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "book"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "book"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_029",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 29: Language Practice",
+        "content":  "This is unrelated filler context entry 29 about language practice. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "language",
+                         "practice"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "language",
+                              "practice"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "language"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "language"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_030",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 30: Coding Shortcuts",
+        "content":  "This is unrelated filler context entry 30 about coding shortcuts. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "coding",
+                         "shortcuts"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "coding",
+                              "shortcuts"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "coding"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "coding"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_031",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 31: Garden Schedule",
+        "content":  "This is unrelated filler context entry 31 about garden schedule. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "garden",
+                         "schedule"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "garden",
+                              "schedule"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "garden"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "garden"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_032",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 32: Car Maintenance",
+        "content":  "This is unrelated filler context entry 32 about car maintenance. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "car",
+                         "maintenance"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "car",
+                              "maintenance"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "car"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "car"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_033",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 33: Fitness Classes",
+        "content":  "This is unrelated filler context entry 33 about fitness classes. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "fitness",
+                         "classes"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "fitness",
+                              "classes"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "fitness"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "fitness"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_034",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 34: Meal Prep",
+        "content":  "This is unrelated filler context entry 34 about meal prep. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "meal",
+                         "prep"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "meal",
+                              "prep"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "meal"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "meal"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_035",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 35: Shopping Reminders",
+        "content":  "This is unrelated filler context entry 35 about shopping reminders. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "shopping",
+                         "reminders"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "shopping",
+                              "reminders"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "shopping"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "shopping"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_036",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 36: Sleep Routine",
+        "content":  "This is unrelated filler context entry 36 about sleep routine. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "sleep",
+                         "routine"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "sleep",
+                              "routine"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "sleep"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "sleep"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_037",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 37: Camera Settings",
+        "content":  "This is unrelated filler context entry 37 about camera settings. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "camera",
+                         "settings"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "camera",
+                              "settings"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "camera"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "camera"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_038",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 38: Board Games",
+        "content":  "This is unrelated filler context entry 38 about board games. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "board",
+                         "games"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "board",
+                              "games"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "board"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "board"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_039",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 39: Pet Care Tips",
+        "content":  "This is unrelated filler context entry 39 about pet care tips. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "pet",
+                         "tips"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "pet",
+                              "tips"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "pet"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "pet"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_040",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 40: Home Decor",
+        "content":  "This is unrelated filler context entry 40 about home decor. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "home",
+                         "decor"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "home",
+                              "decor"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "home"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "home"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_041",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 41: Coffee Preferences",
+        "content":  "This is unrelated filler context entry 41 about coffee preferences. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "coffee",
+                         "preferences"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "coffee",
+                              "preferences"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "coffee"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "coffee"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_042",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 42: Cycling Routes",
+        "content":  "This is unrelated filler context entry 42 about cycling routes. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "cycling",
+                         "routes"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "cycling",
+                              "routes"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "cycling"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "cycling"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_043",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 43: Movie Watchlist",
+        "content":  "This is unrelated filler context entry 43 about movie watchlist. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "movie",
+                         "watchlist"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "movie",
+                              "watchlist"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "movie"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "movie"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_044",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 44: Weekend Chores",
+        "content":  "This is unrelated filler context entry 44 about weekend chores. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "weekend",
+                         "chores"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "weekend",
+                              "chores"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "weekend"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "weekend"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_045",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 45: Podcast List",
+        "content":  "This is unrelated filler context entry 45 about podcast list. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "podcast",
+                         "list"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "podcast",
+                              "list"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "podcast"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "podcast"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_046",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 46: Office Snacks",
+        "content":  "This is unrelated filler context entry 46 about office snacks. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "office",
+                         "snacks"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "office",
+                              "snacks"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "office"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "office"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_047",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 47: Music Playlists",
+        "content":  "This is unrelated filler context entry 47 about music playlists. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "music",
+                         "playlists"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "music",
+                              "playlists"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "music"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "music"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_048",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 48: Book Highlights",
+        "content":  "This is unrelated filler context entry 48 about book highlights. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "book",
+                         "highlights"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "book",
+                              "highlights"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "book"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "book"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_049",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 49: Language Practice",
+        "content":  "This is unrelated filler context entry 49 about language practice. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "language",
+                         "practice"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "language",
+                              "practice"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "language"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "language"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_050",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 50: Coding Shortcuts",
+        "content":  "This is unrelated filler context entry 50 about coding shortcuts. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "coding",
+                         "shortcuts"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "coding",
+                              "shortcuts"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "coding"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "coding"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_051",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 51: Garden Schedule",
+        "content":  "This is unrelated filler context entry 51 about garden schedule. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "garden",
+                         "schedule"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "garden",
+                              "schedule"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "garden"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "garden"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_052",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 52: Car Maintenance",
+        "content":  "This is unrelated filler context entry 52 about car maintenance. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "car",
+                         "maintenance"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "car",
+                              "maintenance"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "car"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "car"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_053",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 53: Fitness Classes",
+        "content":  "This is unrelated filler context entry 53 about fitness classes. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "fitness",
+                         "classes"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "fitness",
+                              "classes"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "fitness"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "fitness"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_054",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 54: Meal Prep",
+        "content":  "This is unrelated filler context entry 54 about meal prep. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "meal",
+                         "prep"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "meal",
+                              "prep"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "meal"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "meal"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_055",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 55: Shopping Reminders",
+        "content":  "This is unrelated filler context entry 55 about shopping reminders. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "shopping",
+                         "reminders"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "shopping",
+                              "reminders"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "shopping"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "shopping"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_056",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 56: Sleep Routine",
+        "content":  "This is unrelated filler context entry 56 about sleep routine. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "sleep",
+                         "routine"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "sleep",
+                              "routine"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "sleep"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "sleep"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_057",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 57: Camera Settings",
+        "content":  "This is unrelated filler context entry 57 about camera settings. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "camera",
+                         "settings"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "camera",
+                              "settings"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "camera"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "camera"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_058",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 58: Board Games",
+        "content":  "This is unrelated filler context entry 58 about board games. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "board",
+                         "games"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "board",
+                              "games"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "board"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "board"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_059",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 59: Pet Care Tips",
+        "content":  "This is unrelated filler context entry 59 about pet care tips. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "pet",
+                         "tips"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "pet",
+                              "tips"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "pet"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "pet"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_060",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 60: Home Decor",
+        "content":  "This is unrelated filler context entry 60 about home decor. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "home",
+                         "decor"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "home",
+                              "decor"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "home"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "home"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_061",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 61: Coffee Preferences",
+        "content":  "This is unrelated filler context entry 61 about coffee preferences. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "coffee",
+                         "preferences"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "coffee",
+                              "preferences"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "coffee"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "coffee"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_062",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 62: Cycling Routes",
+        "content":  "This is unrelated filler context entry 62 about cycling routes. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "cycling",
+                         "routes"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "cycling",
+                              "routes"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "cycling"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "cycling"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_063",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 63: Movie Watchlist",
+        "content":  "This is unrelated filler context entry 63 about movie watchlist. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "movie",
+                         "watchlist"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "movie",
+                              "watchlist"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "movie"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "movie"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_064",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 64: Weekend Chores",
+        "content":  "This is unrelated filler context entry 64 about weekend chores. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "weekend",
+                         "chores"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "weekend",
+                              "chores"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "weekend"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "weekend"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_065",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 65: Podcast List",
+        "content":  "This is unrelated filler context entry 65 about podcast list. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "podcast",
+                         "list"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "podcast",
+                              "list"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "podcast"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "podcast"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_066",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 66: Office Snacks",
+        "content":  "This is unrelated filler context entry 66 about office snacks. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "office",
+                         "snacks"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "office",
+                              "snacks"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "office"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "office"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_067",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 67: Music Playlists",
+        "content":  "This is unrelated filler context entry 67 about music playlists. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "music",
+                         "playlists"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "music",
+                              "playlists"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "music"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "music"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_068",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 68: Book Highlights",
+        "content":  "This is unrelated filler context entry 68 about book highlights. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "book",
+                         "highlights"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "book",
+                              "highlights"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "book"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "book"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_069",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 69: Language Practice",
+        "content":  "This is unrelated filler context entry 69 about language practice. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "language",
+                         "practice"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "language",
+                              "practice"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "language"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "language"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_070",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 70: Coding Shortcuts",
+        "content":  "This is unrelated filler context entry 70 about coding shortcuts. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "coding",
+                         "shortcuts"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "coding",
+                              "shortcuts"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "coding"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "coding"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_071",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 71: Garden Schedule",
+        "content":  "This is unrelated filler context entry 71 about garden schedule. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "garden",
+                         "schedule"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "garden",
+                              "schedule"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "garden"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "garden"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_072",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 72: Car Maintenance",
+        "content":  "This is unrelated filler context entry 72 about car maintenance. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "car",
+                         "maintenance"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "car",
+                              "maintenance"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "car"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "car"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_073",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 73: Fitness Classes",
+        "content":  "This is unrelated filler context entry 73 about fitness classes. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "fitness",
+                         "classes"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "fitness",
+                              "classes"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "fitness"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "fitness"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_074",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 74: Meal Prep",
+        "content":  "This is unrelated filler context entry 74 about meal prep. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "meal",
+                         "prep"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "meal",
+                              "prep"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "meal"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "meal"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_075",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 75: Shopping Reminders",
+        "content":  "This is unrelated filler context entry 75 about shopping reminders. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "shopping",
+                         "reminders"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "shopping",
+                              "reminders"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "shopping"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "shopping"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_076",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 76: Sleep Routine",
+        "content":  "This is unrelated filler context entry 76 about sleep routine. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "sleep",
+                         "routine"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "sleep",
+                              "routine"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "sleep"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "sleep"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_077",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 77: Camera Settings",
+        "content":  "This is unrelated filler context entry 77 about camera settings. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "camera",
+                         "settings"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "camera",
+                              "settings"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "camera"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "camera"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_078",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 78: Board Games",
+        "content":  "This is unrelated filler context entry 78 about board games. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "board",
+                         "games"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "board",
+                              "games"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "board"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "board"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_079",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 79: Pet Care Tips",
+        "content":  "This is unrelated filler context entry 79 about pet care tips. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "pet",
+                         "tips"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "pet",
+                              "tips"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "pet"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "pet"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_080",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 80: Home Decor",
+        "content":  "This is unrelated filler context entry 80 about home decor. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "home",
+                         "decor"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "home",
+                              "decor"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "home"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "home"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_081",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 81: Coffee Preferences",
+        "content":  "This is unrelated filler context entry 81 about coffee preferences. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "coffee",
+                         "preferences"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "coffee",
+                              "preferences"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "coffee"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "coffee"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_082",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 82: Cycling Routes",
+        "content":  "This is unrelated filler context entry 82 about cycling routes. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "cycling",
+                         "routes"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "cycling",
+                              "routes"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "cycling"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "cycling"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_083",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 83: Movie Watchlist",
+        "content":  "This is unrelated filler context entry 83 about movie watchlist. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "movie",
+                         "watchlist"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "movie",
+                              "watchlist"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "movie"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "movie"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_084",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 84: Weekend Chores",
+        "content":  "This is unrelated filler context entry 84 about weekend chores. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "weekend",
+                         "chores"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "weekend",
+                              "chores"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "weekend"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "weekend"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_085",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 85: Podcast List",
+        "content":  "This is unrelated filler context entry 85 about podcast list. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "podcast",
+                         "list"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "podcast",
+                              "list"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "podcast"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "podcast"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_086",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 86: Office Snacks",
+        "content":  "This is unrelated filler context entry 86 about office snacks. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "office",
+                         "snacks"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "office",
+                              "snacks"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "office"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "office"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_087",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 87: Music Playlists",
+        "content":  "This is unrelated filler context entry 87 about music playlists. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "music",
+                         "playlists"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "music",
+                              "playlists"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "music"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "music"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_088",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 88: Book Highlights",
+        "content":  "This is unrelated filler context entry 88 about book highlights. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "book",
+                         "highlights"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "book",
+                              "highlights"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "book"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "book"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_089",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 89: Language Practice",
+        "content":  "This is unrelated filler context entry 89 about language practice. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "language",
+                         "practice"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "language",
+                              "practice"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "language"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "language"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_090",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 90: Coding Shortcuts",
+        "content":  "This is unrelated filler context entry 90 about coding shortcuts. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "coding",
+                         "shortcuts"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "coding",
+                              "shortcuts"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "coding"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "coding"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_091",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 91: Garden Schedule",
+        "content":  "This is unrelated filler context entry 91 about garden schedule. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "garden",
+                         "schedule"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "garden",
+                              "schedule"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "garden"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "garden"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_092",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 92: Car Maintenance",
+        "content":  "This is unrelated filler context entry 92 about car maintenance. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "car",
+                         "maintenance"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "car",
+                              "maintenance"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "car"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "car"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_093",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 93: Fitness Classes",
+        "content":  "This is unrelated filler context entry 93 about fitness classes. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "fitness",
+                         "classes"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "fitness",
+                              "classes"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "fitness"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "fitness"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_094",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 94: Meal Prep",
+        "content":  "This is unrelated filler context entry 94 about meal prep. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "meal",
+                         "prep"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "meal",
+                              "prep"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "meal"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "meal"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_095",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 95: Shopping Reminders",
+        "content":  "This is unrelated filler context entry 95 about shopping reminders. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "shopping",
+                         "reminders"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "shopping",
+                              "reminders"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "shopping"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "shopping"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_096",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 96: Sleep Routine",
+        "content":  "This is unrelated filler context entry 96 about sleep routine. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "sleep",
+                         "routine"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "sleep",
+                              "routine"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "sleep"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "sleep"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_097",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 97: Camera Settings",
+        "content":  "This is unrelated filler context entry 97 about camera settings. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "camera",
+                         "settings"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "camera",
+                              "settings"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "camera"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "camera"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_098",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 98: Board Games",
+        "content":  "This is unrelated filler context entry 98 about board games. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "board",
+                         "games"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "board",
+                              "games"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "board"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "board"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_099",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 99: Pet Care Tips",
+        "content":  "This is unrelated filler context entry 99 about pet care tips. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "pet",
+                         "tips"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "pet",
+                              "tips"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "pet"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "pet"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_100",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 100: Home Decor",
+        "content":  "This is unrelated filler context entry 100 about home decor. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "home",
+                         "decor"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "home",
+                              "decor"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "home"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "home"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_101",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 101: Coffee Preferences",
+        "content":  "This is unrelated filler context entry 101 about coffee preferences. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "coffee",
+                         "preferences"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "coffee",
+                              "preferences"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "coffee"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "coffee"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_102",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 102: Cycling Routes",
+        "content":  "This is unrelated filler context entry 102 about cycling routes. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "cycling",
+                         "routes"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "cycling",
+                              "routes"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "cycling"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "cycling"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_103",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 103: Movie Watchlist",
+        "content":  "This is unrelated filler context entry 103 about movie watchlist. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "movie",
+                         "watchlist"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "movie",
+                              "watchlist"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "movie"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "movie"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_104",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 104: Weekend Chores",
+        "content":  "This is unrelated filler context entry 104 about weekend chores. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "weekend",
+                         "chores"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "weekend",
+                              "chores"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "weekend"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "weekend"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_105",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 105: Podcast List",
+        "content":  "This is unrelated filler context entry 105 about podcast list. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "podcast",
+                         "list"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "podcast",
+                              "list"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "podcast"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "podcast"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_106",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 106: Office Snacks",
+        "content":  "This is unrelated filler context entry 106 about office snacks. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "office",
+                         "snacks"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "office",
+                              "snacks"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "office"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "office"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_107",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 107: Music Playlists",
+        "content":  "This is unrelated filler context entry 107 about music playlists. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "music",
+                         "playlists"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "music",
+                              "playlists"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "music"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "music"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_108",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 108: Book Highlights",
+        "content":  "This is unrelated filler context entry 108 about book highlights. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "book",
+                         "highlights"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "book",
+                              "highlights"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "book"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "book"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_109",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 109: Language Practice",
+        "content":  "This is unrelated filler context entry 109 about language practice. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "language",
+                         "practice"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "language",
+                              "practice"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "language"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "language"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_110",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 110: Coding Shortcuts",
+        "content":  "This is unrelated filler context entry 110 about coding shortcuts. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "coding",
+                         "shortcuts"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "coding",
+                              "shortcuts"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "coding"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "coding"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_111",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 111: Garden Schedule",
+        "content":  "This is unrelated filler context entry 111 about garden schedule. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "garden",
+                         "schedule"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "garden",
+                              "schedule"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "garden"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "garden"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_112",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 112: Car Maintenance",
+        "content":  "This is unrelated filler context entry 112 about car maintenance. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "car",
+                         "maintenance"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "car",
+                              "maintenance"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "car"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "car"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_113",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 113: Fitness Classes",
+        "content":  "This is unrelated filler context entry 113 about fitness classes. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "fitness",
+                         "classes"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "fitness",
+                              "classes"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "fitness"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "fitness"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_114",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 114: Meal Prep",
+        "content":  "This is unrelated filler context entry 114 about meal prep. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "meal",
+                         "prep"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "meal",
+                              "prep"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "meal"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "meal"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_115",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 115: Shopping Reminders",
+        "content":  "This is unrelated filler context entry 115 about shopping reminders. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "shopping",
+                         "reminders"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "shopping",
+                              "reminders"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "shopping"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "shopping"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_116",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 116: Sleep Routine",
+        "content":  "This is unrelated filler context entry 116 about sleep routine. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "sleep",
+                         "routine"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "sleep",
+                              "routine"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "sleep"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "sleep"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_117",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 117: Camera Settings",
+        "content":  "This is unrelated filler context entry 117 about camera settings. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "camera",
+                         "settings"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "camera",
+                              "settings"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "camera"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "camera"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_118",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 118: Board Games",
+        "content":  "This is unrelated filler context entry 118 about board games. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "board",
+                         "games"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "board",
+                              "games"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "board"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "board"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_119",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 119: Pet Care Tips",
+        "content":  "This is unrelated filler context entry 119 about pet care tips. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "pet",
+                         "tips"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "pet",
+                              "tips"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "pet"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "pet"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_120",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 120: Home Decor",
+        "content":  "This is unrelated filler context entry 120 about home decor. It stores routine details and general preferences that should not answer private identity questions.",
+        "keywords":  [
+                         "filler",
+                         "home",
+                         "decor"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "home",
+                              "decor"
+                          ],
+        "triggerWords":  [
+                             "filler",
+                             "home"
+                         ],
+        "triggerWordsLower":  [
+                                  "filler",
+                                  "home"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_121",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 121: Urban Sketching Notes",
+        "content":  "Quick urban sketch observations: prefer warm light for facades, loose gesture lines for figures, and a 0.3mm pen for architectural details. Carry a small palette and a travel stool for sessions longer than 30 minutes.",
+        "keywords":  [
+                         "filler",
+                         "sketching",
+                         "urban"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "sketching",
+                              "urban"
+                          ],
+        "triggerWords":  [
+                             "sketch",
+                             "urban"
+                         ],
+        "triggerWordsLower":  [
+                                  "sketch",
+                                  "urban"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_122",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 122: Travel Packing Checklist",
+        "content":  "Lightweight packing: compressible layers, a compact first-aid kit, charger bank, and photocopies of documents in a sealed plastic sleeve. Plan outfits by activity rather than by day.",
+        "keywords":  [
+                         "filler",
+                         "travel",
+                         "packing"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "travel",
+                              "packing"
+                          ],
+        "triggerWords":  [
+                             "packing",
+                             "travel"
+                         ],
+        "triggerWordsLower":  [
+                                  "packing",
+                                  "travel"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_123",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 123: Sourdough Starter Log",
+        "content":  "Starter maintenance: fed 1:1:1 rye/water/flour on day 7, aroma tangy, activity strong after 6 hours at 24Â°C. Next feed: 12 hours before baking, increase ratio to 1:2:2 for rise.",
+        "keywords":  [
+                         "filler",
+                         "baking",
+                         "sourdough"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "baking",
+                              "sourdough"
+                          ],
+        "triggerWords":  [
+                             "starter",
+                             "sourdough"
+                         ],
+        "triggerWordsLower":  [
+                                  "starter",
+                                  "sourdough"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_124",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 124: Keyboard Layout Preferences",
+        "content":  "Three-finger chord practice improved typing speed; mapped CapsLock to Control for shortcuts; prefer split ergonomic layout for long coding sessions.",
+        "keywords":  [
+                         "filler",
+                         "keyboard",
+                         "ergonomics"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "keyboard",
+                              "ergonomics"
+                          ],
+        "triggerWords":  [
+                             "keyboard",
+                             "ergonomic"
+                         ],
+        "triggerWordsLower":  [
+                                  "keyboard",
+                                  "ergonomic"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_125",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 125: Local Hikes",
+        "content":  "Short hikes under 5km with varied elevation: Ridgeview Loop is best in spring for wildflowers; bring layered clothing and insect repellent.",
+        "keywords":  [
+                         "filler",
+                         "hiking",
+                         "trails"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "hiking",
+                              "trails"
+                          ],
+        "triggerWords":  [
+                             "hike",
+                             "trail"
+                         ],
+        "triggerWordsLower":  [
+                                  "hike",
+                                  "trail"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_126",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 126: Plant Watering Log",
+        "content":  "Succulents: watered every 3 weeks in winter, 2 weeks in summer; use well-draining mix. Tropicals: check top 2cm moisture weekly and mist leaves.",
+        "keywords":  [
+                         "filler",
+                         "plants",
+                         "watering"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "plants",
+                              "watering"
+                          ],
+        "triggerWords":  [
+                             "watering",
+                             "plants"
+                         ],
+        "triggerWordsLower":  [
+                                  "watering",
+                                  "plants"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_127",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 127: Tea Tasting Notes",
+        "content":  "Green tea: light vegetal aroma, slight astringency when brewed at 80Â°C for 2 minutes. Black tea: full body, notes of malt and dried fruit at 95Â°C for 4 minutes.",
+        "keywords":  [
+                         "filler",
+                         "tea",
+                         "tasting"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "tea",
+                              "tasting"
+                          ],
+        "triggerWords":  [
+                             "tea",
+                             "tasting"
+                         ],
+        "triggerWordsLower":  [
+                                  "tea",
+                                  "tasting"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_128",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 128: Resume Keywords",
+        "content":  "Highlight outcomes: \u0027reduced latency\u0027, \u0027led migration\u0027, \u0027improved conversion\u0027 â€” use measurable results and role-specific technologies in the top third of the resume.",
+        "keywords":  [
+                         "filler",
+                         "resume",
+                         "career"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "resume",
+                              "career"
+                          ],
+        "triggerWords":  [
+                             "resume",
+                             "keywords"
+                         ],
+        "triggerWordsLower":  [
+                                  "resume",
+                                  "keywords"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_129",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 129: Interview Prep Questions",
+        "content":  "Prepare STAR-format answers for leadership examples, two system-design sketches, and one deep-dive on algorithmic optimization tied to past work.",
+        "keywords":  [
+                         "filler",
+                         "interview",
+                         "prep"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "interview",
+                              "prep"
+                          ],
+        "triggerWords":  [
+                             "interview",
+                             "prep"
+                         ],
+        "triggerWordsLower":  [
+                                  "interview",
+                                  "prep"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_130",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 130: Home Network Setup",
+        "content":  "Mesh network notes: place primary node centrally, enable WPA3 where available, reserve 192.168.50.1-50 for static devices, and schedule weekly reboots for the gateway.",
+        "keywords":  [
+                         "filler",
+                         "network",
+                         "home"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "network",
+                              "home"
+                          ],
+        "triggerWords":  [
+                             "network",
+                             "mesh"
+                         ],
+        "triggerWordsLower":  [
+                                  "network",
+                                  "mesh"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_131",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 131: Sleep Tracker Summary",
+        "content":  "Average sleep: 7h15m over last 14 days; deep-sleep increased after 30 minutes of evening reading; recommend consistent bedtime within +/- 30 minutes.",
+        "keywords":  [
+                         "filler",
+                         "sleep",
+                         "tracker"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "sleep",
+                              "tracker"
+                          ],
+        "triggerWords":  [
+                             "sleep",
+                             "tracker"
+                         ],
+        "triggerWordsLower":  [
+                                  "sleep",
+                                  "tracker"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_132",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 132: Meditation Practices",
+        "content":  "Daily 10-minute breath-awareness sessions improved focus; alternate with 20-minute guided compassion sessions twice weekly for balance.",
+        "keywords":  [
+                         "filler",
+                         "meditation",
+                         "practice"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "meditation",
+                              "practice"
+                          ],
+        "triggerWords":  [
+                             "meditation",
+                             "practice"
+                         ],
+        "triggerWordsLower":  [
+                                  "meditation",
+                                  "practice"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_133",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 133: Weekly Reflection",
+        "content":  "Wins: shipped a small feature; Challenges: flaky test suite. Next week: add acceptance test and schedule pair debugging session.",
+        "keywords":  [
+                         "filler",
+                         "reflection",
+                         "weekly"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "reflection",
+                              "weekly"
+                          ],
+        "triggerWords":  [
+                             "reflection",
+                             "weekly"
+                         ],
+        "triggerWordsLower":  [
+                                  "reflection",
+                                  "weekly"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_134",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 134: Recipe - Lemon Tart",
+        "content":  "Pastry: blind-bake at 180Â°C for 15 minutes. Filling: whisk eggs, sugar, lemon zest; bake at 160Â°C until slight wobble; chill before serving.",
+        "keywords":  [
+                         "filler",
+                         "recipe",
+                         "lemon"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "recipe",
+                              "lemon"
+                          ],
+        "triggerWords":  [
+                             "recipe",
+                             "lemon"
+                         ],
+        "triggerWordsLower":  [
+                                  "recipe",
+                                  "lemon"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_135",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 135: Budget Tracker",
+        "content":  "Monthly budget notes: set aside 10% for savings, 5% for subscriptions to review quarterly, and track discretionary spend weekly for trend detection.",
+        "keywords":  [
+                         "filler",
+                         "budget",
+                         "finance"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "budget",
+                              "finance"
+                          ],
+        "triggerWords":  [
+                             "budget",
+                             "finance"
+                         ],
+        "triggerWordsLower":  [
+                                  "budget",
+                                  "finance"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_136",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 136: Conference Notes",
+        "content":  "Key talks: \u0027Scaling with observability\u0027 emphasized lightweight instrumentation and automated alert tuning; collect links to slides and speaker contacts.",
+        "keywords":  [
+                         "filler",
+                         "conference",
+                         "notes"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "conference",
+                              "notes"
+                          ],
+        "triggerWords":  [
+                             "conference",
+                             "talks"
+                         ],
+        "triggerWordsLower":  [
+                                  "conference",
+                                  "talks"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_137",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 137: Accessibility Checklist",
+        "content":  "Checklist: provide alt text for images, ensure 4.5:1 contrast for body text, add keyboard focus states and ARIA labels for interactive components.",
+        "keywords":  [
+                         "filler",
+                         "accessibility",
+                         "a11y"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "accessibility",
+                              "a11y"
+                          ],
+        "triggerWords":  [
+                             "accessibility",
+                             "a11y"
+                         ],
+        "triggerWordsLower":  [
+                                  "accessibility",
+                                  "a11y"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_138",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 138: Photography Shot List",
+        "content":  "Golden hour portraits: backlight slightly, reflector fill at 30% power; try both 50mm and 85mm lenses, bracket exposures by 1 stop.",
+        "keywords":  [
+                         "filler",
+                         "photography",
+                         "shotlist"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "photography",
+                              "shotlist"
+                          ],
+        "triggerWords":  [
+                             "photography",
+                             "shot"
+                         ],
+        "triggerWordsLower":  [
+                                  "photography",
+                                  "shot"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_139",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 139: Debugging War Stories",
+        "content":  "Root cause: caching layer invalidation race; fix involved adding idempotent retries and a short mutex around cache writes to avoid duplicate writes.",
+        "keywords":  [
+                         "filler",
+                         "debugging",
+                         "cache"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "debugging",
+                              "cache"
+                          ],
+        "triggerWords":  [
+                             "debugging",
+                             "cache"
+                         ],
+        "triggerWordsLower":  [
+                                  "debugging",
+                                  "cache"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_140",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 140: Learning Roadmap",
+        "content":  "Learning plan: complete an advanced algorithms course, build two medium-scale projects, and contribute a bugfix to an open-source library within 3 months.",
+        "keywords":  [
+                         "filler",
+                         "learning",
+                         "roadmap"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "learning",
+                              "roadmap"
+                          ],
+        "triggerWords":  [
+                             "learning",
+                             "roadmap"
+                         ],
+        "triggerWordsLower":  [
+                                  "learning",
+                                  "roadmap"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_141",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 141: Python Library Survey",
+        "content":  "Evaluating Python libraries for data processing. NumPy is solid for numerical work, Pandas excels at tabular data, but sometimes raw SQL with psycopg2 is cleaner than ORMs.",
+        "keywords":  [
+                         "filler",
+                         "python",
+                         "libraries"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "python",
+                              "libraries"
+                          ],
+        "triggerWords":  [
+                             "python",
+                             "libraries"
+                         ],
+        "triggerWordsLower":  [
+                                  "python",
+                                  "libraries"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_142",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 142: Linux Distro Comparison",
+        "content":  "Fedora is cutting edge but sometimes breaks stability. Ubuntu is commercial but reliable. Alpine is tiny. Each has tradeoffs depending on use case.",
+        "keywords":  [
+                         "filler",
+                         "linux",
+                         "distros"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "linux",
+                              "distros"
+                          ],
+        "triggerWords":  [
+                             "linux",
+                             "distro"
+                         ],
+        "triggerWordsLower":  [
+                                  "linux",
+                                  "distro"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_143",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 143: Note Taking Systems",
+        "content":  "Tried Roam Research, LogSeq, Obsidian, and custom solutions. Each has different strengths. The best system is the one you actually use consistently.",
+        "keywords":  [
+                         "filler",
+                         "notes",
+                         "system"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "notes",
+                              "system"
+                          ],
+        "triggerWords":  [
+                             "notes",
+                             "system"
+                         ],
+        "triggerWordsLower":  [
+                                  "notes",
+                                  "system"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_144",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 144: JavaScript Frameworks",
+        "content":  "Vue is elegant and has lower cognitive overhead than React. Angular is enterprise-heavy. Preact is lightweight. SvelteKit is newer but gaining traction quickly.",
+        "keywords":  [
+                         "filler",
+                         "javascript",
+                         "frameworks"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "javascript",
+                              "frameworks"
+                          ],
+        "triggerWords":  [
+                             "javascript",
+                             "frameworks"
+                         ],
+        "triggerWordsLower":  [
+                                  "javascript",
+                                  "frameworks"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_145",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 145: Code Review Practices",
+        "content":  "Good reviews should focus on logic and maintainability, not style (use linters for that). Ask questions instead of making demands. Praise good patterns when you see them.",
+        "keywords":  [
+                         "filler",
+                         "code",
+                         "review"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "code",
+                              "review"
+                          ],
+        "triggerWords":  [
+                             "code",
+                             "review"
+                         ],
+        "triggerWordsLower":  [
+                                  "code",
+                                  "review"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_146",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 146: Tech Podcast Recommendations",
+        "content":  "StarTalkRadio is great for deep space topics. CodeNewbie focuses on learning resources. Changelog brings in open source news. Each has its own flavor.",
+        "keywords":  [
+                         "filler",
+                         "podcast",
+                         "recommendations"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "podcast",
+                              "recommendations"
+                          ],
+        "triggerWords":  [
+                             "podcast",
+                             "recommendations"
+                         ],
+        "triggerWordsLower":  [
+                                  "podcast",
+                                  "recommendations"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_147",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 147: Remote Work Setup",
+        "content":  "External monitor makes a huge difference. Standing desk helps with posture. Good keyboard and mouse prevent RSI. Lighting matters more than people think.",
+        "keywords":  [
+                         "filler",
+                         "remote",
+                         "setup"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "remote",
+                              "setup"
+                          ],
+        "triggerWords":  [
+                             "remote",
+                             "setup"
+                         ],
+        "triggerWordsLower":  [
+                                  "remote",
+                                  "setup"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    },
+    {
+        "id":  "fill_148",
+        "uid":  "benchmark-user",
+        "title":  "Filler Note 148: Version Control Principles",
+        "content":  "Atomic commits are better than monolithic ones. Good commit messages are your future self's documentation. Rebasing helps before merging. Squashing large feature branches is often wise.",
+        "keywords":  [
+                         "filler",
+                         "git",
+                         "version-control"
+                     ],
+        "keywordsLower":  [
+                              "filler",
+                              "git",
+                              "version-control"
+                          ],
+        "triggerWords":  [
+                             "git",
+                             "version"
+                         ],
+        "triggerWordsLower":  [
+                                  "git",
+                                  "version"
+                              ],
+        "embedding":  null,
+        "createdAt":  "2026-03-10T00:00:00+00:00",
+        "updatedAt":  "2026-03-10T00:00:00+00:00"
+    }
+]

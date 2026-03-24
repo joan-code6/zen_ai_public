@@ -1,0 +1,132 @@
+{
+  "timestamp": "2026-03-10T13:54:44.010069Z",
+  "config": {
+    "provider": "hackclub",
+    "model": "google/gemini-3-flash-preview",
+    "judge_model": "google/gemini-3-flash-preview",
+    "filler_count": 50,
+    "zen_limit": 5,
+    "threshold": 0.6
+  },
+  "summary": {
+    "questions": 10,
+    "zen_score": 10,
+    "normal_score": 10,
+    "zen_avg_prompt_tokens": 128.7,
+    "normal_avg_prompt_tokens": 3695.7
+  },
+  "rows": [
+    {
+      "qid": "q1",
+      "expected": "Atlas-Desk",
+      "zen_grade": 1,
+      "normal_grade": 1,
+      "zen_note_ids": [
+        "imp_001",
+        "fill_040",
+        "fill_020"
+      ],
+      "zen_answer": "Atlas-Desk",
+      "normal_answer": "Atlas-Desk"
+    },
+    {
+      "qid": "q2",
+      "expected": "Colemak",
+      "zen_grade": 1,
+      "normal_grade": 1,
+      "zen_note_ids": [
+        "imp_002"
+      ],
+      "zen_answer": "Colemak",
+      "normal_answer": "Colemak"
+    },
+    {
+      "qid": "q3",
+      "expected": "Solarized Light",
+      "zen_grade": 1,
+      "normal_grade": 1,
+      "zen_note_ids": [
+        "imp_003"
+      ],
+      "zen_answer": "Solarized Light",
+      "normal_answer": "Solarized Light"
+    },
+    {
+      "qid": "q4",
+      "expected": "Rotterdam",
+      "zen_grade": 1,
+      "normal_grade": 1,
+      "zen_note_ids": [
+        "imp_004"
+      ],
+      "zen_answer": "Rotterdam",
+      "normal_answer": "Rotterdam"
+    },
+    {
+      "qid": "q5",
+      "expected": "Project Lantern",
+      "zen_grade": 1,
+      "normal_grade": 1,
+      "zen_note_ids": [
+        "imp_005"
+      ],
+      "zen_answer": "Project Lantern",
+      "normal_answer": "Project Lantern"
+    },
+    {
+      "qid": "q6",
+      "expected": "EB Garamond",
+      "zen_grade": 1,
+      "normal_grade": 1,
+      "zen_note_ids": [
+        "imp_006"
+      ],
+      "zen_answer": "EB Garamond",
+      "normal_answer": "EB Garamond"
+    },
+    {
+      "qid": "q7",
+      "expected": "mainline",
+      "zen_grade": 1,
+      "normal_grade": 1,
+      "zen_note_ids": [
+        "imp_007"
+      ],
+      "zen_answer": "mainline",
+      "normal_answer": "mainline"
+    },
+    {
+      "qid": "q8",
+      "expected": "Ginger tea",
+      "zen_grade": 1,
+      "normal_grade": 1,
+      "zen_note_ids": [
+        "imp_008"
+      ],
+      "zen_answer": "ginger tea",
+      "normal_answer": "ginger tea"
+    },
+    {
+      "qid": "q9",
+      "expected": "Nova",
+      "zen_grade": 1,
+      "normal_grade": 1,
+      "zen_note_ids": [
+        "imp_009"
+      ],
+      "zen_answer": "Nova",
+      "normal_answer": "Nova"
+    },
+    {
+      "qid": "q10",
+      "expected": "Thursday",
+      "zen_grade": 1,
+      "normal_grade": 1,
+      "zen_note_ids": [
+        "imp_010"
+      ],
+      "zen_answer": "Thursday",
+      "normal_answer": "Thursday"
+    }
+  ]
+}

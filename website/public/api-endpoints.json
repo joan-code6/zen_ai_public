@@ -1,0 +1,60 @@
+{
+  "title": "API Endpoints",
+  "items": [
+    {
+      "title": "Health",
+      "id": "health",
+      "content": "- `GET /health` — Basic liveness check.\n\nResponse: 200 {\"status\": \"ok\"}"
+    },
+    {
+      "title": "Authentication",
+      "id": "authentication",
+      "content": "- `POST /auth/signup` — Create Firebase user. Body: {email, password, displayName?}. Responses: 201 (created user/profile), 400/409/500.\n- `POST /auth/google-signin` — Exchange Google tokens for Firebase tokens. Body: {idToken|credential, accessToken?, requestUri?}. Responses: 200 (idToken, refreshToken, profile), 400/401/503.\n- `POST /auth/login` — Email/password sign-in. Body: {email, password}. Responses: 200 (idToken, refreshToken), 400/401/503.\n- `POST /auth/verify-token` — Verify ID token. Body: {idToken}. Responses: 200 (uid, email, claims), 400/401/500.\n- `POST /auth/forgot-password` — Send password reset email. Body: {email}. Responses: 200 (success message), 400/404/500.\n- `POST /auth/refresh-token` — Exchange refresh token for new idToken. Body: {refreshToken}. Responses: 200 (idToken, refreshToken), 400/401/503."
+    },
+    {
+      "title": "Chats & Messages",
+      "id": "chats_messages",
+      "content": "- `POST /chats` — Create chat. Body: {uid, title?, systemPrompt?}. 201 created.\n- `GET /chats?uid=<uid>` — List chats for user. 200 items.\n- `GET /chats/<chat_id>?uid=<uid>` — Get chat metadata, messages & files. Requires uid for ownership.\n- `PATCH /chats/<chat_id>` — Update title/systemPrompt. Body must include uid.\n- `DELETE /chats/<chat_id>` — Delete chat. Body: {uid}. 204 no content.\n- `POST /chats/<chat_id>/files` — Upload file (multipart). Stores file metadata + local file.\n- `GET /chats/<chat_id>/files` — List files for chat (auth required).\n- `GET /chats/<chat_id>/files/<file_id>/download` — Download binary file (auth required).\n- `POST /chats/<chat_id>/messages` — Add a message. Body: {uid, content, role? (user|system), fileIds?[], stream?}. If `GEMINI_API_KEY` set, backend calls Gemini to generate assistant reply; supports SSE streaming when `Accept: text/event-stream` or `stream` flag. Responses: 201 (userMessage + assistantMessage) or SSE stream."
+    },
+    {
+      "title": "Files (global)",
+      "id": "files_global",
+      "content": "- `GET /files`  List all files owned by the authenticated user across chats. Auth required. Returns items: [{chat, file}]."
+    },
+    {
+      "title": "Notes",
+      "id": "notes",
+      "content": "- `GET /notes?uid=<uid>&limit?` — List notes for user.\n- `POST /notes` — Create note. Body: {uid, title?, content?, keywords?, triggerWords?}. 201 created.\n- `GET /notes/<note_id>?uid=<uid>` — Get a single note (ownership check).\n- `PATCH /notes/<note_id>` — Update note. Body: {uid, fields_to_update}.\n- `DELETE /notes/<note_id>` — Delete note. Body or query: uid required. 204 no content.\n- `GET /notes/search?uid=<uid>&q?&trigger?&keyword?&limit?` — Search notes.\n- `GET /notes/<note_id>/history?uid=<uid>&limit?` — Get change history for a note.\n- `GET /notes/history/ai-changes?uid=<uid>&limit?` — List AI-initiated changes for a user."
+    },
+    {
+      "title": "MCP (Notes Agent)",
+      "id": "mcp",
+      "content": "- `GET /mcp/options` — Returns available MCP transport options (websocket, stdio) and tools list for clients to connect to the notes agent."
+    },
+    {
+      "title": "Calendar",
+      "id": "calendar",
+      "content": "- `GET /calendar/google/auth-url` — Build OAuth URL for Google Calendar. Query: redirectUri, state, codeChallenge.\n- `POST /calendar/google/exchange` — Exchange code for tokens and store connection (auth required). Body: {code, redirectUri, codeVerifier}.\n- `GET /calendar/google/connection` — Get stored connection state.\n- `DELETE /calendar/google/connection` — Revoke stored tokens. 204.\n- `GET /calendar/events` — List events. Query: calendarId?, timeMin?, timeMax?, syncToken?, orderBy?, maxResults?.\n- `POST /calendar/events` — Create event. Body: {calendarId?, event (object)}. 201.\n- `DELETE /calendar/events/<event_id>?calendarId?` — Delete event. 204."
+    },
+    {
+      "title": "Devices",
+      "id": "devices",
+      "content": "- `POST /devices/register` — Register device. Body: {hardwareId, firmwareVersion}. 201 created.\n- `POST /devices/claim` — Claim device for authenticated user. Body: {pairingToken}.\n- `POST /devices/heartbeat` — Device heartbeat; requires `X-Device-Id` and `X-Device-Secret` headers. Body: {wifiSsid?, wifiRssi?, batteryMv?, firmwareVersion?}.\n- `GET /devices/state` — Get device state; device auth required."
+    },
+    {
+      "title": "Email",
+      "id": "email",
+      "content": "- `GET /email/providers` — Supported providers: gmail, imap, smtp.\n- `GET /email/accounts` — Returns configured connections for authenticated user.\n- Gmail OAuth flow: `GET /email/gmail/auth-url`, `POST /email/gmail/exchange` (exchange code).\n- `GET /email/gmail/connection` — Get Gmail connection state.\n- `DELETE /email/gmail/connection` — Revoke Gmail connection. 204.\n- `GET /email/gmail/messages` — List Gmail messages (query, pagination).\n- `GET /email/gmail/messages/<message_id>` — Get single Gmail message.\n- `POST /email/gmail/messages` — Send message via Gmail. Body: {to, subject, body, from?}.\n- IMAP: `POST /email/imap/connect` (store credentials), `GET /email/imap/messages`, `GET /email/imap/messages/<message_id>`.\n- SMTP: `POST /email/smtp/connect` (store credentials), `POST /email/smtp/send` (send email).\n- `POST /email/webhooks/gmail` — Pub/Sub push endpoint for Gmail watch notifications; receives Pub/Sub envelope (JSON). Returns 204/200."
+    },
+    {
+      "title": "Email Analysis",
+      "id": "email_analysis",
+      "content": "- `GET /email/analysis/history` — Get analysis history for authenticated user. Query: limit?.\n- `GET /email/analysis/<analysis_id>` — Get a specific analysis entry (id format: uid_provider_messageId).\n- `GET /email/analysis/stats` — Per-user statistics by category.\n- `GET /email/analysis/categories` — Available categories list."
+    },
+    {
+      "title": "Users",
+      "id": "users",
+      "content": "- `GET /users/<uid>` — Get stored user profile.\n- `PATCH /users/<uid>` — Update profile. Body: {displayName?, photoUrl?}. Responses: 200 updated profile, 400/500/503 errors."
+    }
+  ]
+}

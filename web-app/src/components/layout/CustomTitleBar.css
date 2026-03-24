@@ -1,0 +1,59 @@
+.zen-titlebar {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  background: transparent; /* transparent bar */
+  color: #e6e6e6;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  /* remove any visible border/line so the bar is fully transparent */
+  border-bottom: none;
+  box-shadow: none;
+}
+
+.zen-titlebar-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 50%;
+}
+
+.zen-titlebar-controls {
+  display: flex;
+  align-items: center;
+}
+
+.zen-btn {
+  -webkit-app-region: no-drag;
+  background: transparent;
+  border: none;
+  color: inherit;
+  width: 44px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.zen-btn:hover {
+  background: rgba(255,255,255,0.03);
+}
+
+.zen-close:hover {
+  background: rgba(220,38,38,0.14);
+}
+
+/* Remove default focus outline and use subtle focus ring */
+.zen-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.04);
+}

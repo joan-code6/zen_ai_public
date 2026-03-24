@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap for GitHub Pages deployment
+Sitemap: https://joan-code6.github.io/zen_ai/sitemap.xml

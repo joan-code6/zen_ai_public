@@ -1,0 +1,87 @@
+{
+  "name": "zen-ai-desktop",
+  "version": "1.0.0",
+  "description": "Zen AI - Desktop Application",
+  "main": "dist/main.js",
+  "homepage": "./",
+  "author": "Zen AI Team",
+  "scripts": {
+    "dev": "tsc && node scripts/start-dev.js",
+    "dev:watch": "tsc --watch",
+    "build:web": "node scripts/prepare-web.js",
+    "build:electron": "tsc",
+    "build": "npm run build:web && npm run build:electron",
+    "package": "npm run build && electron-builder",
+    "package:win": "npm run build && electron-builder --win",
+    "package:mac": "npm run build && electron-builder --mac",
+    "package:linux": "npm run build && electron-builder --linux",
+    "prod": "node scripts/automatic_upload.js",
+    "upload": "node scripts/automatic_upload.js --skip-build",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.9.3",
+    "electron": "^26.2.0",
+    "electron-builder": "^24.6.0"
+    
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.6.7"
+  },
+  "build": {
+    "appId": "com.zenai.desktop",
+    "productName": "Zen AI",
+    "directories": {
+      "buildResources": "deploy/build",
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*.js",
+      "dist-web/**/*",
+      "package.json"
+    ],
+    "asarUnpack": [
+      "**/*.node",
+      "**/*.dll"
+    ],
+    "afterPack": "./scripts/afterPack.js",
+    "win": {
+      "icon": "deploy/build/icon.png",
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "installerIcon": "deploy/build/icon.png",
+      "uninstallerIcon": "deploy/build/icon.png"
+    },
+    "mac": {
+      "icon": "deploy/build/icon.png",
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "category": "public.app-category.productivity"
+    },
+    "linux": {
+      "icon": "deploy/build/icon.png",
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Office"
+    }
+  }
+}

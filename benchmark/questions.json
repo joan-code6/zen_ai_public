@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q1",
+    "question": "What codename did I assign to my home workstation?",
+    "important_note_id": "imp_001",
+    "correct_answer": "Atlas-Desk"
+  },
+  {
+    "id": "q2",
+    "question": "Which keyboard layout am I practicing this month?",
+    "important_note_id": "imp_002",
+    "correct_answer": "Colemak"
+  },
+  {
+    "id": "q3",
+    "question": "What is my preferred code editor color theme?",
+    "important_note_id": "imp_003",
+    "correct_answer": "Solarized Light"
+  },
+  {
+    "id": "q4",
+    "question": "Which city did I choose for my next hackathon trip?",
+    "important_note_id": "imp_004",
+    "correct_answer": "Rotterdam"
+  },
+  {
+    "id": "q5",
+    "question": "What title did I give my side project in notes?",
+    "important_note_id": "imp_005",
+    "correct_answer": "Project Lantern"
+  },
+  {
+    "id": "q6",
+    "question": "Which writing font did I pick for long-form drafts?",
+    "important_note_id": "imp_006",
+    "correct_answer": "EB Garamond"
+  },
+  {
+    "id": "q7",
+    "question": "What is my default branch naming convention?",
+    "important_note_id": "imp_007",
+    "correct_answer": "mainline"
+  },
+  {
+    "id": "q8",
+    "question": "Which beverage do I always bring to planning meetings?",
+    "important_note_id": "imp_008",
+    "correct_answer": "Ginger tea"
+  },
+  {
+    "id": "q9",
+    "question": "What name did I set for my local AI assistant persona?",
+    "important_note_id": "imp_009",
+    "correct_answer": "Nova"
+  },
+  {
+    "id": "q10",
+    "question": "Which day is reserved for deep-work sessions in my schedule?",
+    "important_note_id": "imp_010",
+    "correct_answer": "Thursday"
+  },
+  {
+    "id": "q11",
+    "question": "What programming language am I focusing on learning this quarter?",
+    "important_note_id": "imp_011",
+    "correct_answer": "Rust"
+  },
+  {
+    "id": "q12",
+    "question": "Which operating system runs on my secondary laptop?",
+    "important_note_id": "imp_012",
+    "correct_answer": "NixOS"
+  },
+  {
+    "id": "q13",
+    "question": "What is the name of my personal documentation system?",
+    "important_note_id": "imp_013",
+    "correct_answer": "Cerebral"
+  },
+  {
+    "id": "q14",
+    "question": "Which podcast do I listen to for weekly tech insights?",
+    "important_note_id": "imp_014",
+    "correct_answer": "Syntax"
+  },
+  {
+    "id": "q15",
+    "question": "What framework am I building my latest web app with?",
+    "important_note_id": "imp_015",
+    "correct_answer": "SvelteKit"
+  }
+]
